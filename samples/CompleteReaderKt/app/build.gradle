@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion myCompileSdkVersion
+    defaultConfig {
+        applicationId "com.pdftron.completereader"
+        minSdkVersion myMinSdkVersion
+        targetSdkVersion myTargetSdkVersion
+        multiDexEnabled true
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+
+        manifestPlaceholders = [pdftronLicenseKey:PDFTRON_LICENSE_KEY]
+
+        ndk {
+            // Tells Gradle to build outputs for the following ABIs and package
+            // them into your APK.
+            abiFilters 'x86', 'armeabi-v7a'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    configurations.all {
+        resolutionStrategy.force "com.android.support:appcompat-v7:$mySupportVersion"
+        resolutionStrategy.force "com.android.support:support-v4:$mySupportVersion"
+        resolutionStrategy.force "android.arch.lifecycle:runtime:1.0.3"
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.pdftron:tools@aar"
+    implementation "com.pdftron:demo@aar"
+
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlinVersion"
+
+    pdfnetGroup dependencies
+    supportLibGroup dependencies
+
+    implementation 'com.android.support:multidex:1.0.3'
+
+    implementation 'com.facebook.fresco:fresco:1.2.0'
+}
+
+task appStart(type: Exec, dependsOn: [clean, 'installDebug']) {
+    commandLine 'adb', 'shell', 'am', 'start', '-n', 'com.pdftron.completereader/.MainActivity'
+}
+
+task copyFullLibToSamples(type: Copy) {
+    println "copy full libs to samples"
+    from ('../../../lib/full') {
+        include 'pdftron.aar'
+    }
+    into 'libs'
+}
+
+task copyLibsToSamples(type: Copy) {
+    println "copy libs to samples"
+    from ('../../../lib') {
+        include 'tools.aar'
+        include 'demo.aar'
+        include 'floatingactionbutton.aar'
+        include 'pagecropper.aar'
+    }
+    into 'libs'
+}
+
+
+task setupSample(dependsOn: [copyFullLibToSamples, copyLibsToSamples])
+
+clean.dependsOn setupSample

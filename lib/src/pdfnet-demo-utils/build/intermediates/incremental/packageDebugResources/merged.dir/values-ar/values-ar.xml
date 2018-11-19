@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">حول</string>
+    <string name="action_add_to_favorites">إضافة إلى المفضلة</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_favorite">تفضيل</string>
+    <string comment="Filter files by various properties" name="action_file_filter">تصفية</string>
+    <string name="action_file_move">نقل</string>
+    <string name="action_grid_size">حجم الشبكة</string>
+    <string name="action_list_view">قائمة</string>
+    <string name="action_reload">إعادة تحميل</string>
+    <string name="action_remove_from_favorites">إزالة من المفضلة</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="action_sort_files">فرز</string>
+    <string name="action_sort_files_by_date">عبر تاريخ التحرير</string>
+    <string name="action_sort_files_by_name">عبر الاسم</string>
+    <string name="action_unfavorite">إزالة التفضيل</string>
+    <string name="columns_count">%1$d أعمدة</string>
+    <string name="convert_to_pdf">تحويل إلى pdf</string>
+    <string name="create_file_invalid_error_message">حدثت مشكلة أثناء محاولة إنشاء الملف.</string>
+    <string name="deleting_file_wait">حذف الملف…</string>
+    <string name="dialog_clear_favorite_list_message">هذا سيمسح كافة الملفات من قائمة المستندات المفضلة.</string>
+    <string name="dialog_clear_recent_list_message">هذا سيمسح كافة الملفات من قائمة مؤخراً للمستندات.</string>
+    <string name="dialog_clear_recent_list_title">تنظيف القائمة</string>
+    <string name="dialog_create_folder_invalid_folder_name_already_exists_message">هذا المجلد موجود بالفعل. الرجاء استخدام اسم آخر.</string>
+    <string name="dialog_create_folder_invalid_folder_name_error_message">حدثت مشكلة أثناء محاولة إنشاء المجلد. فضلاً حاول مجدداً.</string>
+    <string name="dialog_create_folder_invalid_folder_name_message">اسم المجلد غير معرف. ويقبل فقط الأحرف الكبيرة والأحرف الصغيرة والأرقام وتسطيرات أسفل السطر.</string>
+    <string name="dialog_create_new_blank_pdf_title">pdf جديد</string>
+    <string name="dialog_create_new_docs_pdf_title">pdf من المستندات</string>
+    <string name="dialog_create_new_document_filename_success">المستند موجود في:</string>
+    <string name="dialog_create_new_folder_title">مجلد</string>
+    <string name="dialog_create_new_photo_pdf_title">pdf من صورة</string>
+    <string name="dialog_create_new_webpage_pdf_title">pdf من صفحة ويب</string>
+    <string name="dialog_create_title">Create Folder</string>
+    <string name="dialog_delete_error_message">من غير الممكن حذف \"%1$s\".</string>
+    <string name="dialog_delete_error_message_general">حدث خطأ أثناء محاولة حذف الملفات.</string>
+    <string name="dialog_delete_file_message">هل أنت متأكد من أنك تريد حذف \"%1$s\"؟</string>
+    <string name="dialog_delete_folder_message"><![CDATA[Do you want to <font color=#FF0000> delete</font> %1$d files and %2$d folders in \"%3$s\"? All files and subfolders will be deleted.]]></string>
+    <string name="dialog_delete_msg_files">هل أنت متأكد من أنك تريد حذف هذه الملفات؟</string>
+    <string name="dialog_delete_title">حذف ملف</string>
+    <string name="dialog_external_file_readonly_action"><![CDATA[في علامة التبويب %1$s ، الملفات بطاقة SD هي للقراءة فقط وﻻ يمكنك %2$s الملفات. <br><br> يرجى الانتقال إلى علامة التبويب بطاقة SD، حيث %3$s لديه حق الوصول للكتابة إلى الملفات الخاصة بك "; بطاقة الذاكرة الرقمية المؤمنة".]]></string>
+    <string name="dialog_external_file_readonly_action_kitkat"><![CDATA[On KitKat devices apps no longer have permission to write to an external SD card. %1$s]]></string>
+    <string name="dialog_external_file_readonly_action_kitkat_more_info"><![CDATA[<br><br> For more info, please check out this article: <a href="http://feedback.xodo.com/knowledgebase/articles/628356-files-opened-from-external-sd-card-are-read-only">external SD cards are read-only</a>.]]></string>
+    <string name="dialog_external_file_readonly_action_positive_btn">تمكين الوصول للكتابة</string>
+    <string name="dialog_external_intent_not_supported">يبدو أن جهازك لا يدعم هذه الوظيفة. %1$s</string>
+    <string name="dialog_external_intent_not_supported_more_info">Please contact support at support@xodo.com.</string>
+    <string name="dialog_file_info_body"><![CDATA[<b>اسم الملف</b><br>%1$s<br><br><b>المسار</b><br>%2$s<br><br><b>الحجم</b><br>%3$s (%4$s بايت)<br><br><b>تاريخ التعديل</b><br>%5$s<br>]]></string>
+    <string name="dialog_file_info_title">تفاصيل الملف</string>
+    <string name="dialog_file_picker_error_select_file">فضلاً حدد ملفاً</string>
+    <string name="dialog_file_picker_error_select_folder">فضلاً حدد مجلداً</string>
+    <string name="dialog_file_picker_title">حدد ملف/ات</string>
+    <string name="dialog_files_go_to_sd_card_description">This file will be opened as read-only. To modify, open it using the \"SD Card\" tab located in the side navigation drawer where %1$s has write access. %2$s.</string>
+    <string name="dialog_folder_go_to_sd_card_button">اذهب إلى بطاقة SD الآن</string>
+    <string name="dialog_folder_go_to_sd_card_description">فتح الملفات المخزنة على بطاقة SD باستخدام تبويب \"بطاقة SD\" الموجود في شريط التنقل الجانبي. يقوم اندرويد بتقييد الوصول إلى الملفات الموجودة على بطاقة SD %1$s.</string>
+    <string name="dialog_folder_info_body"><![CDATA[<b>اسم المجلد</b> <br>%1$s<br><br><b>مسار</b> <br>%2$s<br> <br><b>المحتويات</b> <br>%3$s<br> <br><b>تاريخ التعديل</b> <br>%4$s<br>]]></string>
+    <string name="dialog_folder_info_size">%1$d ملفات, %2$d المجلدات</string>
+    <string name="dialog_folder_info_title">تفاصيل المجلد</string>
+    <string name="dialog_folder_picker_title">حدد مجلداً</string>
+    <string name="dialog_folder_picker_title_export">استخراج إلى…</string>
+    <string name="dialog_go_to_sd_card_description_more_info"><![CDATA[ <a href="http://feedback.xodo.com/knowledgebase/articles/752619-accessing-files-on-an-sd-card">Read More</a>.]]></string>
+    <string name="dialog_merge_add_document">إضافة مستند</string>
+    <string name="dialog_merge_error_message_general">حدث خطأ أثناء محاولة دمج الملفات.</string>
+    <string name="dialog_merge_error_no_files">لا توجد ملفات لدمجها</string>
+    <string name="dialog_merge_save_location">حدد مكان الحفظ</string>
+    <string name="dialog_merge_set_file_name_hint">أدخل اسم الملف</string>
+    <string name="dialog_merge_set_file_name_title">اسم الملف</string>
+    <string name="dialog_merge_title">دمج الملفات</string>
+    <string name="dialog_move_continue">استمرار</string>
+    <string name="dialog_move_file_already_exists_message">\"%1$s\" موجود بالفعل في هذا الموقع. هل تريد استبداله بالملف الذي تقوم بنقله؟</string>
+    <string name="dialog_move_file_error_message">حدث خطأ أثناء نقل \"\"%1$s.</string>
+    <string name="dialog_move_repeat_action">كرر لكل الملفات</string>
+    <string name="dialog_remove_root_msg">هل أنت متأكد من أنك تريد إزالة حق الوصول إلى \"%1$s\"؟ لن يتم حذف المجلد.</string>
+    <string name="dialog_remove_roots_error_message">حدث خطأ أثناء محاولة حذف \"\"%1$s.</string>
+    <string name="dialog_remove_roots_error_message_general">حدث خطأ أثناء محاولة حذف المجلدات.</string>
+    <string name="dialog_remove_roots_msg">هل أنت متأكد من أنك تريد إزالة حق الوصول إلى هذه المجلدات؟ لن يتم حذف المجلدات.</string>
+    <string name="dialog_remove_roots_title">إزالة المجلد</string>
+    <string name="dialog_rename_file_hint">اسم الملف</string>
+    <string name="dialog_rename_folder_dialog_title">إعادة تسمية المجلد</string>
+    <string name="dialog_rename_folder_hint">اسم المجلد</string>
+    <string name="dialog_rename_invalid_file_name_already_exists_message">هذا الملف موجود بالفعل. يرجى استخدام اسم آخر.</string>
+    <string name="dialog_rename_invalid_file_name_error">حدثت مشكلة بإعادة التسمية. فضلاً حاول مجدداً.</string>
+    <string name="dialog_rename_invalid_file_name_message">اسم الملف غير معرف. فضلاً أدخل اسماً صحيحاً.</string>
+    <string name="dialog_rename_invalid_folder_name_message">اسم المجلد غير معرف. الرجاء إدخال اسم معرف.</string>
+    <string name="dialog_rename_title">إعادة تسمية الملف</string>
+    <string name="dialog_webpage_pdf_alternation">أو، اكتب عنوان الرابط أدناه:</string>
+    <string name="dialog_webpage_pdf_convert">تحويل</string>
+    <string name="dialog_webpage_pdf_explain">في مستعرض الويب، افتح قائمة ⋮ واختر مشاركة…، ثم اختر تحويل إلى pdf.</string>
+    <string name="dialog_webpage_pdf_title">إنشاء pdf من صفحة ويب</string>
+    <string name="document_read_only_sd_card_warning_message">افتح هذا المستند باستخدام تبويب \"بطاقة SD\" الموجود في شريط التنقل الجانبي لتعديل هذا المستند.</string>
+    <string name="document_read_only_warning_message">احفظ نسخة على جهازك لتعديل هذا المستند.</string>
+    <string name="document_read_only_warning_negative">عرض: القراءة فقط</string>
+    <string name="download_size_warning"><![CDATA[هل أنت متأكد من تحميل هذا الملف (<b>%1$s</b>) باستخدام اتصال بيانات جوالك؟]]></string>
+    <string name="duplicate_file_error_message">حدثت مشكلة باستنساخ الملف. فضلاً حاول مجدداً.</string>
+    <string name="duplicate_file_error_message_no_space">هناك نقص في مساحة التخزين. فضلاً حرر بعض المساحة ثم حاول مجدداً.</string>
+    <string name="duplicate_file_max_error_message">تم الوصول إلى الحد الأعلى لعدد الملفات المستنسخة، فضلاً احذف الملفات غير الضرورية ثم حاول مرة أخرى.</string>
+    <string name="duplicating_wait">استنساخ…</string>
+    <string name="error_corrupt_file_message">هذا الملف متضرر. %1$s إكسودو حاول إصلاحه ولكن هذا غير ممكن، لذلك لا يمكن فتحه. آسف!</string>
+    <string name="error_failed_to_open_document_tree">فشل فتح المجلد. فضلاً حاول مجدداً.</string>
+    <string name="error_opening_file">تعذر فتح الملف</string>
+    <string name="external_storage">بطاقة SD</string>
+    <string name="fastscroller_handle">متحكم التمرير السريع</string>
+    <string name="fastscroller_track">مسار التمرير السريع</string>
+    <string name="file">file</string>
+    <string name="file_added_to_favorites">أضيف \"%1$s\" إلى المفضلة</string>
+    <string name="file_info_document_attr_not_available"><![CDATA[<i>غير متوفر</i>]]></string>
+    <string name="file_info_document_author"><![CDATA[<b>مؤلف</b> <br>%1$s<br>]]></string>
+    <string name="file_info_document_creator"><![CDATA[<b>المُنشئ</b> <br>%1$s<br>]]></string>
+    <string name="file_info_document_date_modified"><![CDATA[<b>تاريخ التعديل</b> <br>%1$s<br>]]></string>
+    <string name="file_info_document_folder_contains"><![CDATA[<b>يحتوي على</b> <br>%1$s<br>]]></string>
+    <string name="file_info_document_pages"><![CDATA[<b>عدد الصفحات</b> <br>%1$s<br>]]></string>
+    <string name="file_info_document_path"><![CDATA[<b>مسار</b> <br>%1$s<br>]]></string>
+    <string name="file_info_document_producer"><![CDATA[<b>المُنتج</b> <br>%1$s<br>]]></string>
+    <string name="file_info_document_protected"><![CDATA[هذا المستند محمي بكلمة مرور.]]></string>
+    <string name="file_info_document_size"><![CDATA[<b>الحجم</b> <br>%1$s<br>]]></string>
+    <string name="file_info_document_title"><![CDATA[<b>العنوان</b> <br>%1$s<br>]]></string>
+    <string name="file_removed_from_favorites">أزيل \"%1$s\" من المفضلة</string>
+    <string comment="Used to filter by file type" name="file_type_docx">مستندات الأوفيس</string>
+    <string name="file_type_external_file">خارجي</string>
+    <string comment="Used to filter by file type" name="file_type_image">صور</string>
+    <string comment="Used to filter by file type" name="file_type_pdf">ملفات pdf</string>
+    <string comment="Used to turn of file type filters and show all" name="file_type_show_all">إظهار كافة أنواع الملفات</string>
+    <string name="files">files</string>
+    <string name="fit_page">ملائمة الصفحة</string>
+    <string name="fit_page_height">ملائمة ارتفاع الصفحة</string>
+    <string name="fit_page_width">ملائمة عرض الصفحة</string>
+    <string name="image_attachment_error_msg">حدثت مشكلة مع هذه الصورة. فضلاً حاول تحميلها مجدداً.</string>
+    <string name="imageview_icon_file_type_description">نوع ملف الرمز</string>
+    <string name="import_webpage_error_message_content">للأسف، تعذر تحويل %1$s إلى pdf.</string>
+    <string name="import_webpage_error_message_title">تعذر التحويل إلى pdf</string>
+    <string name="import_webpage_wait">استيراد صفحة ويب…</string>
+    <string name="loading_files_wait">تحميل الملفات…</string>
+    <string name="local_folders">Folders</string>
+    <string name="local_storage">تخزين محلي</string>
+    <string name="menu_add_options">إضافة خيارات</string>
+    <string name="merging_wait">دمج…</string>
+    <string name="moving_wait">نقل…</string>
+    <string name="navigation_drawer_close">غلق شريط التنقل</string>
+    <string name="navigation_drawer_my_files_title">ملفاتي</string>
+    <string name="navigation_drawer_open">فتح شريط التنقل</string>
+    <string name="num_files_not_supported">%1$d %2$s not supported in Xodo</string>
+    <string name="pdf_portfolio">المحفظة</string>
+    <string name="pdf_portfolio_message">يحتوي هذا المستند على ملفات إضافية. هل ترغب في عرض قائمة بهذه الملفات؟</string>
+    <string name="permission_generic_available">تم منح الإذن.</string>
+    <string name="permission_screen_body"><![CDATA[تغيير الأذونات من إعدادات جهازك. <br>امنح إكسودو الوصول إلى التخزين %1$s.]]></string>
+    <string name="permission_screen_exit">خروج</string>
+    <string name="permission_screen_grant_permission">منح الأذونات</string>
+    <string name="permission_screen_grant_permission_short">منح</string>
+    <string name="permission_screen_settings">الإعدادات</string>
+    <string name="permission_screen_title"><![CDATA[<b>منح الوصول</b>]]></string>
+    <string name="permission_storage_available">تم منح إذن التخزين.</string>
+    <string name="permissions_not_granted">لم يتم منح الإذن. امنحه من الإعدادات.</string>
+    <string name="pref_allow_page_change_on_tap">قلب الصفحة بنقرة</string>
+    <string name="pref_allow_page_change_on_tap_summary">عند التمكين، سيتم قلب الصفحة عند النقر على الحافة اليسرى أو اليمنى للعارض.</string>
+    <string name="pref_annot_list_show_author_summary">عند التمكين، تعرض قائمة الإشارة مؤلف الإشارة</string>
+    <string name="pref_annot_list_show_author_title">قائمة الإشارة تعرض المؤلف</string>
+    <string name="pref_author_name_summary">اسم المؤلف الافتراضي للحواشي.</string>
+    <string name="pref_author_name_title">مؤلف الإشارة</string>
+    <string name="pref_category_annotating">وضع إشارة</string>
+    <string name="pref_category_viewing">عرض</string>
+    <string name="pref_cont_annot_edit_summary">عند التمكين، شريط أدوات الحاشية لا يرجع إلى أداة اليد بعد أن يتم إنشاء حاشية.</string>
+    <string name="pref_cont_annot_edit_title">تحرير شرح مستمر</string>
+    <string name="pref_copy_annotated_text_to_note_summary">عند التمكين، أي نص يأشر بـ تظليل/تسطر/شطب يتم نسخه تلقائياً لكتيب الإشارات.</string>
+    <string name="pref_copy_annotated_text_to_note_title">نسخ النص المعلم إلى ملاحظة</string>
+    <string name="pref_free_text_font_init_dialog_message">هذا قد يستغرق بضع دقائق.</string>
+    <string name="pref_free_text_font_init_dialog_title">تحميل خطوط من جهازك…</string>
+    <string name="pref_free_text_font_summary">قائمة الخطوط المتوفرة مجاناً لنص الإشارات.</string>
+    <string name="pref_free_text_font_title">خطوط نص الإشارة</string>
+    <string name="pref_full_screen_mode_summary">عندما التمكين، سيتم إخفاء أشرطة النظام عند عرض مستند.</string>
+    <string name="pref_full_screen_mode_title">وضع الشاشة الكاملة</string>
+    <string name="pref_image_smoothing_summary">عند التمكين، بعض الصور ستبدو أفضل، ولكن تحميلها قد يكون أبطأ قليلاً.</string>
+    <string name="pref_image_smoothing_title">تنعيم الصورة</string>
+    <string name="pref_ink_smoothing_summary">عندما يكون ممكناً، الحبر المرسوم بأصبع يتم تنعيمه. (حبر القلمS لا يتم تنعيمه أبداً.)</string>
+    <string name="pref_ink_smoothing_title">تنعيم الحبر</string>
+    <string name="pref_multiple_tabs_summary">عندما يكون ممكناً، سيتم فتح عدة مستندات في عارض واحد.</string>
+    <string name="pref_multiple_tabs_title">التبويبات</string>
+    <string name="pref_page_change_animation">قلب الصفحة مع مؤثرات</string>
+    <string name="pref_page_change_animation_summary">عند التمكين، سيتم قلب الصفحة مع مؤثرات عند النقر على الحافة اليسرى أو اليمنى للعارض.</string>
+    <string name="pref_page_view_mode_summary">وضع ملائمة الصفحة الحالية: %s.</string>
+    <string name="pref_page_view_mode_title">طريقة عرض الصفحة</string>
+    <string name="pref_remember_last_page_summary">عند التمكين، سيتم إعادة فتح المستندات التي تم فتحها من قائمة مؤخراً في آخر صفحة كنت فيها.</string>
+    <string name="pref_remember_last_page_title">تذكر الصفحة الأخيرة</string>
+    <string name="pref_rtl_mode_option_summary">عند التمكين، تعرض صفحة العارض مربع حوار يتضمن خيار لتمكين دعم مستندات من اليمين إلى اليسار.</string>
+    <string name="pref_rtl_mode_option_title">من اليمين إلى اليسار</string>
+    <string name="pref_screen_stay_lock_summary">عند التمكين، الشاشة ستبقى مضاءة ما دامت تقوم بعرض مستند.</string>
+    <string name="pref_screen_stay_lock_title">قفل شاشة النوم</string>
+    <string name="pref_show_quick_menu_summary">عند التمكين، سيتم تحديد الإشارة بعد إنشائها من شريط الأدوات.</string>
+    <string name="pref_show_quick_menu_title">تحديد الإشارات تلقائياً</string>
+    <string name="pref_stylus_as_pen_summary">When enabled, the stylus will create (and edit) annotations, and a finger will scroll and zoom the viewer.</string>
+    <string name="pref_stylus_as_pen_title">قلمS كقلم</string>
+    <string name="removing_access_wait">إزالة الوصول…</string>
+    <string name="replace">استبدال</string>
+    <string name="root_folder">الجذر</string>
+    <string name="snack_bar_local_folder_read_only">الملفات للقراءة فقط</string>
+    <string name="snack_bar_local_folder_read_only_redirect">تمكين الحفظ</string>
+    <string comment="When filtering files, if there are no files of the selected types, we display this message" name="textview_empty_because_no_files_of_selected_type">لا توجد مستندات بالنوع المحدد. (┐◎_◎┌)</string>
+    <string comment="When filtering files, if no files match the string, we display this message" name="textview_empty_because_no_string_match">لا توجد مستندات تطابق عامل تصفية النص.</string>
+    <string name="textview_empty_cancelled">إكسودو:مقدم بواسطة بدفترون </string>
+    <string name="textview_empty_external_storage_root">لم يتم تحديد أي مجلدات من التخزين الخارجي. \nخطوة 1: اضغط + لتحديد مسار الجذر. \nخطوة 2: اختر بطاقة SD الخارجية من الشريط. \nخطوة 3: اختر تأكيد.</string>
+    <string name="textview_empty_failed">حدث خطأ عند إعادة التحميل (ಠ_ಥ) </string>
+    <string name="textview_empty_favorite_folder_list">لا توجد مجلدات مفضلة لعرضها 😞</string>
+    <string name="textview_empty_favorite_list">لا توجد مستندات مفضلة لعرضها 😞</string>
+    <string name="textview_empty_favorite_list_second_part1">للمفضلة لديك مستند، استخدم متصفح الملفات في %1$sللعثور على المستند، ومن ثم اضغط معلومات المستند</string>
+    <string name="textview_empty_favorite_list_second_part2">الزر. ثم اضغط على نجمة التفضيل</string>
+    <string name="textview_empty_file_list">لا مستندات لعرضها.😚</string>
+    <string name="textview_empty_loading">تحميل الملفات… 😅</string>
+    <string name="textview_empty_no_external_roots">لم يتم منح الوصول إلى أي من مجلدات بطاقة SD</string>
+    <string name="textview_empty_recent_list">لا مستندات مؤخراً لعرضها.😚</string>
+    <string name="title_item_favorites">المفضلة</string>
+    <string name="title_item_local_file_list">جميع المستندات</string>
+    <string name="title_item_recent">مؤخراً</string>
+    <string name="title_item_viewer">العارض</string>
+    <string name="updating_file_list_wait">تحديث قائمة الملفات…</string>
+    <string name="version">الإصدار</string>
+</resources>

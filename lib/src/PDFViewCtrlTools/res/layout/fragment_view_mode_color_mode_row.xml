@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="4dp"
+    android:paddingEnd="@dimen/margin"
+    android:paddingLeft="@dimen/margin"
+    android:paddingRight="@dimen/margin"
+    android:paddingStart="@dimen/margin"
+    android:paddingTop="4dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/item_view_mode_picker_color_list_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:focusable="false"
+        app:srcCompat="@drawable/ic_color_lens_black_24dp" />
+
+    <TextView
+        android:id="@+id/item_view_mode_picker_list_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/item_view_mode_picker_color_list_icon"
+        android:layout_toRightOf="@id/item_view_mode_picker_color_list_icon"
+        android:focusable="false"
+        android:text="@string/pref_viewmode_color_mode"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/primary_text_size" />
+
+    <LinearLayout
+        android:id="@+id/item_view_mode_picker_modebtn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/item_view_mode_picker_daymode_button"
+            android:layout_width="@dimen/viewmode_colormode_icon_size"
+            android:layout_height="@dimen/viewmode_colormode_icon_size"
+            android:layout_marginLeft="@dimen/viewmode_colormode_padding_side"
+            android:layout_marginRight="@dimen/viewmode_colormode_padding_side"
+            android:background="@null"
+            android:paddingTop="@dimen/viewmode_colormode_padding_top"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_daymode_icon" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/item_view_mode_picker_nightmode_button"
+            android:layout_width="@dimen/viewmode_colormode_icon_size"
+            android:layout_height="@dimen/viewmode_colormode_icon_size"
+            android:layout_marginLeft="@dimen/viewmode_colormode_padding_side"
+            android:layout_marginRight="@dimen/viewmode_colormode_padding_side"
+            android:background="@null"
+            android:paddingTop="@dimen/viewmode_colormode_padding_top"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_nightmode_icon" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/item_view_mode_picker_sepiamode_button"
+            android:layout_width="@dimen/viewmode_colormode_icon_size"
+            android:layout_height="@dimen/viewmode_colormode_icon_size"
+            android:layout_marginLeft="@dimen/viewmode_colormode_padding_side"
+            android:layout_marginRight="@dimen/viewmode_colormode_padding_side"
+            android:background="@null"
+            android:paddingTop="@dimen/viewmode_colormode_padding_top"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_sepiamode_icon" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/item_view_mode_picker_customcolor_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/viewmode_colormode_icon_size"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:tint="@color/gray600"
+            app:srcCompat="@drawable/ic_overflow_black_24dp"
+            tools:ignore="InconsistentLayout" />
+
+    </LinearLayout>
+
+</RelativeLayout>

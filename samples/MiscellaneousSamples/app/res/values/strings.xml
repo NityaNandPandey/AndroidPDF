@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Miscellaneous Samples</string>
+    <string name="title_sample_detail">Sample Detail</string>
+    <string name="title_list_files">Choose a file to open&#8230;</string>
+    <string name="title_choose_application">Choose application&#8230;</string>
+    <string name="pdftron_website">http://www.pdftron.com</string>
+    
+    <string name="str_no_application_available">No application available to open this type of file.</string>
+    <string name="str_running_sample_header">Running %s sample&#8230;</string>
+    <string name="str_running_sample_footer">Done!</string>
+    
+    <string name="about">About</string>
+    <string name="about_body"><![CDATA[
+        <b>Miscellaneous Samples for Android PDFNet SDK</b><br>
+        SDK Version: %s<br>
+        <a href="http://www.pdftron.com">PDFTron Systems, Inc.</a><br><br>
+        
+        For more information on the samples visit our <a href="http://www.pdftron.com/pdfnet/samplecode.html">Sample Code</a> webpage.
+    ]]></string>
+    
+    <string name="button_run">Run</string>
+    <string name="button_runll_all">Run All</string>
+    <string name="button_open_files">Open Files</string>
+    
+    <string name="dialog_empty_file_list">No files for this sample.</string>
+    
+    <string name="sample_annotation_title">Annotation</string>
+    <string name="sample_annotation_description">Shows how to add a text annotation to an existing page and how to create link annotations between several pages.</string>
+    <string name="sample_addimage_title">AddImage</string>
+    <string name="sample_addimage_description">This sample illustrates how to embed various raster image formats (e.g. TIFF, JPEG, JPEG2000, JBIG2, GIF, PNG, BMP, etc.) in a PDF document.</string>
+    <string name="sample_docxconvert_title">Word2PDF</string>
+    <string name="sample_docxconvert_description">This sample illustrates how to convert a Word(.docx) file into pdf...</string>
+    <string name="sample_convert_title">Convert</string>
+    <string name="sample_convert_description">This sample shows how to use PDFNet Convert Add-on (i.e. \'pdftron.PDF.Convert\' namespace) for direct, high-quality conversion between PDF, XPS, EMF, SVG, TIFF, PNG, JPEG, and other image formats. The sample also shows how to convert any printable document (e.g. Word, HTML, RTF, MS Office, DXF, DWG, etc) to PDF or XPS using a universal document converter.</string>
+    <string name="sample_contentreplacer_title">ContentReplacer</string>
+    <string name="sample_contentreplacer_description">This sample shows how to use \'pdftron.PDF.ContentReplacer\' to search and replace text strings and images in existing PDF (e.g. business cards and other PDF templates). Unlike PDF forms, the ContentReplacer works on actual PDF content and is not limited to static rectangular annotation regions.</string>
+    <string name="sample_bookmarks_title">Bookmarks</string>
+    <string name="sample_bookmarks_description">The sample code illustrates how to read and edit existing outline items and create new bookmarks using the high-level API.</string>
+    <string name="sample_digitalsignatures_title">DigitalSignatures</string>
+    <string name="sample_digitalsignatures_description">Demonstrates the basic usage of high-level digital signature API to digitally sign and/or certify PDF documents."\n"Note: this sample needs the SpongyCastle (Java cryptography APIs for Android) libs to work properly.</string>
+    <string name="sample_encryption_title">Encryption</string>
+    <string name="sample_encryption_description">Illustrates encryption support in PDFNet. The sample code reads an encrypted document and sets a new SecurityHandler.</string>
+    <string name="sample_elementbuilder_title">ElementBuilder</string>
+    <string name="sample_elementbuilder_description">Illustrates how to use PDFNet page writing API, how to embed fonts and images and how to copy graphical elements from one page to another.</string>
+    <string name="sample_edittext_title">EditText</string>
+    <string name="sample_edittext_description">The sample code illustrates a technique that can be used to edit text on the page by modifying char code data in text runs.</string>
+    <string name="sample_elementedit_title">ElementEdit</string>
+    <string name="sample_elementedit_description">The sample code shows how to edit the page display list and how to modify graphics state attributes on existing Elements. In particular the sample program strips all images from the page, changes path fill color to red, and changes text color to blue.</string>
+    <string name="sample_elementreader_title">ElementReader</string>
+    <string name="sample_elementreader_description">Illustrates how to traverse page display list using ElementReader.</string>
+    <string name="sample_elementreaderadv_title">ElementReaderAdv</string>
+    <string name="sample_elementreaderadv_description">The sample shows how to use some of more advanced PDFNet features. The sample code illustrates how to extract text, paths, and images. The sample also shows how to do color conversion, image normalization, and how to process changes in the graphics state.</string>
+    <string name="sample_fdf_title">FDF</string>
+    <string name="sample_fdf_description">PDFNet includes a full support for FDF (Forms Data Format) and capability to merge/extract forms data (FDF) with/from PDF. The sample illustrates basic FDF merge/extract functionality available in PDFNet.</string>
+    <string name="sample_imageextract_title">ImageExtract</string>
+    <string name="sample_imageextract_description">This sample illustrates couple of approaches to PDF image extraction.</string>
+    <string name="sample_imposition_title">Imposition</string>
+    <string name="sample_imposition_description">The sample illustrates how multiple pages can be combined/imposed using PDFNet. Page imposition can be used to arrange/order pages prior to printing or to assemble a \'master\' page from several \'source\' pages. Using PDFNet API it is possible to write applications that can re-order the pages such that they will display in the correct order when the hard copy pages are compiled and folded correctly.</string>
+    <string name="sample_interactiveforms_title">InteractiveForms</string>
+    <string name="sample_interactiveforms_description">The sample illustrates some basic PDFNet capabilities related to interactive forms (also known as AcroForms).</string>
+    <string name="sample_jbig_title">JBIG2</string>
+    <string name="sample_jbig_description">The sample project illustrates how to recompress bi-tonal (black and white) images in existing PDF documents using JBIG2 compression. The sample is intended to show how to specify hint information for image encoder and is not meant to be a generic PDF optimization tool. PDFNet supports both loss-less and lossy JBIG2 compression. To give you a feeling of compression rates possible with PDFNet we re-compressed a document containing 17 scanned pages. The original input document is ~1.4MB and is using standard CCITT Fax compression. Loss-less JBIG2 compression shrunk down the file to 641KB. Lossy JBIG2 compression shrunk down the file to 176KB.</string>
+    <string name="sample_logicalstructure_title">LogicalStructure</string>
+    <string name="sample_logicalstructure_description">This sample explores the structure and content of a tagged PDF document and dumps the structure information to the console window.</string>
+    <string name="sample_pagelabels_title">PageLabels</string>
+    <string name="sample_pagelabels_description">This example illustrates how to work with PDF page labels. PDF page labels can be used to describe a page. This is used to allow for non-sequential page numbering or the addition of arbitrary labels for a page (such as the inclusion of Roman numerals at the beginning of a book).</string>
+    <string name="sample_pattern_title">Pattern</string>
+    <string name="sample_pattern_description">This example illustrates how to create various PDF patterns and shadings.</string>
+    <string name="sample_pdfa_title">PDF/A</string>
+    <string name="sample_pdfa_description">This sample illustrates how to use PDF/A add-on to validate existing PDF documents for PDF/A compliance as well as to convert generic PDF documents to PDF/A format.</string>
+    <string name="sample_pdfdraw_title">PDFDraw</string>
+    <string name="sample_pdfdraw_description">This sample illustrates how to use the built-in rasterizer in order to render PDF images on the fly and how to save resulting images in PNG and JPEG format.</string>
+    <string name="sample_pdflayers_title">PDFLayers</string>
+    <string name="sample_pdflayers_description">This sample demonstrates how to create PDF layers (also known as Optional Content Groups - OCGs). The sample also shows how to extract and render PDF layers.</string>
+    <string name="sample_pdfdocmemory_title">PDFDocMemory</string>
+    <string name="sample_pdfdocmemory_description">The sample illustrates how to read/write a PDF document from/to memory buffer. This is useful for applications that work with dynamic PDFdocuments that don\'t need to be saved/read from a disk.</string>
+    <string name="sample_pdfpackage_title">PDFPackage</string>
+    <string name="sample_pdfpackage_description">This sample illustrates how to create, extract, and manipulate PDF Packages (also known as PDF Portfolios).</string>
+    <string name="sample_pdfpage_title">PDFPage</string>
+    <string name="sample_pdfpage_description">The sample illustrates how to copy pages from one document to another, how to delete, and re-arrange pages and how to use ImportPages() method for very efficient copy and merge operations.</string>
+    <string name="sample_pdfredact_title">PDFRedact</string>
+    <string name="sample_pdfredact_description">The sample shows how to use \'pdftron.PDF.Redactor\' to remove potentially sensitive content within PDF documents. PDFTron Redactor makes sure that if a portion of an image, text, or vector graphics is contained in a redaction region, that portion is destroyed and is not simply hidden with clipping or image masks.</string>
+    <string name="sample_rect_title">Rect</string>
+    <string name="sample_rect_description">Shows how to change Page\'s MediaBox using Rect class.</string>
+    <string name="sample_sdf_title">SDF</string>
+    <string name="sample_sdf_description">The sample illustrates how to use basic Cos/SDF API to edit an existing document.</string>
+    <string name="sample_stamper_title">Stamper</string>
+    <string name="sample_stamper_description">The sample shows how to use \'pdftron.PDF.Stamper\' utility class to stamp PDF pages with text, images, or with other PDF pages. ElementBuilder and ElementWriter should be used for more complex PDF stamping operations.</string>
+    <string name="sample_optimizer_title">Optimizer</string>
+    <string name="sample_optimizer_description">The sample illustrates how to reduce PDF file size using \'pdftron.PDF.Optimizer\' class. The sample also shows how to simplify and optimize PDF documents for viewing on mobile devices and on the Web using \'pdftron.PDF.Flattener\'. Both \'Optimizer\' and \'Flattener\' are separately licensable add-on options to the core PDFNet license.</string>
+    <string name="sample_textextract_title">TextExtract</string>
+    <string name="sample_textextract_description">The sample illustrates the basic text extraction capabilities of PDFNet.</string>
+    <string name="sample_textsearch_title">TextSearch</string>
+    <string name="sample_textsearch_description">This sample shows how to use TextSearch to search text on PDF pages using regular expressions. TextSearch utility class builds on functionality available in TextExtractor to simplify most common search operations.</string>
+    <string name="sample_u3d_title">U3D</string>
+    <string name="sample_u3d_description">This example illustrates how to embed U3D content (3 dimensional models) in PDF.</string>
+    <string name="sample_unicodewrite_title">UnicodeWrite</string>
+    <string name="sample_unicodewrite_description">An example illustrating how to create Unicode text and how to embed composite fonts."\n"Note: this sample tries to use system fonts. In case the document shows incorrect characters, you may need to install the proper fonts. See the source code for more information.</string>
+    
+</resources>

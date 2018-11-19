@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+<path
+    android:strokeWidth="1"
+    android:pathData="M22,2L2,22"
+    android:strokeColor="#ff0000"
+    android:fillColor="#00000000"/>
+<path
+    android:strokeWidth="1"
+    android:pathData="M2,2h20v20h-20z"
+    android:strokeColor="@color/tools_eraser_gray"
+    android:fillColor="#00000000"/>
+</vector>

@@ -1,0 +1,13 @@
+com.pdftron.pdf.adapter
+com.pdftron.pdf.asynctask
+com.pdftron.pdf.config
+com.pdftron.pdf.controls
+com.pdftron.pdf.dialog
+com.pdftron.pdf.interfaces
+com.pdftron.pdf.model
+com.pdftron.pdf.tools
+com.pdftron.pdf.utils
+com.pdftron.pdf.widget
+com.pdftron.pdf.widget.recyclerview
+com.pdftron.pdf.widget.recyclerview.decoration
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip"
+    android:paddingLeft="10dip"
+    android:paddingStart="10dip"
+    android:paddingRight="10dip"
+    android:paddingEnd="10dip" >
+
+    <TextView
+        android:id="@+id/control_outline_listview_item_textview"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_weight="1"
+        android:minHeight="45dip" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/control_outline_listview_item_imageview"
+        android:padding="@dimen/controls_outline_image_view_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        app:srcCompat="@drawable/ic_arrow_forward_black_24dp"
+        android:tint="@color/gray600"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/controls_outline_dialog_imageview_forward_description" />
+
+</LinearLayout>

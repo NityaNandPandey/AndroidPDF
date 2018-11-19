@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="controls_annot_style_markup_text">#747474</color>
+    <color name="controls_annot_style_preview_bg">#212121</color>
+    <color name="controls_color_picker_bg">@color/gray850</color>
+    <color name="controls_edit_toolbar_tool">#FF080808</color>
+    <color name="fragment_file_picker_dialog_current_folder">#333333</color>
+    <color name="navigation_drawer_sel_bg">#444444</color>
+    <color name="navigation_drawer_separator">@color/gray600</color>
+    <color name="recyclerview_header_bg">#151918</color>
+    <color name="tools_dialog_annotation_popup_background">#303030</color>
+    <color name="tools_dialog_annotation_popup_textbox_background">#424242</color>
+    <color name="tools_dialog_floating_sig_dialog_bg">#303030</color>
+    <color name="tools_dialog_floating_sig_signature_view">#424242</color>
+    <color name="tools_dialog_sticky_note_style_options_background">#424242</color>
+    <color name="tools_dialog_sticky_note_textbox_background">#424242</color>
+    <color name="tools_text_select_color">#333333</color>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_color_primary_night</item>
+        <item name="colorPrimaryDark">@color/app_color_primary_dark_night</item>
+        <item name="colorAccent">@color/app_color_accent</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark"/>
+    <style name="Base.FragmentToolbarStyle" parent="ToolbarStyle">
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="navigationIcon">@drawable/ic_menu_white_24dp</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat"/>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="Theme.AppCompat"/>
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="Theme.AppCompat.Dialog"/>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="Theme.AppCompat.Dialog.Alert"/>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="Theme.AppCompat.Dialog.MinWidth"/>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="Theme.AppCompat.DialogWhenLarge"/>
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="Theme.AppCompat.NoActionBar"/>
+    <style name="ThumbnailSliderStyle">
+        <item name="leftMenuItemColor">@android:color/white</item>
+        <item name="rightMenuItemColor">@android:color/white</item>
+        <item name="seekbarColor">@android:color/white</item>
+    </style>
+    <style name="ToolbarPopupTheme" parent="ThemeOverlay.AppCompat.Dark"/>
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.ActionBar"/>
+</resources>

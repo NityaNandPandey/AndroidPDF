@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pdftron.pdf.widget.CheckableRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    android:padding="6dp">
+
+    <com.pdftron.pdf.widget.InertCheckBox
+        android:id="@+id/dialog_file_type_filter_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/file_type_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textDirection="locale"
+        android:layout_toRightOf="@id/dialog_file_type_filter_checkbox"
+        android:layout_toEndOf="@id/dialog_file_type_filter_checkbox"
+        android:text="lalala lalalla"
+        />
+
+</com.pdftron.pdf.widget.CheckableRelativeLayout>

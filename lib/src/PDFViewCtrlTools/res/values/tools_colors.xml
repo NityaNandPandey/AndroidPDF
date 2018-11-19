@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tools_colors_white">#FFFFFFFF</color>
+
+    <color name="tools_link">#E37014</color>
+
+    <color name="tools_pageindicator_background">#C84B4B4B</color>
+    <color name="tools_pageindicator_text">#FFFFFFFF</color>
+
+    <color name="tools_selection_control_point">#ff2eb6e6</color>
+    <color name="tools_selection_control_point_border">#ff2eb6e6</color>
+
+    <color name="tools_annot_edit_line_shadow">#ff2eb6e6</color>
+    <color name="tools_annot_edit_line_shadow_no_permission">#FFFF0000</color>
+
+    <color name="tools_quickmenu_background">#FF222222</color>
+    <color name="tools_quickmenu_text">#FFFFFFFF</color>
+    <color name="tools_quickmenu_separator">#FFFFFFFF</color>
+    <color name="tools_quickmenu_button_pressed">#FFC8C8C8</color>
+
+    <color name="tools_dialog_floating_sig_signature_view">#FFFFFFFF</color>
+    <color name="tools_dialog_floating_sig_signhere_color">#A0ABABAB</color>
+    <color name="tools_dialog_floating_sig_dialog_bg">#CCCCCC</color>
+
+    <color name="tools_dialog_annotation_popup_background">#F5F5F5</color>
+    <color name="tools_dialog_annotation_popup_textbox_background">#FFFFFF</color>
+    <color name="tools_dialog_sticky_note_textbox_background">#FFF9C4</color>
+    <color name="tools_dialog_sticky_note_style_options_background">#ECEFF1</color>
+
+    <color name="tools_eraser_gray">#FFCCCCCC</color>
+
+    <color name="tools_annotation_button_select">#0095FF</color>
+
+    <color name="tools_light_gray">#fff3f3f3</color>
+    <color name="tools_dark_gray">#ff444444</color>
+    <color name="tools_gray">#919190</color>
+
+    <color name="tools_radio_button_selected_color">#ff33b5e5</color>
+    <color name="tools_radio_button_unselected_color">@android:color/transparent</color>
+
+    <color name="tools_text_select_color">#ffcccccc</color>
+
+    <color name="tools_text_highlighter_selection_color">@color/orange</color>
+    <color name="tools_text_highlighter_selection_color_inverse">#a68033</color>
+    <color name="tools_text_highlighter_highlight_color">@color/yellow</color>
+    <color name="tools_text_highlighter_highlight_color_inverse">#4040a6</color>
+
+    <color name="tools_free_text_toggle_button_bgd">#CCCCCCCC</color>
+    <color name="tools_free_text_toggle_button_transparent_bgd">#77CCCCCC</color>
+
+    <color name="red">#FF0000</color>
+    <color name="orange">#FFAA00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="teal">#00FFFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#FF00FF</color>
+    <color name="purple">#800080</color>
+    <color name="brown">#964B00</color>
+    <color name="gray">#BBBBBB</color>
+    <color name="turquoise">#40E0D0</color>
+    <color name="gray97">#F7F7F7</color>
+    <color name="gray200">#EEEEEE</color>
+    <color name="gray300">#E0E0E0</color>
+    <color name="gray400">#BDBDBD</color>
+    <color name="gray600">#757575</color>
+    <color name="gray850">#303030</color>
+
+    <color name="fab_light_blue">#33b5e5</color>
+    <color name="fab_dark_blue">#1a9bcb</color>
+
+    <color name="tab_selected">#FFFFFF</color>
+    <color name="tab_unselected">#B3ffffff</color> <!-- 70% -->
+
+    <color name="page_number_indicator_bg">#C84B4B4B</color>
+
+    <color name="back_fwd_buttons_selected_bg">#C8222222</color>
+    <color name="back_fwd_buttons_disabled_bg">#C8888888</color>
+    <color name="back_fwd_buttons_disabled_outline">#C8BDBDBD</color>
+
+    <color name="dark_gray">#ff444444</color> <!-- 75% black -->
+    <color name="light_gray">#ffcccccc</color> <!-- 20% black -->
+
+    <color name="action_bar_bg">#202020</color>
+    <color name="tab_widget_hover">#0d0d0d</color>
+</resources>

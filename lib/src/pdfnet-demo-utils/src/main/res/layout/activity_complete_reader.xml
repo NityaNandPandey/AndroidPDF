@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A DrawerLayout is intended to be used as the top-level content view,
+     using match_parent for both width and height to consume the full space available. -->
+<android.support.v4.widget.FixedDrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.pdftron.demo.app.AdvancedReaderActivity">
+
+    <!-- This layout receives the system window insets from the DrawerLayout and
+         dispatches the insets to all of its direct children. Following the DrawerLayout's
+         behaviour, all children receive the same insets regardless of their inset-consumption
+         policies. -->
+    <!-- NOTE: This layout *MUST* have android:fitsSystemWindows="true". -->
+    <com.pdftron.pdf.widget.FragmentLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true" />
+
+    <!-- This is an embedded status bar. The DrawerLayout's attempt at a status bar
+     replacement does not work, since it is drawn at the very bottom of the View stack
+     (fullscreen Views will cover it). However, the default status bar drawn by the window
+     does not work either because the DrawerLayout's drawers cannot draw behind it for
+     the nice transparent status bar effect on Lollipop and up.
+     This View listens to system UI visibility changes and fades in and out when the
+     window's fullscreen state is changed. -->
+    <com.pdftron.pdf.widget.StatusBarView
+        android:id="@+id/status_bar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true" />
+
+    <!-- The drawer is given a fixed width in dp and extends the full height of
+         the container. -->
+    <com.pdftron.demo.widget.FixedNavigationView
+        android:id="@+id/navigation_drawer"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:theme="@style/NavigationViewStyle"
+        app:itemBackground="@drawable/drawer_item_background"
+        app:itemTextColor="@color/selector_color_drawer_text"
+        app:menu="@menu/custom_drawer_menu"/>
+
+    <!-- To cover the entire screen as a drawer, the margin opposite
+         the drawer's gravity must be -64dp.
+         (e.g., gravity="start" -> margin_start="-64dp")
+          This is due to the DrawerLayout having a fixed min-margin for
+          drawers of 64dp. -->
+    <com.pdftron.demo.widget.ScrimInsetsFrameLayout
+        android:id="@+id/file_info_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:layout_marginLeft="-64dp"
+        android:layout_marginStart="-64dp"
+        android:background="?android:attr/colorBackground"
+        android:fitsSystemWindows="true" />
+
+</android.support.v4.widget.FixedDrawerLayout>

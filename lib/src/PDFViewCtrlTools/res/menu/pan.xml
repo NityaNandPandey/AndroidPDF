@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/qm_second_row_group">
+        <item android:id="@id/qm_free_text"
+            android:title="@string/tools_qm_free_text"
+            android:icon="@drawable/ic_annotation_freetext_black_24dp"/>
+        <item android:id="@id/qm_sticky_note"
+            android:title="@string/tools_qm_note"
+            android:icon="@drawable/ic_annotation_sticky_note_black_24dp"/>
+        <item android:id="@id/qm_free_hand"
+            android:title="@string/controls_annotation_toolbar_tool_description_freehand"
+            android:icon="@drawable/ic_annotation_freehand_black_24dp"/>
+        <item android:id="@id/qm_free_highlighter"
+            android:title="@string/controls_annotation_toolbar_tool_description_free_highlighter"
+            android:icon="@drawable/ic_annotation_free_highlight_black_24dp"/>
+        <item android:id="@id/qm_floating_sig"
+            android:title="@string/tools_qm_signature"
+            android:icon="@drawable/ic_annotation_signature_black_24dp"/>
+        <item android:id="@id/qm_rectangle"
+            android:title="@string/tools_qm_rectangle"
+            android:icon="@drawable/ic_annotation_square_black_24dp" />
+        <item android:id="@id/qm_line"
+            android:title="@string/tools_qm_line"
+            android:icon="@drawable/ic_annotation_line_black_24dp"/>
+        <item android:id="@id/qm_link"
+            android:title="@string/tools_qm_link"
+            android:icon="@drawable/ic_link_black_24dp"/>
+        <item android:id="@id/qm_ink_eraser"
+            android:title="@string/tools_qm_eraser"
+            android:icon="@drawable/ic_annotation_eraser_black_24dp"/>
+        <item android:id="@id/qm_image_stamper"
+            android:title="@string/tools_qm_stamper"
+            android:icon="@drawable/ic_annotation_image_black_24dp"/>
+        <item android:id="@id/qm_rubber_stamper"
+            android:title="@string/tools_qm_rubber_stamp"
+            android:icon="@drawable/ic_annotation_stamp_black_24dp"/>
+        <item android:id="@id/qm_shape"
+            android:title="@string/tools_qm_shape">
+            <menu>
+                <group android:id="@id/qm_first_row_group">
+                    <item android:id="@id/qm_arrow"
+                        android:title="@string/tools_qm_arrow"
+                        android:icon="@drawable/ic_annotation_arrow_black_24dp"/>
+                    <item android:id="@id/qm_polyline"
+                        android:title="@string/tools_qm_polyline"
+                        android:icon="@drawable/ic_annotation_polyline_black_24dp" />
+                    <item android:id="@id/qm_oval"
+                        android:title="@string/tools_qm_ellipse"
+                        android:icon="@drawable/ic_annotation_circle_black_24dp" />
+                    <item android:id="@id/qm_polygon"
+                        android:title="@string/tools_qm_polygon"
+                        android:icon="@drawable/ic_annotation_polygon_black_24dp"/>
+                    <item android:id="@id/qm_cloud"
+                        android:title="@string/tools_qm_cloud"
+                        android:icon="@drawable/ic_annotation_cloud_black_24dp"/>
+                    <item android:id="@id/qm_ruler"
+                        android:title="@string/tools_qm_ruler"
+                        android:icon="@drawable/ic_annotation_ruler_black_24dp"/>
+                    <item android:id="@id/qm_callout"
+                        android:title="@string/tools_qm_callout"
+                        android:icon="@drawable/ic_annotation_callout_black_24dp"/>
+                </group>
+            </menu>
+        </item>
+        <item android:id="@id/qm_form"
+            android:title="@string/tools_qm_form_create"
+            android:icon="@drawable/ic_assignment_black_24dp">
+            <menu>
+                <group android:id="@id/qm_first_row_group">
+                    <item android:id="@id/qm_form_text"
+                        android:title="@string/tools_qm_form_text"/>
+                    <item android:id="@id/qm_form_check_box"
+                        android:title="@string/tools_qm_form_checkbox"/>
+                    <item android:id="@id/qm_form_signature"
+                        android:title="@string/tools_qm_signature" />
+                </group>
+            </menu>
+        </item>
+        <item android:id="@id/qm_attach"
+            android:title="@string/tools_qm_attach">
+            <menu>
+                <group android:id="@id/qm_first_row_group">
+                    <item android:id="@id/qm_sound"
+                        android:icon="@drawable/ic_mic_black_24dp"
+                        android:title="@string/tools_qm_sound"/>
+                    <item android:id="@id/qm_file_attachment"
+                        android:icon="@drawable/ic_attach_file_black_24dp"
+                        android:title="@string/tools_qm_attach_file"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

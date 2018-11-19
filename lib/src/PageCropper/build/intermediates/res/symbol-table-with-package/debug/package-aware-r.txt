@@ -1,0 +1,19 @@
+com.edmodo.cropper
+attr aspectRatioX
+attr aspectRatioY
+attr fixAspectRatio
+attr guidelines
+attr imageResource
+color black_translucent
+dimen crop_dialog_margin
+id CropOverlayView
+id ImageView_image
+id bitmap_margin
+id off
+id on
+id onTouch
+layout crop_image_view
+string app_name
+style AppBaseTheme
+style AppTheme
+styleable CropImageView aspectRatioX aspectRatioY fixAspectRatio guidelines imageResource

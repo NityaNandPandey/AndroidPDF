@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.pdftron.demo.widget.ForegroundRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/card_elevation"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="@drawable/selector_grid_item_text_border"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <com.pdftron.demo.widget.SquareRelativeLayout
+        android:id="@+id/file_icon_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/selector_grid_item_bg"
+        android:foreground="@drawable/selector_grid_item_image_overlay">
+
+        <com.pdftron.demo.widget.ImageViewTopCrop
+            android:id="@+id/file_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="matrix"
+            fresco:placeholderImage="@drawable/white_square"
+            android:background="@android:color/white"
+            android:contentDescription="@string/imageview_icon_file_type_description" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/file_lock_icon"
+            app:srcCompat="@drawable/thumbnail_lock"
+            android:padding="@dimen/padding_small"
+            android:layout_width="@dimen/thumbnail_lock_size"
+            android:layout_height="@dimen/thumbnail_lock_size"
+            android:layout_gravity="end"
+            android:scaleType="centerInside"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/docTextPlaceHolder"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#8A000000"
+            android:textSize="16sp"
+            android:text=".doc"/>
+
+    </com.pdftron.demo.widget.SquareRelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/file_icon_layout"
+        android:paddingTop="@dimen/file_list_grid_padding"
+        android:background="?attr/selectableItemBackground">
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@drawable/selector_grid_item_bg"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/separator"
+            android:background="@drawable/selector_grid_item_text_bg" >
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/info_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin_xsmall"
+                android:layout_marginEnd="@dimen/margin_xsmall"
+                app:srcCompat="@drawable/selector_info_icon" />
+
+            <LinearLayout
+                android:id="@+id/text_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@id/info_icon"
+                android:layout_toStartOf="@id/info_icon"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/margin_xsmall"
+                android:paddingStart="@dimen/margin_xsmall"
+                android:paddingTop="@dimen/margin_xsmall"
+                android:paddingBottom="@dimen/margin_xsmall">
+
+                <TextView
+                    android:id="@+id/file_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="16sp"
+                    android:textColor="@drawable/selector_color_primary_text"
+                    android:gravity="center"
+                    android:ellipsize="middle"
+                    android:singleLine="true"
+                    tools:ignore="Deprecated"/>
+
+                <TextView
+                    android:id="@+id/file_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12sp"
+                    android:textColor="@drawable/selector_color_secondary_text"
+                    android:gravity="center"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    tools:ignore="Deprecated"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/info_button"
+                android:layout_width="@dimen/file_more_button_size"
+                android:layout_height="@dimen/file_more_button_size"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/more_icon_bg" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:alpha="0.15"
+        app:srcCompat="@android:drawable/screen_background_dark"
+        android:id="@+id/divider"
+        android:fitsSystemWindows="false"
+        android:visibility="gone"
+        android:scaleType="centerCrop" />
+</com.pdftron.demo.widget.ForegroundRelativeLayout>

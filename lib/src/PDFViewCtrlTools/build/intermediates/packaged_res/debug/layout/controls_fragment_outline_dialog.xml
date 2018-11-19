@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:rotationY="@integer/view_pager_rotation_y">
+
+    <RelativeLayout
+        android:id="@+id/control_outline_layout_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:paddingLeft="10dip"
+        android:paddingStart="10dip"
+        android:paddingRight="10dip"
+        android:paddingEnd="10dip"
+        android:background="@color/controls_outline_fragment_navigation_background" >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/control_outline_layout_navigation_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/controls_outline_image_view_padding"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+            android:tint="@color/gray600"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/controls_outline_dialog_imageview_back_description" />
+
+        <TextView
+            android:id="@+id/control_outline_layout_navigation_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="normal"
+            android:minHeight="45dip"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/control_outline_layout_navigation_back"
+            android:layout_toEndOf="@id/control_outline_layout_navigation_back"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <ListView android:id="@+id/control_outline_listview"
+               android:layout_width="match_parent"
+               android:layout_height="0dip"
+               android:layout_weight="1" />
+
+    <TextView android:id="@+id/control_outline_textview_empty"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="@string/controls_outline_dialog_empty"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:gravity="center_vertical|center_horizontal"
+               android:visibility="gone" />
+
+</LinearLayout>

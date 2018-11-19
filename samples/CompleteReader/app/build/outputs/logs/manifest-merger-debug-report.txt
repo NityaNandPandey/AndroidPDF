@@ -1,0 +1,279 @@
+-- Merging decision tree log ---
+meta-data#pdftron_license_key
+INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:21:9-23:52
+	android:value
+		INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:23:13-49
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:22:13-47
+provider#android.support.v4.content.FileProvider
+INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:375:9-383:20
+	android:grantUriPermissions
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:379:13-47
+	android:authorities
+		INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:377:13-60
+	android:exported
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:378:13-37
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:376:13-67
+manifest
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:2:1-388:12
+INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:2:1-388:12
+INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:2:1-388:12
+INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:2:1-388:12
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\u\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\0a002ba291e2a11b217559a6bdd4ca84\AndroidManifest.xml:17:1-22:12
+MERGED from [:pdfnet-demo-utils] E:\pdf\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-9:12
+MERGED from [:PDFViewCtrlTools] E:\pdf\PDFNetAndroid\lib\src\PDFViewCtrlTools\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-9:12
+MERGED from [:pdftron] C:\Users\u\.gradle\caches\transforms-1\files-1.1\pdftron.aar\fce6d6ab84e0328ef1128626882e4fa7\AndroidManifest.xml:2:1-9:12
+MERGED from [:FloatingActionButton] E:\pdf\PDFNetAndroid\lib\src\FloatingActionButton\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [:PageCropper] E:\pdf\PDFNetAndroid\lib\src\PageCropper\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\2d89c05a2bbfc02a4bba71b5b39264f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\336210474783e432261470c4771c20df\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\06171561b6e55adfec4914611e6223f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\7f7171890b5ebf476a5fb32930b8ad0b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4f58d65be07fa8a8f77032c4fb368ab3\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\extensions-1.0.0.aar\783329db0987c43e6ad5c1f0f47c81b7\AndroidManifest.xml:17:1-32:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\u\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\198f23d4e756a66fdf8def8913a6e16d\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fresco:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\fresco-1.2.0.aar\9f960af0e1e78e1c610a255ff2694e9e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-gif:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\animated-gif-1.2.0.aar\5eecff8079f55c2a31e476cf593ba64f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\c78a2c0a9050c0b55dcb26dc34011a64\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\ed3caff1df605093bc2c2e2c1f63d359\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\4346b301888cc410191d3d6311b77fc4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\c3e5bed0ad5cdbea339ac94c28856f60\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f538495413b74e0aac7c073dab4f732a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\6564865407fa2f1551fb8e930b2b82e0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\d7bae3462b978f645390b6ff776dfed8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\53f26bce239014444a41a12210ebb734\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\u\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\7eff1cbcacee20f36e06f7108175e6f0\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.core:runtime:1.0.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9febe64b5fa150de91c5203470ad3e21\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:drawee:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\drawee-1.2.0.aar\e05ac6d18295cd4704a1de68a68e4b5c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-base:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\animated-base-1.2.0.aar\4bfbdf287867e829dc203e322da71b91\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.2.0.aar\b46073b7258c3eb237ae2798fa5467ff\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.2.0.aar\631d3876414601e8208e278a30e986c6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\fbcore-1.2.0.aar\7260fcc32844ac59b7bebc4fea3afa41\AndroidManifest.xml:2:1-9:12
+INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:2:1-388:12
+INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:2:1-388:12
+INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:2:1-388:12
+	package
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+		INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:2:1-388:12
+		INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:2:1-388:12
+		INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:9:22-68
+application
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:11:5-386:19
+MERGED from [:FloatingActionButton] E:\pdf\PDFNetAndroid\lib\src\FloatingActionButton\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:5-20
+MERGED from [:FloatingActionButton] E:\pdf\PDFNetAndroid\lib\src\FloatingActionButton\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4f58d65be07fa8a8f77032c4fb368ab3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4f58d65be07fa8a8f77032c4fb368ab3\AndroidManifest.xml:9:5-20
+MERGED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\extensions-1.0.0.aar\783329db0987c43e6ad5c1f0f47c81b7\AndroidManifest.xml:24:5-30:19
+MERGED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\extensions-1.0.0.aar\783329db0987c43e6ad5c1f0f47c81b7\AndroidManifest.xml:24:5-30:19
+	android:supportsRtl
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:15:9-41
+	android:roundIcon
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:17:9-54
+	android:largeHeap
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:16:9-33
+	android:icon
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:19:9-40
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:12:9-68
+activity#com.pdftron.completereader.MainActivity
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:25:9-32:20
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:25:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.pdftron.demo.app.SimpleReaderActivity
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:34:9-38:55
+	android:windowSoftInputMode
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:38:13-52
+	android:configChanges
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:36:13-106
+	android:theme
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:37:13-50
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:35:13-69
+activity#com.pdftron.demo.app.AdvancedReaderActivity
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:40:9-368:20
+	android:windowSoftInputMode
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:44:13-52
+	android:configChanges
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:42:13-106
+	android:theme
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:43:13-50
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:41:13-71
+intent-filter#action:name:android.intent.action.EDIT+action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/msword+data:mimeType:application/pdf+data:mimeType:application/vnd.openxmlformats-officedocument.presentationml.presentation+data:mimeType:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet+data:mimeType:application/vnd.openxmlformats-officedocument.wordprocessingml.document+data:mimeType:application/x-cbr+data:mimeType:image/gif+data:mimeType:image/jpeg+data:mimeType:image/png+data:mimeType:text/markdown
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:46:13-62:29
+action#android.intent.action.VIEW
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:47:25-66
+action#android.intent.action.EDIT
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:48:17-69
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:48:25-66
+category#android.intent.category.DEFAULT
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:50:17-76
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:50:27-73
+data
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:52:17-60
+	android:host
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:71:21-37
+	android:scheme
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:73:21-42
+	android:pathPattern
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:72:21-51
+	android:mimeType
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:52:23-57
+intent-filter#action:name:android.intent.action.EDIT+action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:pathPattern:.*\\.BMP+data:pathPattern:.*\\.CBZ+data:pathPattern:.*\\.DOC+data:pathPattern:.*\\.DOCX+data:pathPattern:.*\\.GIF+data:pathPattern:.*\\.JPEG+data:pathPattern:.*\\.JPG+data:pathPattern:.*\\.MD+data:pathPattern:.*\\.PDF+data:pathPattern:.*\\.PNG+data:pathPattern:.*\\.PPTX+data:pathPattern:.*\\.XLSX+data:pathPattern:.*\\.bmp+data:pathPattern:.*\\.cbz+data:pathPattern:.*\\.doc+data:pathPattern:.*\\.docx+data:pathPattern:.*\\.gif+data:pathPattern:.*\\.jpeg+data:pathPattern:.*\\.jpg+data:pathPattern:.*\\.md+data:pathPattern:.*\\.pdf+data:pathPattern:.*\\.png+data:pathPattern:.*\\.pptx+data:pathPattern:.*\\.xlsx+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file+data:scheme:file
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:64:13-166:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:host:*+data:pathPattern:.*\\.BMP+data:pathPattern:.*\\.BMP+data:pathPattern:.*\\.CBZ+data:pathPattern:.*\\.CBZ+data:pathPattern:.*\\.DOC+data:pathPattern:.*\\.DOC+data:pathPattern:.*\\.DOCX+data:pathPattern:.*\\.DOCX+data:pathPattern:.*\\.GIF+data:pathPattern:.*\\.GIF+data:pathPattern:.*\\.JPEG+data:pathPattern:.*\\.JPEG+data:pathPattern:.*\\.JPG+data:pathPattern:.*\\.JPG+data:pathPattern:.*\\.MD+data:pathPattern:.*\\.MD+data:pathPattern:.*\\.PDF+data:pathPattern:.*\\.PDF+data:pathPattern:.*\\.PNG+data:pathPattern:.*\\.PNG+data:pathPattern:.*\\.PPTX+data:pathPattern:.*\\.PPTX+data:pathPattern:.*\\.XLSX+data:pathPattern:.*\\.XLSX+data:pathPattern:.*\\.bmp+data:pathPattern:.*\\.bmp+data:pathPattern:.*\\.cbz+data:pathPattern:.*\\.cbz+data:pathPattern:.*\\.doc+data:pathPattern:.*\\.doc+data:pathPattern:.*\\.docx+data:pathPattern:.*\\.docx+data:pathPattern:.*\\.gif+data:pathPattern:.*\\.gif+data:pathPattern:.*\\.jpeg+data:pathPattern:.*\\.jpeg+data:pathPattern:.*\\.jpg+data:pathPattern:.*\\.jpg+data:pathPattern:.*\\.md+data:pathPattern:.*\\.md+data:pathPattern:.*\\.pdf+data:pathPattern:.*\\.pdf+data:pathPattern:.*\\.png+data:pathPattern:.*\\.png+data:pathPattern:.*\\.pptx+data:pathPattern:.*\\.pptx+data:pathPattern:.*\\.xlsx+data:pathPattern:.*\\.xlsx+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:http+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https+data:scheme:https
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:168:13-366:29
+category#android.intent.category.BROWSABLE
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:172:17-78
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:172:27-75
+activity#com.pdftron.demo.app.SettingsActivity
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:370:9-373:53
+	android:parentActivityName
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:372:13-85
+	android:theme
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:373:13-50
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:371:13-65
+uses-sdk
+INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\u\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\0a002ba291e2a11b217559a6bdd4ca84\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\u\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\0a002ba291e2a11b217559a6bdd4ca84\AndroidManifest.xml:20:5-43
+MERGED from [:pdfnet-demo-utils] E:\pdf\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:pdfnet-demo-utils] E:\pdf\PDFNetAndroid\lib\src\pdfnet-demo-utils\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:PDFViewCtrlTools] E:\pdf\PDFNetAndroid\lib\src\PDFViewCtrlTools\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:PDFViewCtrlTools] E:\pdf\PDFNetAndroid\lib\src\PDFViewCtrlTools\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:pdftron] C:\Users\u\.gradle\caches\transforms-1\files-1.1\pdftron.aar\fce6d6ab84e0328ef1128626882e4fa7\AndroidManifest.xml:5:5-7:41
+MERGED from [:pdftron] C:\Users\u\.gradle\caches\transforms-1\files-1.1\pdftron.aar\fce6d6ab84e0328ef1128626882e4fa7\AndroidManifest.xml:5:5-7:41
+MERGED from [:FloatingActionButton] E:\pdf\PDFNetAndroid\lib\src\FloatingActionButton\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:FloatingActionButton] E:\pdf\PDFNetAndroid\lib\src\FloatingActionButton\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:PageCropper] E:\pdf\PDFNetAndroid\lib\src\PageCropper\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:PageCropper] E:\pdf\PDFNetAndroid\lib\src\PageCropper\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\2d89c05a2bbfc02a4bba71b5b39264f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\2d89c05a2bbfc02a4bba71b5b39264f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\336210474783e432261470c4771c20df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\336210474783e432261470c4771c20df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\06171561b6e55adfec4914611e6223f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\06171561b6e55adfec4914611e6223f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\7f7171890b5ebf476a5fb32930b8ad0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\7f7171890b5ebf476a5fb32930b8ad0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4f58d65be07fa8a8f77032c4fb368ab3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\4f58d65be07fa8a8f77032c4fb368ab3\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\extensions-1.0.0.aar\783329db0987c43e6ad5c1f0f47c81b7\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\extensions-1.0.0.aar\783329db0987c43e6ad5c1f0f47c81b7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\u\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\198f23d4e756a66fdf8def8913a6e16d\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\u\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\198f23d4e756a66fdf8def8913a6e16d\AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.fresco:fresco:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\fresco-1.2.0.aar\9f960af0e1e78e1c610a255ff2694e9e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\fresco-1.2.0.aar\9f960af0e1e78e1c610a255ff2694e9e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\animated-gif-1.2.0.aar\5eecff8079f55c2a31e476cf593ba64f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\animated-gif-1.2.0.aar\5eecff8079f55c2a31e476cf593ba64f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\c78a2c0a9050c0b55dcb26dc34011a64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\c78a2c0a9050c0b55dcb26dc34011a64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\ed3caff1df605093bc2c2e2c1f63d359\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\ed3caff1df605093bc2c2e2c1f63d359\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\4346b301888cc410191d3d6311b77fc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\4346b301888cc410191d3d6311b77fc4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\c3e5bed0ad5cdbea339ac94c28856f60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\c3e5bed0ad5cdbea339ac94c28856f60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f538495413b74e0aac7c073dab4f732a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f538495413b74e0aac7c073dab4f732a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\6564865407fa2f1551fb8e930b2b82e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\6564865407fa2f1551fb8e930b2b82e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\d7bae3462b978f645390b6ff776dfed8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\d7bae3462b978f645390b6ff776dfed8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\53f26bce239014444a41a12210ebb734\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\u\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\53f26bce239014444a41a12210ebb734\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\u\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\7eff1cbcacee20f36e06f7108175e6f0\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\u\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\7eff1cbcacee20f36e06f7108175e6f0\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.core:runtime:1.0.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9febe64b5fa150de91c5203470ad3e21\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.core:runtime:1.0.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9febe64b5fa150de91c5203470ad3e21\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:drawee:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\drawee-1.2.0.aar\e05ac6d18295cd4704a1de68a68e4b5c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\drawee-1.2.0.aar\e05ac6d18295cd4704a1de68a68e4b5c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\animated-base-1.2.0.aar\4bfbdf287867e829dc203e322da71b91\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\animated-base-1.2.0.aar\4bfbdf287867e829dc203e322da71b91\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.2.0.aar\b46073b7258c3eb237ae2798fa5467ff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.2.0.aar\b46073b7258c3eb237ae2798fa5467ff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.2.0.aar\631d3876414601e8208e278a30e986c6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.2.0.aar\631d3876414601e8208e278a30e986c6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\fbcore-1.2.0.aar\7260fcc32844ac59b7bebc4fea3afa41\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.2.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\fbcore-1.2.0.aar\7260fcc32844ac59b7bebc4fea3afa41\AndroidManifest.xml:5:5-7:41
+INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+		INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+		INJECTED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:380:13-382:58
+	android:resource
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:382:17-55
+	android:name
+		ADDED from E:\pdf\PDFNetAndroid\samples\CompleteReader\app\src\main\AndroidManifest.xml:381:17-67
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\extensions-1.0.0.aar\783329db0987c43e6ad5c1f0f47c81b7\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\extensions-1.0.0.aar\783329db0987c43e6ad5c1f0f47c81b7\AndroidManifest.xml:27:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\extensions-1.0.0.aar\783329db0987c43e6ad5c1f0f47c81b7\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\extensions-1.0.0.aar\783329db0987c43e6ad5c1f0f47c81b7\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] C:\Users\u\.gradle\caches\transforms-1\files-1.1\extensions-1.0.0.aar\783329db0987c43e6ad5c1f0f47c81b7\AndroidManifest.xml:26:13-83

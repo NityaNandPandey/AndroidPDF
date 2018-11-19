@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="controls_annot_style_preview_bg">@color/gray97</color>
+</resources>

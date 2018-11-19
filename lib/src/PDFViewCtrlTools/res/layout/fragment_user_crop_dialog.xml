@@ -1,0 +1,151 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:id="@+id/layout_root"
+             android:tag="layout-default"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.pdftron.pdf.controls.UserCropDialogFragment">
+
+    <LinearLayout
+        android:id="@+id/manual_crop_root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_margin="5dp">
+
+            <include
+                layout="@layout/fragment_user_crop_crop_region"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/prev_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_chevron_left_black_24dp"
+                    android:tint="?android:attr/colorForeground"
+                    style="@style/transparent_button"/>
+
+                <TextView
+                    android:id="@+id/page_num_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:minWidth="100dp"
+                    android:text=""
+                    android:layout_gravity="center_vertical" />
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/next_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_chevron_right_black_24dp"
+                    android:tint="?android:attr/colorForeground"
+                    style="@style/transparent_button"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+                <Button
+                    android:id="@+id/crop_all_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_crop_manual_crop_all_pages"
+                    style="@style/transparent_button"
+                    android:layout_marginRight="5dp" />
+
+                <Button
+                    android:id="@+id/crop_evenodd_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_crop_manual_crop_odd_pages"
+                    style="@style/transparent_button"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/done_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dialog_button_default_margin_padding"
+                android:layout_marginStart="@dimen/dialog_button_default_margin_padding"
+                android:layout_marginRight="@dimen/dialog_button_default_margin_padding"
+                android:layout_marginEnd="@dimen/dialog_button_default_margin_padding"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:text="@string/user_crop_manual_crop_done"
+                style="@style/transparent_button"/>
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/done_button"
+                android:layout_toStartOf="@id/done_button"
+                android:layout_marginLeft="@dimen/dialog_button_default_margin_padding"
+                android:layout_marginStart="@dimen/dialog_button_default_margin_padding"
+                android:text="@string/cancel"
+                style="@style/transparent_button"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/disabling_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/progress_bar_host"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#44000000"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

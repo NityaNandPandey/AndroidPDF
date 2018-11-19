@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/open_button"/>
+    <corners
+        android:radius="@dimen/tools_grid_color_picker_round_corners"/>
+</shape>

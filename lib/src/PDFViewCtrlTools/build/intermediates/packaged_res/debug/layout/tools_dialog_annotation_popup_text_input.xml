@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tools_dialog_annotation_popup_root_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/tools_dialog_annotation_popup_background">
+
+    <RelativeLayout
+        android:id="@+id/tools_dialog_annotation_popup_button_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/tools_dialog_annotation_popup_background">
+
+        <!--suppress AndroidDomInspection svg -->
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/tools_dialog_annotation_popup_button_style"
+            android:layout_height="@dimen/dialog_button_height"
+            android:layout_width="@dimen/dialog_button_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dialog_button_default_margin_padding"
+            android:layout_marginEnd="@dimen/dialog_button_default_margin_padding"
+            android:layout_marginLeft="@dimen/dialog_button_default_margin_padding"
+            android:layout_marginStart="@dimen/dialog_button_default_margin_padding"
+            app:srcCompat="@drawable/paragraph_sign"
+            android:visibility="gone"
+            style="@style/transparent_button"/>
+
+        <Button
+            android:id="@+id/tools_dialog_annotation_popup_button_positive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dialog_button_default_margin_padding"
+            android:layout_marginStart="@dimen/dialog_button_default_margin_padding"
+            android:layout_marginRight="@dimen/dialog_button_default_margin_padding"
+            android:layout_marginEnd="@dimen/dialog_button_default_margin_padding"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/tools_misc_save"
+            style="@style/transparent_dialog_annotation_note_button"/>
+
+        <Button
+            android:id="@+id/tools_dialog_annotation_popup_button_negative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/tools_dialog_annotation_popup_button_positive"
+            android:layout_toStartOf="@id/tools_dialog_annotation_popup_button_positive"
+            android:layout_marginLeft="@dimen/dialog_button_default_margin_padding"
+            android:layout_marginStart="@dimen/dialog_button_default_margin_padding"
+            android:text="@string/cancel"
+            style="@style/transparent_dialog_annotation_note_button"/>
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/tools_dialog_annotation_popup_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:background="@color/tools_dialog_annotation_popup_textbox_background"
+        android:paddingTop="@dimen/tools_annotation_dialog_popup_edit_text_padding"
+        android:paddingRight="@dimen/tools_annotation_dialog_popup_edit_text_padding"
+        android:paddingEnd="@dimen/tools_annotation_dialog_popup_edit_text_padding"
+        android:paddingLeft="@dimen/tools_annotation_dialog_popup_edit_text_padding"
+        android:paddingStart="@dimen/tools_annotation_dialog_popup_edit_text_padding"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:hint="@string/tools_dialog_annotation_popup_note_hint"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/tools_dialog_annotation_popup_button_bar"/>
+
+</RelativeLayout>

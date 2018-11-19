@@ -1,0 +1,2154 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="description" content="Javadoc API documentation for PDFTron Systems Inc.." />
+
+<link rel="shortcut icon" type="image/x-icon" href="../../../../favicon.ico" />
+<title>
+
+  ViewerConfig.Builder - Tools API
+
+
+| PDFTron Systems Inc.
+
+</title>
+<link href="../../../../../assets/doclava-developer-docs.css" rel="stylesheet" type="text/css" />
+<link href="../../../../../assets/customizations.css" rel="stylesheet" type="text/css" />
+<script src="../../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../../assets/doclava-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../../", "../../../../../assets/");
+</script>
+<script src="../../../../../assets/doclava-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../../assets/navtree_data.js" type="text/javascript"></script>
+<script src="../../../../../assets/customizations.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="">
+
+<div id="header">
+    <div id="headerLeft">
+    
+      <span id="masthead-title">PDFTron Systems Inc.</span>
+    
+    </div>
+    <div id="headerRight">
+      
+  <div id="search" >
+      <div id="searchForm">
+          <form accept-charset="utf-8" class="gsc-search-box" 
+                onsubmit="return submit_search()">
+            <table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody>
+                <tr>
+                  <td class="gsc-input">
+                    <input id="search_autocomplete" class="gsc-input" type="text" size="33" autocomplete="off"
+                      title="search developer docs" name="q"
+                      value="search developer docs"
+                      onFocus="search_focus_changed(this, true)"
+                      onBlur="search_focus_changed(this, false)"
+                      onkeydown="return search_changed(event, true, '../../../../')"
+                      onkeyup="return search_changed(event, false, '../../../../')" />
+                  <div id="search_filtered_div" class="no-display">
+                      <table id="search_filtered" cellspacing=0>
+                      </table>
+                  </div>
+                  </td>
+                  <td class="gsc-search-button">
+                    <input type="submit" value="Search" title="search" id="search-button" class="gsc-search-button" />
+                  </td>
+                  <td class="gsc-clear-button">
+                    <div title="clear results" class="gsc-clear-button">&nbsp;</div>
+                  </td>
+                </tr></tbody>
+              </table>
+          </form>
+      </div><!-- searchForm -->
+  </div><!-- search -->
+      
+    </div>
+</div><!-- header -->
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links">
+                <a href="../../../../packages.html"  >Package Index</a> | 
+                <a href="../../../../classes.html" >Class Index</a>
+              </div>
+              <ul>
+                
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/adapter/package-summary.html">com.pdftron.pdf.adapter</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/asynctask/package-summary.html">com.pdftron.pdf.asynctask</a></li>
+    <li class="selected api apilevel-">
+  <a href="../../../../com/pdftron/pdf/config/package-summary.html">com.pdftron.pdf.config</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/controls/package-summary.html">com.pdftron.pdf.controls</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/dialog/package-summary.html">com.pdftron.pdf.dialog</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/interfaces/package-summary.html">com.pdftron.pdf.interfaces</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/model/package-summary.html">com.pdftron.pdf.model</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/tools/package-summary.html">com.pdftron.pdf.tools</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/utils/package-summary.html">com.pdftron.pdf.utils</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/widget/package-summary.html">com.pdftron.pdf.widget</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/widget/recyclerview/package-summary.html">com.pdftron.pdf.widget.recyclerview</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/widget/recyclerview/decoration/package-summary.html">com.pdftron.pdf.widget.recyclerview.decoration</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+            <ul>
+              
+    <li><h2>Interfaces</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/config/ToolConfig.PanLongPressSwitchToolCallback.html">ToolConfig.PanLongPressSwitchToolCallback</a></li>
+      </ul>
+    </li>
+              
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/config/PDFNetConfig.html">PDFNetConfig</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/config/PDFViewCtrlConfig.html">PDFViewCtrlConfig</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/config/ToolConfig.html">ToolConfig</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/config/ToolManagerBuilder.html">ToolManagerBuilder</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/config/ToolStyleConfig.html">ToolStyleConfig</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.html">ViewerConfig</a></li>
+          <li class="selected api apilevel-"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a></li>
+      </ul>
+    </li>
+              
+              
+              
+              
+            </ul><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links">
+            <a href="../../../../packages.html"  >Package Index</a> | 
+            <a href="../../../../classes.html" >Class Index</a>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+  
+   
+  
+  
+  
+  
+
+
+<div class="sum-details-links">
+
+
+Summary:
+
+
+
+
+
+
+
+
+
+  <a href="#pubctors">Ctors</a>
+  
+
+
+
+  &#124; <a href="#pubmethods">Methods</a>
+  
+
+
+
+  &#124; <a href="#inhmethods">Inherited Methods</a>
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+
+
+  
+  
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+    static 
+     
+    
+    class
+<h1>ViewerConfig.Builder</h1>
+
+
+
+  
+    extends Object<br/>
+  
+  
+  
+
+  
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="2" class="jd-inheritance-class-cell">java.lang.Object</td>
+    </tr>
+    
+
+    <tr>
+        
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">com.pdftron.pdf.config.ViewerConfig.Builder</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<table id="pubctors" class="jd-sumtable"><tr><th colspan="12">Public Constructors</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#Builder()">Builder</a></span>()
+        
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="pubmethods" class="jd-sumtable"><tr><th colspan="12">Public Methods</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.html">ViewerConfig</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#build()">build</a></span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#documentEditingEnabled(boolean)">documentEditingEnabled</a></span>(boolean documentEditingEnabled)
+        
+        <div class="jd-descrdiv">Whether to enable document editing.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#fullscreenModeEnabled(boolean)">fullscreenModeEnabled</a></span>(boolean fullscreenModeEnabled)
+        
+        <div class="jd-descrdiv">Whether to enable full screen mode.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#longPressQuickMenuEnabled(boolean)">longPressQuickMenuEnabled</a></span>(boolean longPressQuickMenuEnabled)
+        
+        <div class="jd-descrdiv">Whether to enable long press quick menu.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#multiTabEnabled(boolean)">multiTabEnabled</a></span>(boolean multiTab)
+        
+        <div class="jd-descrdiv">Whether to enable multi-tab mode.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#pdfViewCtrlConfig(com.pdftron.pdf.config.PDFViewCtrlConfig)">pdfViewCtrlConfig</a></span>(<a href="../../../../com/pdftron/pdf/config/PDFViewCtrlConfig.html">PDFViewCtrlConfig</a> config)
+        
+        <div class="jd-descrdiv">Sets the <code><a href="../../../../com/pdftron/pdf/config/PDFViewCtrlConfig.html">PDFViewCtrlConfig</a></code> for com.pdftron.pdf.PDFViewCtrl
+</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#rightToLeftModeEnabled(boolean)">rightToLeftModeEnabled</a></span>(boolean rightToLeftModeEnabled)
+        
+        <div class="jd-descrdiv">Whether to view documents from right to left.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#setToolManagerBuilder(com.pdftron.pdf.config.ToolManagerBuilder)">setToolManagerBuilder</a></span>(<a href="../../../../com/pdftron/pdf/config/ToolManagerBuilder.html">ToolManagerBuilder</a> toolManagerBuilder)
+        
+        <div class="jd-descrdiv">Sets tool manager builder for building tool manager</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showAnnotationToolbarOption(boolean)">showAnnotationToolbarOption</a></span>(boolean showAnnotationToolbarOption)
+        
+        <div class="jd-descrdiv">If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showAnnotationsList(boolean)">showAnnotationsList</a></span>(boolean showAnnotationsList)
+        
+        <div class="jd-descrdiv">If ViewerConfig#showBookmarksView returns false,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showBookmarksView(boolean)">showBookmarksView</a></span>(boolean showBookmarksView)
+        
+        <div class="jd-descrdiv">If ViewerConfig#showBottomNavBar returns false,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showBottomNavBar(boolean)">showBottomNavBar</a></span>(boolean showBottomNavBar)
+        
+        <div class="jd-descrdiv">Whether to show bottom navigation bar.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showCloseTabOption(boolean)">showCloseTabOption</a></span>(boolean showCloseTabOption)
+        
+        <div class="jd-descrdiv">If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showDocumentSettingsOption(boolean)">showDocumentSettingsOption</a></span>(boolean showDocumentSettingsOption)
+        
+        <div class="jd-descrdiv">If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showEditPagesOption(boolean)">showEditPagesOption</a></span>(boolean showEditPagesOption)
+        
+        <div class="jd-descrdiv">If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showOpenFileOption(boolean)">showOpenFileOption</a></span>(boolean showOpenFileOption)
+        
+        <div class="jd-descrdiv">If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showOpenUrlOption(boolean)">showOpenUrlOption</a></span>(boolean showOpenUrlOption)
+        
+        <div class="jd-descrdiv">If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showOutlineList(boolean)">showOutlineList</a></span>(boolean showOutlineList)
+        
+        <div class="jd-descrdiv">If ViewerConfig#showBookmarksView returns false,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showPageNumberIndicator(boolean)">showPageNumberIndicator</a></span>(boolean showPageNumberIndicator)
+        
+        <div class="jd-descrdiv">Whether to show page number indicator overlay.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showPrintOption(boolean)">showPrintOption</a></span>(boolean showPrintOption)
+        
+        <div class="jd-descrdiv">If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showRightToLeftOption(boolean)">showRightToLeftOption</a></span>(boolean showRightToLeftOption)
+        
+        <div class="jd-descrdiv">Whether to enable RTL option in the view mode dialog.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showSearchView(boolean)">showSearchView</a></span>(boolean showSearchView)
+        
+        <div class="jd-descrdiv">If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showShareOption(boolean)">showShareOption</a></span>(boolean showShareOption)
+        
+        <div class="jd-descrdiv">If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showThumbnailView(boolean)">showThumbnailView</a></span>(boolean showThumbnailView)
+        
+        <div class="jd-descrdiv">If ViewerConfig#showBottomNavBar returns false,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#showUserBookmarksList(boolean)">showUserBookmarksList</a></span>(boolean showUserBookmarksList)
+        
+        <div class="jd-descrdiv">If ViewerConfig#showBookmarksView returns false,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#toolManagerBuilderStyleRes(int)">toolManagerBuilderStyleRes</a></span>(int styleRes)
+        
+        <div class="jd-descrdiv">Sets the style resource ID used for <code><a href="../../../../com/pdftron/pdf/config/ToolManagerBuilder.html">ToolManagerBuilder</a></code>
+</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html#toolbarTitle(java.lang.String)">toolbarTitle</a></span>(String toolbarTitle)
+        
+        <div class="jd-descrdiv">If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.</div>
+  
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="inhmethods" class="jd-sumtable"><tr><th>
+  <a href="#" class="toggle-all" onclick="return toggleAllInherited(this, null)">[Expand]</a>
+  <div style="clear:left;">Inherited Methods</div></th></tr>
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-java.lang.Object" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-java.lang.Object-trigger"
+          src="../../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From class
+
+  java.lang.Object
+
+<div id="inherited-methods-java.lang.Object">
+  <div id="inherited-methods-java.lang.Object-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Object-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            Object
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">clone</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            boolean
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">equals</span>(Object arg0)
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">finalize</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            Class&lt;?&gt;
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">getClass</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            int
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">hashCode</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">notify</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">notifyAll</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            String
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">toString</span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">wait</span>(long arg0, int arg1)
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">wait</span>(long arg0)
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            final
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad">wait</span>()
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<h2>Public Constructors</h2>
+
+
+
+<a id="Builder()"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        
+      </span>
+      <span class="sympad">Builder</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2>Public Methods</h2>
+
+
+
+<a id="build()"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.html">ViewerConfig</a>
+      </span>
+      <span class="sympad">build</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
+<a id="documentEditingEnabled(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">documentEditingEnabled</span>
+      <span class="normal">(boolean documentEditingEnabled)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Whether to enable document editing.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="fullscreenModeEnabled(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">fullscreenModeEnabled</span>
+      <span class="normal">(boolean fullscreenModeEnabled)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Whether to enable full screen mode.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="longPressQuickMenuEnabled(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">longPressQuickMenuEnabled</span>
+      <span class="normal">(boolean longPressQuickMenuEnabled)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Whether to enable long press quick menu.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="multiTabEnabled(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">multiTabEnabled</span>
+      <span class="normal">(boolean multiTab)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Whether to enable multi-tab mode.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="pdfViewCtrlConfig(com.pdftron.pdf.config.PDFViewCtrlConfig)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">pdfViewCtrlConfig</span>
+      <span class="normal">(<a href="../../../../com/pdftron/pdf/config/PDFViewCtrlConfig.html">PDFViewCtrlConfig</a> config)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Sets the <code><a href="../../../../com/pdftron/pdf/config/PDFViewCtrlConfig.html">PDFViewCtrlConfig</a></code> for com.pdftron.pdf.PDFViewCtrl
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="rightToLeftModeEnabled(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">rightToLeftModeEnabled</span>
+      <span class="normal">(boolean rightToLeftModeEnabled)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Whether to view documents from right to left.
+ If ViewerConfig#showRightToLeftOption return false,
+ then this value is ignored.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="setToolManagerBuilder(com.pdftron.pdf.config.ToolManagerBuilder)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">setToolManagerBuilder</span>
+      <span class="normal">(<a href="../../../../com/pdftron/pdf/config/ToolManagerBuilder.html">ToolManagerBuilder</a> toolManagerBuilder)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Sets tool manager builder for building tool manager</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>toolManagerBuilder</th>
+          <td>The tool manager buidler</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>This PDFViewCtrlConfig
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="showAnnotationToolbarOption(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showAnnotationToolbarOption</span>
+      <span class="normal">(boolean showAnnotationToolbarOption)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.
+ Whether to show annotation toolbar view icon.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showAnnotationsList(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showAnnotationsList</span>
+      <span class="normal">(boolean showAnnotationsList)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If ViewerConfig#showBookmarksView returns false,
+ then this value is ignored.
+ Whether to show annotation list.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showBookmarksView(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showBookmarksView</span>
+      <span class="normal">(boolean showBookmarksView)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If ViewerConfig#showBottomNavBar returns false,
+ then this value is ignored.
+ If all of ViewerConfig#showAnnotationsList,
+ ViewerConfig#showOutlineList, and
+ ViewerConfig#showUserBookmarksList return false,
+ then this value is ignored.
+ Whether to show bookmarks view icon.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showBottomNavBar(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showBottomNavBar</span>
+      <span class="normal">(boolean showBottomNavBar)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Whether to show bottom navigation bar.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showCloseTabOption(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showCloseTabOption</span>
+      <span class="normal">(boolean showCloseTabOption)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.
+ Whether to show close document option in the overflow menu.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showDocumentSettingsOption(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showDocumentSettingsOption</span>
+      <span class="normal">(boolean showDocumentSettingsOption)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.
+ Whether to show bookmarks view icon.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showEditPagesOption(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showEditPagesOption</span>
+      <span class="normal">(boolean showEditPagesOption)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.
+ Whether to show edit pages option.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showOpenFileOption(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showOpenFileOption</span>
+      <span class="normal">(boolean showOpenFileOption)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.
+ Whether to show open file option.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showOpenUrlOption(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showOpenUrlOption</span>
+      <span class="normal">(boolean showOpenUrlOption)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.
+ Whether to show open url option.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showOutlineList(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showOutlineList</span>
+      <span class="normal">(boolean showOutlineList)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If ViewerConfig#showBookmarksView returns false,
+ then this value is ignored.
+ Whether to show outline list.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showPageNumberIndicator(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showPageNumberIndicator</span>
+      <span class="normal">(boolean showPageNumberIndicator)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Whether to show page number indicator overlay.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showPrintOption(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showPrintOption</span>
+      <span class="normal">(boolean showPrintOption)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.
+ Whether to show print option.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showRightToLeftOption(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showRightToLeftOption</span>
+      <span class="normal">(boolean showRightToLeftOption)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Whether to enable RTL option in the view mode dialog.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showSearchView(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showSearchView</span>
+      <span class="normal">(boolean showSearchView)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.
+ Whether to show search view icon.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showShareOption(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showShareOption</span>
+      <span class="normal">(boolean showShareOption)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.
+ Whether to show share icon.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showThumbnailView(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showThumbnailView</span>
+      <span class="normal">(boolean showThumbnailView)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If ViewerConfig#showBottomNavBar returns false,
+ then this value is ignored.
+ Whether to show thumbnail view icon.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="showUserBookmarksList(boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">showUserBookmarksList</span>
+      <span class="normal">(boolean showUserBookmarksList)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If ViewerConfig#showBookmarksView returns false,
+ then this value is ignored.
+ Whether to show user bookmarks list.
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="toolManagerBuilderStyleRes(int)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">toolManagerBuilderStyleRes</span>
+      <span class="normal">(int styleRes)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Sets the style resource ID used for <code><a href="../../../../com/pdftron/pdf/config/ToolManagerBuilder.html">ToolManagerBuilder</a></code>
+</p></div>
+
+    </div>
+</div>
+
+
+<a id="toolbarTitle(java.lang.String)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/pdftron/pdf/config/ViewerConfig.Builder.html">ViewerConfig.Builder</a>
+      </span>
+      <span class="sympad">toolbarTitle</span>
+      <span class="normal">(String toolbarTitle)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>If Activity or Fragment supply its own Toolbar,
+ then this value is ignored.
+ Toolbar title.
+</p></div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<a id="navbar_top"></a>
+
+<div id="footer">
+Generated by <a href="http://code.google.com/p/doclava/">Doclava</a>.
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize doclava-developer-docs.js */
+</script>
+
+</body>
+</html>

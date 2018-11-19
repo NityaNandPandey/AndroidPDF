@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferenceScreen">
+
+    <!--
+
+    ===============================================================
+                              IMPORTANT
+    ===============================================================
+    The key names and values used here must be conform to what is declared in
+    SettingsManager class. This is because we read these values from that
+    class to be used across the application.
+
+    -->
+
+    <PreferenceCategory
+        android:title="@string/pref_category_viewing"
+        android:key="pref_category_viewing">
+
+        <CheckBoxPreference
+            android:key="pref_full_screen_mode"
+            android:title="@string/pref_full_screen_mode_title"
+            android:summary="@string/pref_full_screen_mode_summary"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="pref_screen_stay_lock"
+            android:title="@string/pref_screen_stay_lock_title"
+            android:summary="@string/pref_screen_stay_lock_summary"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:key="pref_multiple_tabs"
+            android:title="@string/pref_multiple_tabs_title"
+            android:summary="@string/pref_multiple_tabs_summary"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="pref_remember_last_page"
+            android:title="@string/pref_remember_last_page_title"
+            android:summary="@string/pref_remember_last_page_summary"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="pref_allow_page_change_on_tap"
+            android:title="@string/pref_allow_page_change_on_tap"
+            android:summary="@string/pref_allow_page_change_on_tap_summary"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="pref_page_change_animation"
+            android:title="@string/pref_page_change_animation"
+            android:summary="@string/pref_page_change_animation_summary"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="pref_page_number_overlay"
+            android:title="@string/pref_page_number_overlay"
+            android:summary="@string/pref_page_number_overlay_summary"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="pref_image_smoothing"
+            android:title="@string/pref_image_smoothing_title"
+            android:summary="@string/pref_image_smoothing_summary"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="pref_rtl_mode_option"
+            android:title="@string/pref_rtl_mode_option_title"
+            android:summary="@string/pref_rtl_mode_option_summary"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:key="pref_maintain_zoom_option"
+            android:title="@string/pref_maintain_zoom_option_title"
+            android:summary="@string/pref_maintain_zoom_option_summary"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="pref_enable_javascript"
+            android:title="@string/pref_enable_javascript_name"
+            android:summary="@string/pref_enable_javascript_summary"
+            android:defaultValue="true"/>
+
+        <ListPreference
+            android:key="pref_page_view_mode"
+            android:title="@string/pref_page_view_mode_title"
+            android:summary="@string/pref_page_view_mode_summary"
+            android:entries="@array/pref_page_view_mode_entries"
+            android:entryValues="@array/pref_page_view_mode_values"
+            android:defaultValue="@string/num_0"/>
+
+        <CheckBoxPreference
+            android:key="pref_enable_desktop_ui"
+            android:title="@string/pref_enable_desktop_ui_name"
+            android:summary="@string/pref_enable_desktop_ui_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_annotating"
+        android:key="pref_category_annotating">
+
+        <CheckBoxPreference
+            android:key="pref_cont_annot_edit"
+            android:title="@string/pref_cont_annot_edit_title"
+            android:summary="@string/pref_cont_annot_edit_summary"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="pref_show_quick_menu"
+            android:title="@string/pref_show_quick_menu_title"
+            android:summary="@string/pref_show_quick_menu_summary"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="pref_copy_annotated_text_to_note"
+            android:title="@string/pref_copy_annotated_text_to_note_title"
+            android:summary="@string/pref_copy_annotated_text_to_note_summary"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="pref_stylus_as_pen"
+            android:title="@string/pref_stylus_as_pen_title"
+            android:summary="@string/pref_stylus_as_pen_summary"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="pref_ink_smoothing"
+            android:title="@string/pref_ink_smoothing_title"
+            android:summary="@string/pref_ink_smoothing_summary"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="pref_annot_list_show_author"
+            android:title="@string/pref_annot_list_show_author_title"
+            android:summary="@string/pref_annot_list_show_author_summary"
+            android:defaultValue="false" />
+
+        <EditTextPreference
+            android:key="pref_author_name"
+            android:title="@string/pref_author_name_title"
+            android:summary="@string/pref_author_name_summary"
+            android:dialogTitle="@string/pref_author_name_title"
+            android:defaultValue="" />
+
+        <com.pdftron.demo.widget.FontMultiSelectListPreference
+            android:key="pref_free_text_fonts"
+            android:title="@string/pref_free_text_font_title"
+            android:summary="@string/pref_free_text_font_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/app_name">
+
+        <com.pdftron.demo.app.AboutDialogPreference
+            android:title="@string/about" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

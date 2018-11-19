@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tools -->
+    <string name="tools_qm_note">Note</string>
+    <string name="tools_qm_add_note">Add Comment</string>
+    <string name="tools_qm_view_note">View Comment</string>
+    <string name="tools_qm_appearance">Style</string>
+    <string name="tools_qm_textmarkup_type">Type</string>
+    <string name="pref_colormode_custom_text_color">Text color</string>
+    <string name="tools_qm_color">Color</string>
+    <string name="tools_qm_stroke_color">Border color</string>
+    <string name="tools_qm_fill_color">Fill color</string>
+    <string name="tools_qm_thickness">Thickness</string>
+    <string name="tools_qm_opacity">Opacity</string>
+    <string name="tools_qm_reply">Reply</string>
+    <string name="tools_qm_copy_to_clipboard">Copy to Clipboard</string>
+    <string name="tools_qm_sign_and_save">Sign and Save</string>
+    <string name="tools_qm_field_signed">Field is digitally signed</string>
+    <string name="tools_qm_copy">Copy</string>
+    <string name="tools_qm_copy_text">Copy Text</string>
+    <string name="tools_qm_shape">Shapes&#8230;</string>
+    <string name="tools_qm_free_text" translatable="false">@string/annot_free_text</string>
+    <string name="tools_qm_strikeout" translatable="false">@string/annot_strikeout</string>
+    <string name="tools_qm_highlight" translatable="false">@string/annot_highlight</string>
+    <string name="tools_qm_underline" translatable="false">@string/annot_underline</string>
+    <string name="tools_qm_squiggly" translatable="false">@string/annot_squiggly</string>
+    <string name="tools_qm_redact" translatable="false">@string/annot_redact</string>
+    <string name="tools_qm_redaction" translatable="false">@string/annot_redaction</string>
+    <string name="tools_qm_line" translatable="false">@string/annot_line</string>
+    <string name="tools_qm_link" translatable="false">@string/annot_link</string>
+    <string name="tools_qm_arrow" translatable="false">@string/annot_arrow</string>
+    <string name="tools_qm_ruler" translatable="false">@string/annot_ruler</string>
+    <string name="tools_qm_callout" translatable="false">@string/annot_callout</string>
+    <string name="tools_qm_polyline" translatable="false">@string/annot_polyline</string>
+    <string name="tools_qm_polygon" translatable="false">@string/annot_polygon</string>
+    <string name="tools_qm_cloud" translatable="false">@string/annot_cloud</string>
+    <string name="tools_qm_rectangle" translatable="false">@string/annot_square</string>
+    <string name="tools_qm_ellipse" translatable="false">@string/annot_circle</string>
+    <string name="tools_qm_signature" translatable="false">@string/annot_signature</string>
+    <string name="tools_qm_eraser">Eraser</string>
+    <string name="tools_qm_use_saved_sig">Use Default Signature</string>
+    <string name="tools_qm_new_signature">New Signature</string>
+    <string name="tools_qm_form_create">Forms&#8230;</string>
+    <string name="tools_qm_attach">Attach&#8230;</string>
+    <string name="tools_qm_sound">Record audio</string>
+    <string name="tools_qm_attach_file">Attach file</string>
+    <string name="tools_qm_play_sound">Play audio</string>
+    <string name="tools_qm_group_select">Group select</string>
+    <string name="tools_qm_form_text">Text field</string>
+    <string name="tools_qm_form_checkbox">Checkbox</string>
+    <string name="tools_qm_form_radio_group">Radio Group</string>
+    <string name="tools_qm_form_radio_add_item">Add item</string>
+    <string name="tools_qm_flatten">Flatten</string>
+    <string name="tools_qm_open_attachment">Open Attachment</string>
+    <string name="tools_qm_define">Define</string>
+    <string name="tools_qm_translate">Translate</string>
+    <string name="tools_qm_text_to_speech">Read</string>
+    <string name="tools_qm_stamper">Image</string>
+    <string name="tools_qm_rubber_stamp" translatable="false">@string/annot_stamp</string>
+    <string name="tools_qm_rotate">Rotate</string>
+    <string name="tools_qm_paste">Paste</string>
+    <string name="tools_qm_edit">Edit</string>
+    <string name="tools_qm_open_link">Go</string>
+    <string name="tools_qm_tools">Tools</string>
+    <string name="tools_qm_back">Back</string>
+    <string name="tools_annot_style_preview_text">Abcde</string>
+    <string name="tools_copy_confirmation">Copied to clipboard</string>
+    <string name="tools_copy_annot_confirmation">Copied annotation to clipboard</string>
+    <string name="tools_copy_annot_teach">Press Ctrl+V to paste where the cursor is</string>
+    <string name="tools_copy_annot_waiting">Copying annotation to clipboard, please wait&#8230;</string>
+    <string name="tools_paste_annot_waiting">Pasting annotation from clipboard, please wait&#8230;</string>
+    <string name="tools_share_title">Share selected text</string>
+    <string name="tools_share_subject">Selected text from: </string>
+
+    <!--Style picker-->
+    <string name="tools_ruler_scale">Scale</string>
+    <string name="unit_cm" translatable="false">cm</string>
+    <string name="unit_inch" translatable="false">inch</string>
+    <string name="unit_yard" translatable="false">yard</string>
+
+    <string-array name="ruler_base_unit">
+        <item>@string/unit_cm</item>
+        <item>@string/unit_inch</item>
+    </string-array>
+
+    <string-array name="ruler_translate_unit">
+        <item>@string/unit_cm</item>
+        <item>@string/unit_inch</item>
+        <item>@string/unit_yard</item>
+    </string-array>
+
+    <string name="tools_dialog_colorpicker_title">Pick a Color</string>
+
+    <string name="tools_dialog_formfilltext_title">Text Field Content</string>
+
+    <string name="tools_dialog_textsearch_title">Text Search Options</string>
+    <string name="tools_dialog_textsearch_wholeword">Whole word</string>
+    <string name="tools_dialog_textsearch_case_sensitive">Case sensitive</string>
+    <string name="tools_dialog_textsearch_regexp">Regular expressions</string>
+
+    <string name="tools_dialog_textsearch_nothing_found">Nothing was found</string>
+    <string name="tools_dialog_textsearch_invalid_string">Invalid search string</string>
+    <string name="tools_dialog_textsearch_search_canceled">Text search canceled</string>
+
+    <string name="error_has_xfa_forms_message">The file contains proprietary XFA extensions and can\'t be opened.</string>
+    <string name="error_has_portfolio_message">Portfolio documents cannot be added to this document.</string>
+
+    <string name="tools_digitalsignature_error_invalid_image_path">Error while applying appearance (invalid image file path); file not signed.</string>
+    <string name="tools_digitalsignature_error_appearance">Error while applying appearance; file not signed.</string>
+    <string name="tools_digitalsignature_use_appearance">Use Appearance</string>
+    <string name="tools_digitalsignature_msg_saved">Saved \"%1$s\"</string>
+    <string name="tools_digitalsignature_msg_file_locked">Failed to save: file is locked for writing</string>
+    <string name="tools_digitalsignature_msg_failed_to_save">Failed to save the file: %1$s</string>
+    <string name="tools_digitalsignature_text_1">You can use the space below to draw you signature, or just click the \"Pick image&#8230;\" button to use an image instead.</string>
+    <string name="tools_digitalsignature_text_2">By clicking "Sign and Save" the document will be digitally signed using a pre-existent certificate and password, and saved. If you prefer to just add the signature to the field and digitally sign it later, click \"Use Appearance\". Using just the appearance will allow you to further change the thickness and color of the signature.</string>
+    <string name="tools_digitalsignature_pick_image">Pick image&#8230;</string>
+    <string name="tools_digitalsignature_erase">Erase</string>
+    <string name="tools_digitalsignature_adding_signature">Adding a signature&#8230;</string>
+    <string name="tools_digitalsignature_choose_image">Choose an image for the signature&#8230;</string>
+    <string name="tools_digitalsignature_field_already_signed">This field is already signed. Below some information about the signature entry:</string>
+    <string name="tools_digitalsignature_location">Location:</string>
+    <string name="tools_digitalsignature_reason">Reason:</string>
+    <string name="tools_digitalsignature_name">Name:</string>
+    <string name="tools_digitalsignature_signature_info">Signature Info</string>
+
+    <string name="tools_richmedia_playback_end">End of video playback</string>
+    <string name="tools_richmedia_error_extracting_media">Error while extracting embedded media</string>
+    <string name="tools_richmedia_unsupported_format">Unsupported media format</string>
+    <string name="tools_richmedia_please_wait_loading">Please wait while loading&#8230;</string>
+
+    <string name="tools_dialog_floating_sig_checkbox_default">Save As Default Signature</string>
+    <string name="tools_dialog_floating_sig_sign_here">Sign Here</string>
+    <string name="tools_dialog_floating_sig_msg_overwrite_signature">Are you sure you want to overwrite the current signature with a new one?</string>
+    <string name="tools_dialog_floating_sig_msg_delete_signature">This will delete the current signature. Are you sure you wish to proceed?</string>
+    <string name="tools_dialog_flatten_dialog_title">Flatten this annotation?</string>
+    <string name="tools_dialog_flatten_dialog_msg">Flattening the annotation will make it a permanent part of the PDF, so that it cannot be modified or removed by standard viewing software. This can be undone. </string>
+
+    <string name="tools_dialog_simple_color_picker_btn_description_red">Red Color</string>
+    <string name="tools_dialog_simple_color_picker_btn_description_orange">Orange Color</string>
+    <string name="tools_dialog_simple_color_picker_btn_description_green">Green Color</string>
+    <string name="tools_dialog_simple_color_picker_btn_description_blue">Blue Color</string>
+    <string name="tools_dialog_simple_color_picker_btn_description_black">Black Color</string>
+    <string name="tools_dialog_simple_color_picker_btn_description_gray">Gray Color</string>
+    <string name="tools_dialog_simple_color_picker_btn_description_yellow">Yellow Color</string>
+    <string name="tools_dialog_simple_color_picker_btn_description_violet">Violet Color</string>
+    <string name="tools_dialog_simple_color_picker_btn_description_teal">Teal Color</string>
+    <string name="tools_dialog_simple_color_picker_btn_description_transparent">Transparent Color</string>
+
+    <string name="tools_grid_color_btn_description">Color picker</string>
+    <string name="tools_grid_icon_btn_description">Icon picker</string>
+
+    <string name="tools_dialog_author_name_title">Add Author</string>
+    <string name="tools_dialog_author_name_message">Add your name as an author to annotations you create. You can change this in the Settings menu.</string>
+
+    <string name="tools_dialog_open_web_page_title">Open Web Page</string>
+    <string name="tools_dialog_open_web_page_message">Do you want to open the page at %1$s?</string>
+    <string name="tools_recent_color_grid_hint">The colors you recently used will appear here</string>
+    <string name="tools_dialog_annotation_popup_text_hint">Write some text here&#8230;</string>
+    <string name="tools_dialog_annotation_popup_note_hint">Write a note here&#8230;</string>
+    <string name="tools_dialog_annotation_popup_view_mode_hint">Tap to edit text.</string>
+    <string name="tools_annotation_style_presets">Presets</string>
+    <string name="tools_annotation_property_tab_presets">Basic</string>
+    <string name="tools_annotation_property_tab_custom">Advanced</string>
+    <string name="tools_annotation_property_tab_stroke">Stroke</string>
+    <string name="tools_annotation_property_tab_fill">Fill</string>
+
+    <string name="tools_annotation_property_restore_warning_title">Restore Default Colors</string>
+    <string name="tools_annotation_property_restore_warning_message">Are you sure you want to restore default colors? This action cannot be undone.</string>
+
+    <string name="tools_misc_close">Close</string>
+    <string name="tools_misc_skip">Skip</string>
+    <string name="tools_misc_save">Save</string>
+    <string name="tools_misc_openwith">Open with&#8230;</string>
+    <string name="tools_misc_sendemail">Send email&#8230;</string>
+    <string name="tools_misc_longpressforoptions">Long press for options</string>
+    <string name="tools_misc_nofilename">[no file name]</string>
+    <string name="tools_misc_pagerange">%1$d of %2$d</string>
+    <string name="tools_misc_textsize" translatable="false">%d</string>
+    <string name="tools_misc_thickness" translatable="false">%.1f</string>
+    <string name="tools_misc_yes">Yes</string>
+    <string name="tools_misc_no">No</string>
+    <string name="tools_misc_please_wait">Please wait&#8230;</string>
+
+    <!-- Controls -->
+    <string name="controls_annotation_dialog_listview_imageview_icon_description">Annotation Icon</string>
+    <string name="controls_annotation_dialog_empty">This document has no annotations</string>
+    <string name="controls_annotation_dialog_loading">Loading Annotations&#8230;</string>
+    <string name="controls_annotation_dialog_page">Page %1$d</string>
+    <string name="controls_annotation_dialog_author">Author:</string>
+    <string name="controls_add_favorite_color">Add to favorites</string>
+    <string name="controls_add_advanced_color">Add this color</string>
+    <string name="controls_outline_dialog_imageview_back_description">Navigate Back</string>
+    <string name="controls_outline_dialog_imageview_forward_description">Go To Next Level</string>
+    <string name="controls_outline_dialog_empty">This document has no outline</string>
+    <string name="controls_fav_color_editor_edit_color">Edit color</string>
+    <string name="controls_fav_color_editor_select_color">Select this color</string>
+    <string name="controls_bookmark_dialog_empty">This document has no bookmarks</string>
+    <string name="controls_bookmark_dialog_default_title">Page&#160;</string>
+    <string name="controls_bookmark_dialog_delete_all_message">Are you sure you want to delete all bookmarks?</string>
+
+    <string name="controls_thumbnail_slider_thumbview_thumb_description">Thumbnail</string>
+
+    <string name="controls_thumbnails_view_description">Thumbnails</string>
+    <string name="controls_thumbnails_view_selected"><![CDATA[%1$s selected]]></string>
+    <string name="controls_thumbnails_view_selected_hint">Selected: </string>
+    <string name="controls_thumbnails_view_confirm_delete_hint">Delete Page(s)?</string>
+    <string name="controls_thumbnails_view_delete_msg_all_pages">You can not delete all pages in the document.</string>
+
+    <string name="add_pdf_wait">Adding PDF&#8230;</string>
+    <string name="add_image_wait">Adding image&#8230;</string>
+
+    <string name="dialog_add_page_title_newdoc">Create Document</string>
+    <string name="dialog_add_page_title">Add Page</string>
+    <string name="dialog_add_page_lined">Lined</string>
+    <string name="dialog_add_page_grid">Grid</string>
+    <string name="dialog_add_page_music">Music</string>
+    <string name="dialog_add_page_graph">Graph</string>
+    <string name="dialog_add_page_blank">Blank</string>
+    <string name="dialog_add_page_page_size">Page Size</string>
+    <string name="dialog_add_page_page_size_custom">Custom (%1$d x %2$d mm)</string>
+    <string name="dialog_add_page_page_size_letter">Letter (8.5\" x 11\")</string>
+    <string name="dialog_add_page_page_size_legal">Legal (8.5\" x 14\")</string>
+    <string name="dialog_add_page_page_size_a4">A4 (210 x 297 mm)</string>
+    <string name="dialog_add_page_page_size_a3">A3 (297 x 420 mm)</string>
+    <string name="dialog_add_page_page_size_ledger">Ledger (11\" x 17\")</string>
+    <string name="dialog_add_page_orientation">Orientation</string>
+    <string name="dialog_add_page_color">Page Color</string>
+    <string name="dialog_add_page_color_white">White</string>
+    <string name="dialog_add_page_color_yellow">Yellow</string>
+    <string name="dialog_add_page_color_blueprint">Blueprint</string>
+    <string name="dialog_add_page_orientation_portrait">Portrait</string>
+    <string name="dialog_add_page_orientation_landscape">Landscape</string>
+    <string name="dialog_add_page_document_title">Document Title</string>
+    <string name="dialog_add_page_num_pages">Page count</string>
+    <string name="dialog_add_page_num_pages_hint">1 (Max. 1000)</string>
+
+    <string name="dialog_rotate_title">Rotate Pages</string>
+    <string name="dialog_rotate_counter_clockwise">Rotate Counterclockwise</string>
+    <string name="dialog_rotate_all_pages">Apply to All Pages</string>
+    <string name="dialog_rotate_current_page">Apply to Current Page (Page %d)</string>
+    <string name="dialog_rotate_even_pages">Apply to Even Pages</string>
+    <string name="dialog_rotate_odd_pages">Apply to Odd Pages</string>
+    <string name="dialog_rotate_preview">Preview</string>
+    <string name="dialog_external_link">Link to a website</string>
+    <string name="dialog_internal_link">Link to a page in this PDF</string>
+    <string name="dialog_create_link">Create Link</string>
+    <string name="dialog_link_example" translatable="false">www.example.com</string>
+
+    <!-- Add new page(s) to the current document" -->
+    <string name="dialog_add_new_blank_pdf_title">Blank Page</string>
+    <string name="dialog_add_new_page_pdf_title">Page</string>
+    <string name="dialog_add_new_photo_pdf_title">From Image</string>
+    <string name="dialog_add_pdf_doc_title">From Another Document</string>
+
+    <string name="dialog_add_pdf_document_error_message">An error occurred trying to add the selected document.</string>
+    <string name="dialog_add_photo_document_filename_error_message">An error occurred trying to create the document.</string>
+    <string name="dialog_add_photo_document_filename_file_error">There was a problem with the selected file.</string>
+
+    <string name="controls_annotation_toolbar_tool_description_line">Line Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_arrow">Arrow Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_ruler">Ruler Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_polyline">Polyline Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_rectangle">Rectangle Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_oval">Oval Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_polygon">Polygon Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_cloud">Cloud Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_multi_select">Multi-select Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_freehand">Freehand Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_free_highlighter">Free Highlighter Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_eraser">Eraser Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_stickynote">Sticky Note Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_freetext">Free Text Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_callout">Callout Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_image">Image Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_stamp">Stamp Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_signature">Signature Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_text_underline">Text Underline Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_text_highlight">Text Highlight Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_text_strikeout">Text Strikeout Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_text_squiggly">Text Squiggly Tool</string>
+    <string name="controls_annotation_toolbar_tool_description_pan">Pan Tool</string>
+    <string name="controls_annotation_toolbar_btn_description_close">Close Toolbar</string>
+
+    <string name="controls_misc_rename">Rename</string>
+    <string name="controls_misc_delete_all">Delete all</string>
+    <string name="controls_misc_delete_annotation">Delete this annotation</string>
+    <string name="controls_misc_delete_annotation_on_page">Delete all annotations on page</string>
+    <string name="controls_misc_delete_all_annotations">Delete all annotations in the document</string>
+    <string name="controls_misc_rename_bookmark">Rename this bookmark</string>
+    <string name="controls_misc_delete_bookmark">Delete this bookmark</string>
+    <string name="controls_misc_delete_all_bookmarks">Delete all bookmarks in the document</string>
+    <string name="controls_misc_bookmark_added">Bookmark added</string>
+    <string name="controls_misc_export">Export</string>
+    <string name="controls_misc_duplicate">Duplicate</string>
+
+    <string name="search_hint">Search Document</string>
+    <string name="search_progress_text">%1$d of %2$d pages&#8230;</string>
+    <string name="search_results_text">Found %1$d results</string>
+    <string name="search_results_num">Result %1$d</string>
+    <string name="search_results_none">No matches were found</string>
+    <string name="search_results_invalid">Invalid search query</string>
+    <string name="search_results_canceled">Search was cancelled</string>
+    <string name="search_in_progress">Search in progress&#8230;</string>
+
+    <string name="action_match_case">Match Case</string>
+    <string name="action_whole_word">Whole Word</string>
+
+    <!-- Text To Speech -->
+    <string name="error_text_to_speech">There was a problem reading the text. Please try again.</string>
+    <string name="error_thrown_text_to_speech"><![CDATA[The Read function is not working on your device. This is most likely due to your device\'s text-to-speech engine. <br><br> Please go to your Settings and switch to Google\'s Text-to-speech engine. ]]></string>
+
+    <!-- Stamper -->
+    <string name="image_stamper_intent_title">Select Image</string>
+    <string name="image_stamper_wrong_file_type_error">Wrong file type. Please try again and select an image.</string>
+    <string name="image_stamper_file_not_found_error">There was a problem with the chosen file. Please try again.</string>
+    <string name="image_stamper_error">There was a problem inserting the image. Please try again.</string>
+    <string name="custom_stamp_text_hint">Enter stamp text</string>
+    <string name="custom_stamp_pointing_left">Pointing left</string>
+    <string name="custom_stamp_pointing_right">Pointing right</string>
+    <string name="custom_stamp_rounded_rectangle">Rounded rectangle</string>
+    <string name="custom_stamp_new">New custom stamp</string>
+    <string name="custom_stamp_new_guide">Tap + to create a new custom stamp</string>
+    <string name="custom_stamp_dialog_delete_message">Are you sure you want to delete the selected stamps?</string>
+    <string name="custom_stamp_dialog_delete_title">Delete stamps</string>
+
+    <string name="attach_file_error">There was a problem attaching the file. Please try again.</string>
+
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="shape">Shape</string>
+
+    <!-- Text Fonts -->
+    <string name="free_text_font">Font</string>
+    <string name="free_text_fonts_loading">Loading fonts&#8230;</string>
+    <string name="free_text_fonts_prompt">Choose font</string>
+    <string name="text_to_speech_mute_volume">Your device\'s volume is on mute.</string>
+
+    <!-- Print -->
+    <string name="dialog_print_annotations_summary_text_annotations">with annotations</string>
+    <string name="dialog_print_annotations_summary_text_summary">Summary of annotations</string>
+    <string name="dialog_print_annotations_summary_title">Select content to print:</string>
+    <string name="toast_file_info_message"><![CDATA[<b>File Name</b><br>%1$s<br><br><b>Path</b><br>%2$s]]></string>
+    <string name="snack_bar_file_info_message">show in folder</string>
+
+    <!-- User Crop -->
+    <string name="user_crop_selection_description">Automatically crop each page to its content, manually crop pages, or remove all page cropping.</string>
+    <string name="user_crop_selection_auto_crop">Automatically Crop Pages</string>
+    <string name="user_crop_selection_manual_crop">Manually Crop Pages</string>
+    <string name="user_crop_selection_remove_crop">Remove All Page Cropping</string>
+    <string name="user_crop_auto_crop_title">Calculating crop boxes&#8230;</string>
+    <string name="user_crop_auto_crop_progress">Page %1$d of %2$d</string>
+    <string name="user_crop_manual_crop_page_label">Page %d</string>
+    <string name="user_crop_manual_crop_all_pages">Use on all pages</string>
+    <string name="user_crop_manual_crop_even_pages">Use on even pages</string>
+    <string name="user_crop_manual_crop_odd_pages">Use on odd pages</string>
+    <string name="user_crop_manual_crop_done">Apply Crop</string>
+    <string name="user_crop_manual_crop_crop_all_toast">This crop box will be used for all pages. Click on %1$s to apply.</string>
+    <string name="user_crop_manual_crop_crop_even_toast">This crop box will be used for even pages. Click on %1$s to apply.</string>
+    <string name="user_crop_manual_crop_crop_odd_toast">This crop box will be used for odd pages. Click on %1$s to apply.</string>
+
+    <!-- Password Dialog -->
+    <string name="dialog_password_title">Enter Password</string>
+    <string name="dialog_password_message">This file is password protected, please enter the password below.</string>
+    <string name="show_password_option">Show Password</string>
+    <string name="password_input_hint">Leave blank to remove password</string>
+
+    <!--Optimize-->
+    <string name="optimize_basic_title">Reduce File Size</string>
+
+    <string name="optimize_basic_one">Higher Quality</string>
+    <string name="optimize_basic_second">Balanced</string>
+    <string name="optimize_basic_third">Smaller File Size</string>
+
+    <string name="optimize_advanced"><u>Advanced</u></string>
+    <string name="optimize_basic"><u>Basic</u></string>
+    <string name="optimize_advanced_title1">Image Downsampling</string>
+    <string name="optimize_advanced_downsample_message1">If greater than</string>
+    <string name="optimize_advanced_downsample_message2">downsample to</string>
+    <string name="optimize_advanced_title2">Image Compression</string>
+    <string name="optimize_advanced_compression_color_mode">Color</string>
+    <string name="optimize_advanced_compression_mono_mode">Monochrome</string>
+    <string name="optimize_advanced_compression_quality">Quality</string>
+
+    <string name="optimize_compression_color_mode_no_compression">No Compression</string>
+    <string name="optimize_compression_color_mode_png" translatable="false">PNG</string>
+    <string name="optimize_compression_color_mode_jpeg" translatable="false">JPEG</string>
+    <string name="optimize_compression_color_mode_jpeg2000" translatable="false">JPEG2000</string>
+
+    <string-array translatable="false" name="optimize_compression_color_mode">
+        <item>@string/optimize_compression_color_mode_no_compression</item>
+        <item>@string/optimize_compression_color_mode_png</item>
+        <item>@string/optimize_compression_color_mode_jpeg</item>
+        <item>@string/optimize_compression_color_mode_jpeg2000</item>
+    </string-array>
+
+    <string-array translatable="false" name="optimize_compression_mono_mode">
+        <item>PNG</item>
+        <item>JBIG2</item>
+    </string-array>
+
+    <string name="optimize_quality_options_low">Low</string>
+    <string name="optimize_quality_options_medium">Medium</string>
+    <string name="optimize_quality_options_high">High</string>
+    <string name="optimize_quality_options_max">Max</string>
+
+    <string-array translatable="false" name="optimize_quality_options">
+        <item>@string/optimize_quality_options_low</item>
+        <item>@string/optimize_quality_options_medium</item>
+        <item>@string/optimize_quality_options_high</item>
+        <item>@string/optimize_quality_options_max</item>
+    </string-array>
+
+    <string translatable="false" name="optimize_downsampling_max_options_1">50 DPI</string>
+    <string translatable="false" name="optimize_downsampling_max_options_2">72 DPI</string>
+    <string translatable="false" name="optimize_downsampling_max_options_3">96 DPI</string>
+    <string translatable="false" name="optimize_downsampling_max_options_4">120 DPI</string>
+    <string translatable="false" name="optimize_downsampling_max_options_5">150 DPI</string>
+    <string translatable="false" name="optimize_downsampling_max_options_6">225 DPI</string>
+    <string translatable="false" name="optimize_downsampling_max_options_7">300 DPI</string>
+    <string translatable="false"  name="optimize_downsampling_max_options_8">600 DPI</string>
+
+    <string-array translatable="false" name="optimize_downsampling_max_options">
+        <item>@string/optimize_downsampling_max_options_1</item>
+        <item>@string/optimize_downsampling_max_options_2</item>
+        <item>@string/optimize_downsampling_max_options_3</item>
+        <item>@string/optimize_downsampling_max_options_4</item>
+        <item>@string/optimize_downsampling_max_options_5</item>
+        <item>@string/optimize_downsampling_max_options_6</item>
+        <item>@string/optimize_downsampling_max_options_7</item>
+        <item>@string/optimize_downsampling_max_options_8</item>
+    </string-array>
+
+    <string translatable="false" name="optimize_downsampling_resample_options_1">50 DPI</string>
+    <string translatable="false" name="optimize_downsampling_resample_options_2">72 DPI</string>
+    <string translatable="false" name="optimize_downsampling_resample_options_3">96 DPI</string>
+    <string translatable="false" name="optimize_downsampling_resample_options_4">150 DPI</string>
+    <string translatable="false" name="optimize_downsampling_resample_options_5">225 DPI</string>
+
+    <string-array translatable="false" name="optimize_downsampling_resample_options">
+        <item>@string/optimize_downsampling_resample_options_1</item>
+        <item>@string/optimize_downsampling_resample_options_2</item>
+        <item>@string/optimize_downsampling_resample_options_3</item>
+        <item>@string/optimize_downsampling_resample_options_4</item>
+        <item>@string/optimize_downsampling_resample_options_5</item>
+    </string-array>
+
+    <!-- Undo/Redo -->
+    <string name="undo_redo_annot_modify">Modify</string>
+    <string name="undo_redo_annot_remove">Remove</string>
+    <string name="undo_redo_annots_remove_from_page">Remove Annotations from Page %1$d</string>
+    <string name="undo_redo_annots_remove">Remove Annotations</string>
+    <string name="undo_redo_annot_action">Action</string>
+    <string name="undo_redo_page_delete">Delete Page(s)</string>
+    <string name="undo_redo_page_rotate">Rotate Page(s)</string>
+    <string name="undo_redo_page_add">Add Page(s)</string>
+    <string name="undo_redo_page_move">Move Page</string>
+    <string name="undo_redo_bookmark_modify">Modify Bookmarks</string>
+
+    <!-- Annotation Tools -->
+    <string name="annot_text">Comment</string>
+    <string name="annot_link">Link</string>
+    <string name="annot_line">Line</string>
+    <string name="annot_redact">Redact</string>
+    <string name="annot_redaction">Redaction</string>
+    <string name="annot_highlight">Highlight</string>
+    <string name="annot_underline">Underline</string>
+    <string name="annot_squiggly">Squiggly</string>
+    <string name="annot_strikeout">Strikeout</string>
+    <string name="annot_ink">Ink</string>
+    <string name="annot_free_highlight">Free Highlight</string>
+    <string name="annot_free_text">Text Box</string>
+    <string name="annot_square">Rectangle</string>
+    <string name="annot_circle">Oval</string>
+    <string name="annot_polyline">Polyline</string>
+    <string name="annot_polygon">Polygon</string>
+    <string name="annot_cloud">Cloud</string>
+    <string name="annot_stamp">Stamp</string>
+    <string name="annot_caret">Caret</string>
+    <string name="annot_signature">Signature</string>
+    <string name="annot_arrow">Arrow</string>
+    <string name="annot_ruler">Ruler</string>
+    <string name="annot_callout">Callout</string>
+    <string name="annot_misc">Annotation</string>
+    <string name="annot_text_plural">Comments</string>
+    <string name="annot_link_plural">Links</string>
+    <string name="annot_line_plural">Lines</string>
+    <string name="annot_redaction_plural">Redactions</string>
+    <string name="annot_highlight_plural">Highlights</string>
+    <string name="annot_underline_plural">Underlines</string>
+    <string name="annot_strikeout_plural">Strikeouts</string>
+    <string name="annot_squiggly_plural">Squiggles</string>
+    <string name="annot_ink_plural">Ink</string>
+    <string name="annot_free_highlight_plural">Free Highlight</string>
+    <string name="annot_free_text_plural">Text Boxes</string>
+    <string name="annot_callout_plural">Callouts</string>
+    <string name="annot_square_plural">Rectangles</string>
+    <string name="annot_circle_plural">Ovals</string>
+    <string name="annot_polygon_plural">Polygons</string>
+    <string name="annot_polyline_plural">Polyline</string>
+    <string name="annot_cloud_plural">Clouds</string>
+    <string name="annot_stamp_plural">Stamps</string>
+    <string name="annot_caret_plural">Carets</string>
+    <string name="annot_signature_plural">Signatures</string>
+    <string name="annot_arrow_plural">Arrows</string>
+    <string name="annot_ruler_plural">Rulers</string>
+    <string name="annot_misc_plural">Annotations</string>
+
+    <!-- Annotation toolbar -->
+    <string name="show_all_tools">Show all tools</string>
+    <string name="show_fewer_tools">Show fewer tools</string>
+
+    <!--Sound-->
+    <string name="sound_label_record">Record</string>
+    <string name="sound_label_stop">Stop</string>
+    <string name="sound_label_preview">Preview</string>
+    <string name="sound_label_play">Play</string>
+
+    <!--Color mode-->
+    <string name="pref_colormode_custom_title">Custom Color Mode</string>
+    <string name="pref_colormode_custom_defaults">Load Defaults</string>
+    <string name="pref_colormode_custom_bg_color">Background color</string>
+    <string name="pref_colormode_custom_defaults_msg">Are you sure you wish to restore the default color presets?</string>
+
+    <!-- Misc -->
+    <string name="loading">Loading&#8230;</string>
+    <string name="alert">Alert</string>
+    <string name="open">Open</string>
+    <string name="open_file">Open file</string>
+    <string name="open_link">Open PDF from link</string>
+    <string name="empty_title">Untitled</string>
+    <string name="ok">OK</string>
+    <string name="select">Select</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="enter_value">Enter value</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="reopen">Re-open</string>
+    <string name="add">Add</string>
+    <string name="merge">Merge</string>
+    <string name="convert">Convert</string>
+    <string name="password">Password</string>
+    <string name="page_range" translatable="false">%1$d / %2$d</string>
+    <string name="page_label_range" translatable="false">%1$s (%2$d of %3$d)</string>
+    <string name="error">Error</string>
+    <string name="do_not_show_again">Do not show again</string>
+    <string name="more">More</string>
+    <string name="delete">Delete</string>
+    <string name="document">Document</string>
+    <string name ="num_0" translatable="false">0</string>
+    <string name="num_1" translatable="false">1</string>
+    <string name="num_2" translatable="false">2</string>
+    <string name="num_3" translatable="false">3</string>
+    <string name="num_4" translatable="false">4</string>
+    <string name="num_5" translatable="false">5</string>
+    <string name="num_6" translatable="false">6</string>
+    <string name="num_7" translatable="false">7</string>
+    <string name="num_12" translatable="false">12</string>
+    <string name="unit_pt" translatable="false">pt</string>
+    <string name="unit_percent" translatable="false">%</string>
+    <string name="favorites">Favorites</string>
+    <string name="recent">Recent</string>
+    <string name="done">Done</string>
+    <string name="standard">Standard</string>
+    <string name="custom">Custom</string>
+    <string name="modify">Modify</string>
+
+    <!-- Error Messages -->
+    <string name="error_opening_doc_message">Error trying to open the file.</string>
+    <string name="error_printing_file">An error occurred while trying to print the document.</string>
+    <string name="error_empty_file_message">This file cannot be opened because it has no pages.</string>
+    <string name="password_not_valid_message">The password provided is incorrect.</string>
+    <string name="file_does_not_exist_message">Error opening file: This file no longer exists.</string>
+    <string name="error_export_file">An error occurred while trying to export the document.</string>
+    <string name="error_illegal_color">Color has to be a hex value</string>
+
+    <!-- Open URL -->
+    <string name="download_finished_message">Download finished.</string>
+    <string name="download_not_finished_yet_with_changes_warning">Changes made now will not be saved. Please wait for download to finish&#8230;</string>
+    <string name="download_not_finished_yet_warning">Please wait for download to finish&#8230;</string>
+    <string name="download_in_progress_message">Download in progress&#8230;</string>
+    <string name="download_failed_message">Download failed.</string>
+    <string name="download_cancelled_message">Download was cancelled.</string>
+    <string name="download_size_cancelled_message">Document closed due to download cancellation.</string>
+
+    <!-- Search -->
+    <string name="search_next">Next</string>
+    <string name="search_prev">Previous</string>
+
+    <!-- Go To Page Dialog -->
+    <string name="dialog_gotopage_title">Go To Page</string>
+    <string name="dialog_gotopage_number">page number (%1$d - %2$d)</string>
+    <string name="dialog_gotopage_label">page number (%1$s - %2$s)</string>
+
+    <!-- Open Universal Document -->
+    <string name="open_universal_succeeded" comment="Message shown non-pdf document is finished converting">Finished converting to PDF</string>
+    <string name="cant_edit_while_converting_message" comment="Pops up when the user clicks on an edit action while the document is in the process of being converted">The document can not be edited while it is being converted.</string>
+    <string name="cant_share_while_converting_message" comment="Pops up when the user clicks on a share action while the document is in the process of being converted">The document can not be shared while it is being converted.</string>
+    <string name="cant_reflow_while_converting_message" comment="Pops up when the user clicks on the reflow action while the document is in the process of being converted">The document can not be viewed in reflow mode while it is being converted.</string>
+    <string name="cant_print_while_converting_message" comment="Pops up when the user clicks on a print action while the document is in the process of being converted">The document can not be printed while it is being converted.</string>
+    <string name="cant_search_while_converting_message" comment="Pops up when the user clicks on an edit action while the document is in the process of being converted">The document can not be searched while it is being converted.</string>
+
+    <string name="document_saved_toast_message">Document saved.</string>
+    <string name="document_save_error_toast_message">Failed to save document.</string>
+    <string name="document_read_only_error_message">This document is Read-Only.</string>
+    <string name="document_corrupted_error_message">This document is Invalid.</string>
+    <string name="document_export_annotations_extension">-annotations</string>
+    <string name="document_notify_failed_commit_message">Saved document in %1$s folder.</string>
+
+    <!-- Annotation could not be added dialog -->
+    <string name="annotation_could_not_be_added_dialog_msg">You cannot add annotations to this page! This document appears to be corrupted. Error: %s</string>
+
+    <string name="export_success"><![CDATA[The new document has been saved with the filename:<br>%1$s]]></string>
+
+    <string name="action_search">Search</string>
+    <string name="action_file_share">Share</string>
+    <string name="action_view_mode">View Mode</string>
+    <string name="action_outline">Bookmark</string>
+    <string name="action_annotation_toolbar">Annotation Toolbar</string>
+    <string name="action_list_all">List All</string>
+    <string name="action_file_print">Print</string>
+    <string name="action_close_tab">Close Document</string>
+    <string name="action_export_options">Save a Copy</string>
+    <string name="action_export_original">Identical Copy</string>
+    <string name="action_export_flatten">Flattened Copy</string>
+    <string name="action_export_optimize">Reduced File Size Copy</string>
+    <string name="action_export_password">Password Protected Copy</string>
+    <string name="action_export_password_existing">Changed/Removed Password Copy</string>
+    <string name="action_export_cropped">Permanently Cropped Copy</string>
+
+    <string name="searching_wait">Searching&#8230;</string>
+    <string name="action_file_attachments">View File Attachments</string>
+    <string name="action_editpages_more">Edit Pages</string>
+    <string name="action_add">Add&#8230;</string>
+    <string name="action_delete">Delete&#8230;</string>
+    <string name="action_rotate">Rotate&#8230;</string>
+    <string name="action_delete_multiple">More</string>
+    <string name="action_delete_current_page">Delete Current Page</string>
+    <string name="action_export_pages">Rearrange/Import/Export&#8230;</string>
+    <string name="action_search_web">Search Web</string>
+
+    <string name="dialog_delete_current_page">Are you sure you want to delete the current page?</string>
+
+    <string name="pref_viewmode_title">Viewing Mode</string>
+    <string name="pref_viewmode_actions">Actions</string>
+    <string name="pref_viewmode_singlepage">Single Page</string>
+    <string name="pref_viewmode_singlepage_short">Single</string>
+    <string name="pref_viewmode_facing">Two Pages</string>
+    <string name="pref_viewmode_facing_short">Double</string>
+    <string name="pref_viewmode_facingcover">Cover Page</string>
+    <string name="pref_viewmode_facingcover_short">Cover</string>
+    <string name="pref_viewmode_reflow_short">Reading</string>
+    <string name="pref_viewmode_reflow">Reading mode</string>
+    <string name="pref_viewmode_scrolling_direction">Vertical Scrolling</string>
+    <string name="pref_viewmode_color_mode">Color Mode</string>
+    <string name="pref_viewmode_reflow_text_size">Text size</string>
+    <string name="pref_viewmode_rtl_mode">Right-to-Left Mode</string>
+    <string name="pref_viewmode_thumbnails">Browse Thumbnails</string>
+    <string name="pref_viewmode_thumbnails_title">Pages</string>
+    <string name="pref_viewmode_rotation">Rotate Clockwise</string>
+    <string name="pref_viewmode_user_crop">Crop Pages</string>
+    <string name="pref_page_number_overlay">Page Number Indicator</string>
+    <string name="pref_page_number_overlay_summary">When enabled, the page number will be shown when turning pages.</string>
+    <string name="pref_maintain_zoom_option_title">Maintain Zoom Level</string>
+    <string name="pref_maintain_zoom_option_summary">When enabled, the zoom level will not change when you turn pages horizontally.</string>
+    <string name="pref_enable_javascript_name">Enable JavaScript</string>
+    <string name="pref_enable_javascript_summary">When enabled, JavaScript actions embedded in PDF files will be executed.</string>
+
+    <string name="pref_enable_desktop_ui_name">Enable Desktop UI</string>
+    <string name="pref_enable_desktop_ui_summary">When enabled, top toolbar and side navigation drawer will be shown at all time.</string>
+
+    <!-- Viewer -->
+    <string name="bookmark_dialog_fragment_bookmark_tab_title">Bookmarks</string>
+    <string name="bookmark_dialog_fragment_outline_tab_title">Outline</string>
+    <string name="bookmark_dialog_fragment_annotation_tab_title">Annotations</string>
+
+    <!-- Reflow -->
+    <string name="reflow_disable_markup_clicked">Markup is not available in reflow mode.</string>
+    <string name="reflow_disable_search_clicked">Search is not available in reflow mode.</string>
+
+    <string name="snack_bar_tab_closed">Document has been closed.</string>
+    <string name="snack_bar_tab_saved_and_closed">Document has been saved and closed.</string>
+
+    <string name="document_read_only_warning_title">Read-Only Document</string>
+
+    <!--FreeText-->
+    <string name="freetext_restore_cache_message">You have unsaved changes, want to retrieve it?</string>
+
+    <!-- Permissions -->
+    <string name="permission_storage_rationale">Storage permission is needed to proceed.</string>
+
+    <string name="font_not_loaded">System fonts are not loaded yet. Text annotation is not available for non alphabetical language now.</string>
+
+    <string name="font_loaded">System fonts loaded.</string>
+
+    <string name="invalid_number">The entered number is invalid</string>
+
+    <!--Share-->
+    <string name="share_email_body"><![CDATA[<br><br>Sent with %1$s]]></string>
+
+</resources>

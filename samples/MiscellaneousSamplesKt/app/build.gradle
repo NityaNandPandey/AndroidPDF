@@ -1,0 +1,105 @@
+description = 'This sample app shows some usages of several PDFNet classes.'
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0.0"
+        manifestPlaceholders = [pdftronLicenseKey:PDFTRON_LICENSE_KEY]
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+    }
+
+    lintOptions {
+        // if true, stop the gradle build if errors are found
+        abortOnError false
+    }
+
+    flavorDimensions "arch"
+
+    productFlavors {
+        armv7a {
+            dimension "arch"
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
+        }
+
+        arm {
+            dimension "arch"
+            ndk {
+                abiFilters "armeabi"
+            }
+        }
+
+        x86 {
+            dimension "arch"
+            ndk {
+                abiFilters "x86"
+            }
+        }
+
+        armv8 {
+            dimension "arch"
+            ndk {
+                abiFilters "arm64-v8a"
+            }
+        }
+
+
+        x86_64 {
+            dimension "arch"
+            ndk {
+                abiFilters "x86_64"
+            }
+        }
+
+        app {
+            dimension "arch"
+            ndk {
+                abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.pdftron:pdftron@aar"
+    implementation "com.android.support:appcompat-v7:27.0.2"
+    implementation "commons-io:commons-io:2.6"
+
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlinVersion"
+}
+
+task appStart(type: Exec, dependsOn: [clean, 'installAppDebug']) {
+    commandLine 'adb', 'shell', 'am', 'start', '-n', 'com.pdftron.android.pdfnetsdksamples/.SampleListActivity'
+}
+task copyFullLibToSamples(type: Copy) {
+    println "copy full libs to samples"
+    from ('../../../lib/full') {
+        include 'pdftron.aar'
+    }
+    into 'libs'
+}
+
+
+task setupSample(dependsOn: [copyFullLibToSamples])
+
+clean.dependsOn setupSample

@@ -1,0 +1,13 @@
+com.pdftron.demo.app
+com.pdftron.demo.asynctask
+com.pdftron.demo.dialog
+com.pdftron.demo.model
+com.pdftron.demo.navigation
+com.pdftron.demo.navigation.adapter
+com.pdftron.demo.navigation.adapter.viewholder
+com.pdftron.demo.navigation.callbacks
+com.pdftron.demo.utils
+com.pdftron.demo.viewmodel
+com.pdftron.demo.widget
+com.pdftron.demo.widget.menu
+

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="icon_colors">
+        <item>#FF1744</item>
+        <item>#FF9800</item>
+        <item>#FFFF00</item>
+        <item>#76FF03</item>
+        <item>#00E676</item>
+        <item>#00B0FF</item>
+        <item>#304FFE</item>
+        <item>#D500F9</item>
+        <item>#FF00FF</item>
+        <item>#FFFFFF</item>
+    </string-array>
+
+    <string-array name="signature_colors">
+        <item>#000080</item>
+        <item>#000000</item>
+        <item>#B40404</item>
+    </string-array>
+
+    <string-array name="annotation_dialog_context_menu">
+        <item>@string/controls_misc_delete_annotation</item>
+        <item>@string/controls_misc_delete_annotation_on_page</item>
+        <item>@string/controls_misc_delete_all_annotations</item>
+    </string-array>
+
+    <string-array name="user_bookmark_dialog_context_menu">
+        <item>@string/controls_misc_rename_bookmark</item>
+        <item>@string/controls_misc_delete_bookmark</item>
+        <item>@string/controls_misc_delete_all_bookmarks</item>
+    </string-array>
+
+    <string-array name="stickynote_icons">
+        <item>Comment</item>
+        <item>Help</item>
+        <item>InsertCaret</item>
+        <item>Star</item>
+        <item>LightBulb</item>
+        <item>NewParagraph</item>
+        <item>CrossMark</item>
+        <item>CheckMark</item>
+        <item>LocationPin</item>
+        <item>ThumbsUp</item>
+    </string-array>
+
+    <string-array name="preset_colors">
+        <item>#f1a099</item>
+        <item>#ffc67b</item>
+        <item>#ffe6a2</item>
+        <item>#80e5b1</item>
+        <item>#92e8e8</item>
+        <item>#a6a1e6</item>
+        <item>#e2a1e6</item>
+
+        <item>#e44234</item>
+        <item>#ff8d00</item>
+        <item>#ffcd45</item>
+        <item>#00cc63</item>
+        <item>#25d2d1</item>
+        <item>#4e7de9</item>
+        <item>#c544ce</item>
+
+        <item>#88271f</item>
+        <item>#b54800</item>
+        <item>#d69a00</item>
+        <item>#007a3b</item>
+        <item>#167e7d</item>
+        <item>#2e4b8b</item>
+        <item>#76287b</item>
+
+        <item>no_fill_color</item>
+        <item>#ffffff</item>
+        <item>#cdcdcd</item>
+        <item>#9c9c9c</item>
+        <item>#696969</item>
+        <item>#373737</item>
+        <item>#000000</item>
+    </string-array>
+
+    <array name="highlight_presets">
+        <item>@style/HighlightPresetStyle1</item>
+        <item>@style/HighlightPresetStyle2</item>
+        <item>@style/HighlightPresetStyle3</item>
+        <item>@style/HighlightPresetStyle4</item>
+    </array>
+
+    <array name="free_text_presets">
+        <item>@style/FreeTextPresetStyle1</item>
+        <item>@style/FreeTextPresetStyle2</item>
+        <item>@style/FreeTextPresetStyle3</item>
+        <item>@style/FreeTextPresetStyle4</item>
+    </array>
+
+    <array name="callout_presets">
+        <item>@style/CalloutPresetStyle1</item>
+        <item>@style/CalloutPresetStyle2</item>
+        <item>@style/CalloutPresetStyle3</item>
+        <item>@style/CalloutPresetStyle4</item>
+    </array>
+
+    <array name="ruler_presets">
+        <item>@style/RulerStyle1</item>
+        <item>@style/RulerStyle2</item>
+        <item>@style/RulerStyle3</item>
+        <item>@style/RulerStyle4</item>
+    </array>
+
+    <array name="color_only_presets">
+        <item>@style/AnnotPresetStyle1</item>
+        <item>@style/AnnotPresetStyle2</item>
+        <item>@style/AnnotPresetStyle3</item>
+        <item>@style/AnnotPresetStyle4</item>
+    </array>
+
+    <array name="stroke_only_presets">
+        <item>@style/AnnotPresetStyle4</item>
+        <item>@style/AnnotPresetStyle3</item>
+        <item>@style/AnnotPresetStyle5</item>
+        <item>@style/AnnotPresetStyle6</item>
+    </array>
+
+    <array name="signature_presets">
+        <item>@style/SignaturePresetStyle1</item>
+        <item>@style/SignaturePresetStyle2</item>
+        <item>@style/SignaturePresetStyle3</item>
+        <item>@style/SignaturePresetStyle4</item>
+    </array>
+
+    <array name="fill_only_presets">
+        <item>@style/AnnotPresetStyle4</item>
+        <item>@style/AnnotPresetStyle3</item>
+        <item>@style/AnnotPresetStyle5</item>
+        <item>@style/AnnotPresetStyle7</item>
+    </array>
+
+    <array name="eraser_presets">
+        <item>@style/EraserStyle1</item>
+        <item>@style/EraserStyle2</item>
+        <item>@style/EraserStyle3</item>
+        <item>@style/EraserStyle4</item>
+    </array>
+
+    <array name="text_markup_presets">
+        <item>@style/TextMarkupStyle1</item>
+        <item>@style/TextMarkupStyle2</item>
+        <item>@style/TextMarkupStyle3</item>
+        <item>@style/TextMarkupStyle4</item>
+    </array>
+
+    <array name="freehand_presets">
+        <item>@style/AnnotPresetStyle4</item>
+        <item>@style/AnnotPresetStyle3</item>
+        <item>@style/AnnotPresetStyle5</item>
+        <item>@style/AnnotPresetStyle6</item>
+        <item>@style/AnnotPresetStyle1</item>
+    </array>
+
+    <array name="freehand_highlighter_presets">
+        <item>@style/FreeHighlighterStyle4</item>
+        <item>@style/FreeHighlighterStyle3</item>
+        <item>@style/FreeHighlighterStyle5</item>
+        <item>@style/FreeHighlighterStyle6</item>
+    </array>
+
+</resources>

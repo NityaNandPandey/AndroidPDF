@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tools_annotation_property_mainView"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_medium"
+        android:background="@color/tools_light_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/tools_annotation_property_presets_view"/>
+
+        <include layout="@layout/tools_annotation_property_advanced_view"/>
+
+        <LinearLayout
+            android:id="@+id/layout_options_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/controls_annotation_graybar_aboveButtons"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingTop="@dimen/padding_medium"
+                android:paddingBottom="@dimen/padding_medium"
+                android:background="@android:color/darker_gray"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="@dimen/tools_grid_color_picker_add_button_height"
+                    android:layout_height="@dimen/tools_grid_color_picker_add_button_height"
+                    android:layout_marginTop="@dimen/padding_medium"
+                    android:layout_marginLeft="@dimen/padding_small"
+                    android:layout_marginStart="@dimen/padding_small"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:contentDescription="@string/tools_misc_save"
+                    android:background="@drawable/controls_annotation_toolbar_bg"
+                    app:srcCompat="@drawable/ic_close_black_24dp"
+                    android:tint="@color/qm_item_color"
+                    android:scaleType="centerInside"/>
+
+                <com.pdftron.pdf.utils.SegmentedGroup
+                    android:id="@+id/layout_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_small"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/btn_presets"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tools_annotation_property_tab_presets"
+                        style="@style/RadioButton" />
+
+                    <RadioButton
+                        android:id="@+id/btn_custom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tools_annotation_property_tab_custom"
+                        style="@style/RadioButton" />
+                </com.pdftron.pdf.utils.SegmentedGroup>
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/btn_dismiss"
+                    android:layout_width="@dimen/tools_grid_color_picker_add_button_height"
+                    android:layout_height="@dimen/tools_grid_color_picker_add_button_height"
+                    android:layout_marginRight="@dimen/padding_small"
+                    android:layout_marginEnd="@dimen/padding_small"
+                    android:layout_marginTop="@dimen/padding_medium"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:contentDescription="@string/cancel"
+                    android:background="@drawable/controls_annotation_toolbar_bg"
+                    app:srcCompat="@drawable/ic_check_black_24dp"
+                    android:scaleType="centerInside"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

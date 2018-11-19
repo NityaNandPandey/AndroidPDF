@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomAppTheme" parent="Theme.AppCompat.DayNight.NoActionBar"/>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="ToolbarPopupTheme" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="transparent_button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:minWidth">@dimen/dialog_button_min_width</item>
+        <item name="android:paddingLeft">@dimen/dialog_button_default_margin_padding</item>
+        <item name="android:paddingRight">@dimen/dialog_button_default_margin_padding</item>
+    </style>
+
+    <style name="transparent_dialog_annotation_note_button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:minWidth">@dimen/dialog_button_min_width</item>
+        <item name="android:paddingLeft">@dimen/dialog_button_default_margin_padding</item>
+        <item name="android:paddingRight">@dimen/dialog_button_default_margin_padding</item>
+        <item name="android:textColor">@color/button_dialog_annotation_note_color</item>
+    </style>
+
+    <style name="black_text_button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+
+    <style name="fabMenuLabelStyle">
+        <item name="android:background">@drawable/fab_menu_label_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="StatusBarView">
+        <!-- Fit system window insets by default, since the StatusBarView widget is
+             only really useful when the fitsSystemWindows flag is set. -->
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:background">?attr/colorPrimaryDark</item>
+    </style>
+
+    <style name="DispatchFairInsets">
+        <!-- Fully consume the system window insets by default. -->
+        <item name="consumeInsets">true</item>
+    </style>
+
+    <style name="DispatchFairInsetsRelativeLayout" parent="DispatchFairInsets" />
+
+    <style name="DispatchFairInsetsFrameLayout" parent="DispatchFairInsets" />
+
+    <style name="DispatchFairInsetsLinearLayout" parent="DispatchFairInsets" />
+
+    <style name="ThumbnailSliderStyle">
+        <item name="leftMenuItemColor">?attr/colorPrimary</item>
+        <item name="rightMenuItemColor">?attr/colorPrimary</item>
+        <item name="seekbarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="ThumbnailSliderStyle.Seekbar" parent="Widget.AppCompat.SeekBar" >
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:layout_gravity">center</item>
+         <item name="android:minHeight">2dp</item>
+        <item name="android:maxHeight">2dp</item>
+    </style>
+
+    <style name="AnnotationToolbarStyle">
+        <item name="colorBackground">?attr/colorPrimary</item>
+        <item name="colorToolBackground">?attr/colorPrimaryDark</item>
+        <item name="colorToolIcon">@android:color/white</item>
+        <item name="colorCloseIcon">@android:color/white</item>
+    </style>
+
+    <style name="EditToolbarStyle">
+        <item name="colorBackground">?android:attr/colorBackground</item>
+        <item name="colorToolBackground">@color/controls_edit_toolbar_tool</item>
+        <item name="colorToolIcon">?android:attr/colorForeground</item>
+        <item name="colorCloseIcon">@color/controls_edit_toolbar_checkmark</item>
+    </style>
+
+    <style name="QuickMenuButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="RectGroupAnnotEdit">
+        <item name="fillColor">@color/tools_annot_edit_line_shadow</item>
+        <item name="fillOpacity">0.38</item>
+    </style>
+
+    <style name="TabFragmentToolManager">
+        <item name="edit_ink_annots">true</item>
+        <item name="add_image_stamper_tool">true</item>
+        <item name="open_toolbar_on_pan_ink_selected">true</item>
+        <item name="build_in_page_number_indicator">false</item>
+    </style>
+
+    <style name="PresetColorGridViewStyle">
+        <item name="color_list">@array/preset_colors</item>
+        <item name="android:horizontalSpacing">@dimen/padding_xsmall</item>
+        <item name="android:verticalSpacing">@dimen/padding_xsmall</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:numColumns">7</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="ColorPickerStyle">
+        <item name="wheel_width">@dimen/quick_menu_button_size</item>
+        <item name="value_pointer_radius">@dimen/padding_large</item>
+        <item name="ring_color">@android:color/white</item>
+        <item name="ring_shadow_radius">@dimen/action_button_min_width</item>
+    </style>
+
+    <style name="AnnotStyleBottomSheetDialogStyle" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="FullScreenDialogStyle" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="HighlightPresetStyle1">
+        <item name="annot_color">#ffe6a2</item>
+    </style>
+    <style name="HighlightPresetStyle2">
+        <item name="annot_color">#92e8e8</item>
+    </style>
+
+    <style name="HighlightPresetStyle3">
+        <item name="annot_color">#80e5b1</item>
+    </style>
+
+    <style name="HighlightPresetStyle4">
+        <item name="annot_color">#f1a099</item>
+    </style>
+
+    <style name="FreeTextPresetStyle1" parent="AnnotPresetStyle4">
+        <item name="annot_text_color">#e44234</item>
+        <item name="annot_font_size">16</item>
+        <item name="annot_color">@android:color/transparent</item>
+        <item name="annot_thickness">1</item>
+        <item name="annot_text_size_min">4</item>
+        <item name="annot_text_size_max">72</item>
+        <item name="annot_font">Roboto</item>
+    </style>
+
+    <style name="FreeTextPresetStyle2" parent="AnnotPresetStyle3">
+        <item name="annot_text_color">#00cc63</item>
+        <item name="annot_font_size">16</item>
+        <item name="annot_thickness">1</item>
+        <item name="annot_color">@android:color/transparent</item>
+        <item name="annot_text_size_min">4</item>
+        <item name="annot_text_size_max">72</item>
+        <item name="annot_font">Roboto</item>
+    </style>
+
+    <style name="FreeTextPresetStyle3" parent="AnnotPresetStyle5">
+        <item name="annot_text_color">#4e7de9</item>
+        <item name="annot_font_size">16</item>
+        <item name="annot_color">@android:color/transparent</item>
+        <item name="annot_thickness">1</item>
+        <item name="annot_font">Roboto</item>
+        <item name="annot_text_size_min">4</item>
+        <item name="annot_text_size_max">72</item>
+    </style>
+
+    <style name="FreeTextPresetStyle4" parent="AnnotPresetStyle6">
+        <item name="annot_text_color">#000000</item>
+        <item name="annot_font_size">16</item>
+        <item name="annot_color">@android:color/transparent</item>
+        <item name="annot_thickness">1</item>
+        <item name="annot_font">Roboto</item>
+        <item name="annot_text_size_min">4</item>
+        <item name="annot_text_size_max">72</item>
+    </style>
+
+    <style name="CalloutPresetStyle1" parent="FreeTextPresetStyle1">
+        <item name="annot_color">#e44234</item>
+        <item name="annot_thickness">1</item>
+    </style>
+
+    <style name="CalloutPresetStyle2" parent="FreeTextPresetStyle2">
+        <item name="annot_thickness">1</item>
+        <item name="annot_color">#00cc63</item>
+    </style>
+
+    <style name="CalloutPresetStyle3" parent="FreeTextPresetStyle3">
+        <item name="annot_color">#4e7de9</item>
+        <item name="annot_thickness">1</item>
+    </style>
+
+    <style name="CalloutPresetStyle4" parent="FreeTextPresetStyle4">
+        <item name="annot_color">#000000</item>
+        <item name="annot_thickness">1</item>
+    </style>
+
+    <style name="SignaturePresetStyle1" parent="AnnotPresetStyle6" >
+        <item name="annot_thickness">8.0</item>
+        <item name="annot_thickness_max">24</item>
+        <item name="annot_thickness_min">2</item>
+    </style>
+
+    <style name="SignaturePresetStyle2" parent="AnnotPresetStyle5" >
+        <item name="annot_thickness">8.0</item>
+    </style>
+
+    <style name="SignaturePresetStyle3" parent="AnnotPresetStyle3" >
+        <item name="annot_thickness">8.0</item>
+    </style>
+
+    <style name="SignaturePresetStyle4" parent="AnnotPresetStyle4" >
+        <item name="annot_thickness">8.0</item>
+    </style>
+
+    <style name="AnnotPresetStyle1">
+        <item name="annot_color">#ffcd45</item>
+        <item name="annot_icon">Comment</item>
+        <item name="annot_thickness">5</item>
+    </style>
+    <style name="AnnotPresetStyle2">
+        <item name="annot_color">#25d2d1</item>
+        <item name="annot_icon">Star</item>
+        <item name="annot_thickness">5</item>
+    </style>
+    <style name="AnnotPresetStyle3">
+        <item name="annot_color">#00cc63</item>
+        <item name="annot_fill_color">@android:color/transparent</item>
+        <item name="annot_icon">CheckMark</item>
+        <item name="annot_thickness">5</item>
+    </style>
+    <style name="AnnotPresetStyle4">
+        <item name="annot_color">#e44234</item>
+        <item name="annot_fill_color">@android:color/transparent</item>
+        <item name="annot_icon">CrossMark</item>
+        <item name="annot_thickness">5</item>
+        <item name="annot_thickness_min">1</item>
+        <item name="annot_thickness_max">40</item>
+    </style>
+    <style name="AnnotPresetStyle5">
+        <item name="annot_color">#4e7de9</item>
+        <item name="annot_fill_color">@android:color/transparent</item>
+        <item name="annot_thickness">5</item>
+    </style>
+    <style name="AnnotPresetStyle6">
+        <item name="annot_color">#000000</item>
+        <item name="annot_thickness">5</item>
+    </style>
+    <style name="AnnotPresetStyle7">
+        <item name="annot_color">@android:color/transparent</item>
+        <item name="annot_fill_color">#ffcd45</item>
+        <item name="annot_opacity">0.5</item>
+    </style>
+
+    <style name="EraserStyle1">
+        <item name="annot_thickness">5</item>
+        <item name="annot_thickness_min">1</item>
+        <item name="annot_thickness_max">40</item>
+    </style>
+
+    <style name="EraserStyle2">
+        <item name="annot_thickness">10</item>
+        <item name="annot_thickness_min">1</item>
+        <item name="annot_thickness_max">40</item>
+    </style>
+
+    <style name="EraserStyle3">
+        <item name="annot_thickness">20</item>
+        <item name="annot_thickness_min">1</item>
+        <item name="annot_thickness_max">40</item>
+    </style>
+
+    <style name="EraserStyle4">
+        <item name="annot_thickness">40</item>
+        <item name="annot_thickness_min">1</item>
+        <item name="annot_thickness_max">40</item>
+    </style>
+
+    <style name="TextMarkupStyle1" parent="AnnotPresetStyle4">
+        <item name="annot_thickness">1</item>
+    </style>
+
+    <style name="TextMarkupStyle2" parent="AnnotPresetStyle3">
+        <item name="annot_thickness">1</item>
+    </style>
+
+    <style name="TextMarkupStyle3" parent="AnnotPresetStyle5">
+        <item name="annot_thickness">1</item>
+    </style>
+
+    <style name="TextMarkupStyle4" parent="AnnotPresetStyle6">
+        <item name="annot_thickness">1</item>
+    </style>
+
+    <style name="FreeHighlighterStyle3" parent="AnnotPresetStyle3">
+        <item name="annot_color">#92e8e8</item>
+        <item name="annot_thickness">20</item>
+        <item name="annot_thickness_min">5</item>
+        <item name="annot_thickness_max">60</item>
+    </style>
+
+    <style name="FreeHighlighterStyle4" parent="AnnotPresetStyle4">
+        <item name="annot_color">#ffe6a2</item>
+        <item name="annot_thickness">20</item>
+        <item name="annot_thickness_min">5</item>
+        <item name="annot_thickness_max">60</item>
+    </style>
+
+    <style name="FreeHighlighterStyle5" parent="AnnotPresetStyle5">
+        <item name="annot_color">#80e5b1</item>
+        <item name="annot_thickness">20</item>
+        <item name="annot_thickness_min">5</item>
+        <item name="annot_thickness_max">60</item>
+    </style>
+
+    <style name="FreeHighlighterStyle6" parent="AnnotPresetStyle6">
+        <item name="annot_color">#f1a099</item>
+        <item name="annot_thickness">20</item>
+        <item name="annot_thickness_min">5</item>
+        <item name="annot_thickness_max">60</item>
+    </style>
+
+    <style name="RulerStyle1" parent="AnnotPresetStyle4">
+        <item name="annot_thickness">2</item>
+        <item name="annot_thickness_max">10</item>
+        <item name="ruler_base_value">1</item>
+        <item name="ruler_base_unit">cm</item>
+        <item name="ruler_translate_value">1</item>
+        <item name="ruler_translate_unit">cm</item>
+    </style>
+    <style name="RulerStyle2" parent="AnnotPresetStyle3">
+        <item name="annot_thickness">2</item>
+        <item name="annot_thickness_max">10</item>
+        <item name="ruler_base_value">1</item>
+        <item name="ruler_base_unit">cm</item>
+        <item name="ruler_translate_value">1</item>
+        <item name="ruler_translate_unit">cm</item>
+    </style>
+    <style name="RulerStyle3" parent="AnnotPresetStyle5">
+        <item name="annot_thickness">2</item>
+        <item name="annot_thickness_max">10</item>
+        <item name="ruler_base_value">1</item>
+        <item name="ruler_base_unit">cm</item>
+        <item name="ruler_translate_value">1</item>
+        <item name="ruler_translate_unit">cm</item>
+    </style>
+    <style name="RulerStyle4" parent="AnnotPresetStyle6">
+        <item name="annot_thickness">2</item>
+        <item name="annot_thickness_max">10</item>
+        <item name="ruler_base_value">1</item>
+        <item name="ruler_base_unit">cm</item>
+        <item name="ruler_translate_value">1</item>
+        <item name="ruler_translate_unit">cm</item>
+    </style>
+
+    <style name="MaterialProgressBarStyle" parent="Widget.AppCompat.ProgressBar.Horizontal" >
+        <item name="android:indeterminate">true</item>
+        <item name="android:minHeight">24dp</item>
+        <item name="android:maxHeight">24dp</item>
+        <item name="android:layout_marginTop">-7dp</item>
+        <item name="android:layout_marginBottom">-8dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tools_dialog_annotation_popup_background">#303030</color>
+    <color name="tools_dialog_annotation_popup_textbox_background">#424242</color>
+    <color name="tools_dialog_sticky_note_textbox_background">#424242</color>
+    <color name="tools_dialog_sticky_note_style_options_background">#424242</color>
+
+    <color name="tools_dialog_floating_sig_signature_view">#424242</color>
+    <color name="tools_dialog_floating_sig_dialog_bg">#303030</color>
+
+    <color name="tools_text_select_color">#333333</color>
+</resources>

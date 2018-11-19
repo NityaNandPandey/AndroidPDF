@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The following attributes are designed to be used as values to the style attribute
+     of a Toolbar or LinearLayout in a fragment's layout.
+
+     Depending on whether an app bar is used in the fragment, either @style/ThemeOverlay.Fragment or
+     @style/ThemeOverlay.Fragment.NoAppBar should be used on the Fragment root element's android:theme
+     attribute. The correct toolbar and app bar styles will be selected by the theme.
+
+     NOTE: The fragment{AppBar,Toolbar}Style attributes may not be set from the root element's
+     theme if the attributes are referenced in a <included>-layout. On API 21+, the expected
+     scoped-theme (in the layout xml) is applied to the included layout, but for APIs < 21 the
+     theme seen by the included layout is the same as the parent layout root element's theme prior
+     to the android:theme attribute being applied.
+     In order for the toolbar and app bar themes to be selected correctly for all API versions,
+     <included>-layouts should be avoided for the toolbar and app bar themselves. -->
+    <attr name="fragmentAppBarStyle" format="reference" />
+    <attr name="fragmentToolbarStyle" format="reference" />
+    <declare-styleable name="ForegroundRelativeLayout">
+        <attr name="android:foreground" />
+        <attr name="android:foregroundGravity" />
+    </declare-styleable>
+
+</resources>

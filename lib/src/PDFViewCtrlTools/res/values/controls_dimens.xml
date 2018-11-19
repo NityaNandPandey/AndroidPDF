@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="controls_thumbnail_slider_scrubber_width">38dip</dimen>
+    <dimen name="controls_thumbnail_slider_scrubber_height">38dip</dimen>
+
+    <dimen name="controls_dialog_simple_color_picker_btn_min_width">50dp</dimen>
+    <dimen name="controls_dialog_simple_color_picker_btn_max_width">50dp</dimen>
+    <dimen name="controls_dialog_simple_color_picker_btn_min_height">50dp</dimen>
+    <dimen name="controls_dialog_simple_color_picker_btn_max_height">50dp</dimen>
+    <dimen name="controls_dialog_simple_color_picker_btn_margin">10dp</dimen>
+
+    <dimen name="controls_thumbnails_view_grid_spacing">4dp</dimen>
+    <dimen name="controls_thumbnails_view_image_width">100dp</dimen>
+
+    <dimen name="controls_outline_image_view_padding">12dp</dimen>
+
+    <dimen name="controls_thumbnail_slider_preview_bot_margin">64dp</dimen>
+
+    <dimen name="fab_button_diameter">56dp</dimen>
+    <dimen name="fab_button_margin">16dp</dimen>
+    <dimen name="elevation_low">2dp</dimen>
+    <dimen name="elevation_high">8dp</dimen>
+
+    <!-- footer height = fab_button_diameter + 2*fab_button_margin -->
+    <dimen name="list_padding_footer">88dp</dimen>
+
+    <dimen name="search_results_separator_thickness">1dp</dimen>
+
+    <dimen name="primary_text_size">16sp</dimen>
+
+    <dimen name="empty_view_text_size">18sp</dimen>
+
+    <!-- edit toolbar -->
+    <dimen name="controls_edit_toolbar_style_padding_large">24dp</dimen>
+    <dimen name="controls_edit_toolbar_style_padding_small">5dp</dimen>
+    <dimen name="controls_edit_toolbar_style_width">56dp</dimen>
+
+    <!--Color Picker-->
+    <dimen name="viewmode_colormode_icon_size">34dp</dimen>
+    <dimen name="viewmode_colormode_padding_side">3dp</dimen>
+    <dimen name="viewmode_colormode_padding_top">3dp</dimen>
+
+    <!-- Quick Men -->
+    <dimen name="quick_menu_button_size">48dp</dimen>
+    <dimen name="quick_menu_button_padding">12dp</dimen>
+    <dimen name="quick_menu_elevation">5dp</dimen>
+
+    <!-- Annotation Item -->
+    <dimen name="annotation_item_height">60dp</dimen>
+    <dimen name="annotation_item_title_height">36dp</dimen>
+
+    <!--SimpleRecyclerView-->
+    <dimen name="file_list_grid_spacing">4dp</dimen>
+    <dimen name="file_list_grid_padding">1dp</dimen>
+
+    <!--Color Picker-->
+    <dimen name="margin">16dp</dimen>
+    <dimen name="sliderWidth">36dp</dimen> <!--Matches checker pattern-->
+    <dimen name="preference_thumbnail_size">48dp</dimen>
+    <dimen name="preset_view_width">300dp</dimen>
+    <dimen name="colormode_height_portrait">444dp</dimen>
+    <dimen name="colormode_height_landscape">255dp</dimen>
+    <dimen name="preview_width">140dp</dimen>
+    <dimen name="preview_height">88dp</dimen>
+    <dimen name="item_padding_right">6dp</dimen>
+    <dimen name="label_text_size">15sp</dimen>
+    <dimen name="preview_padding">10dp</dimen>
+    <dimen name="seekbar_width">176dp</dimen>
+    <dimen name="label_width">72dp</dimen>
+    <dimen name="pager_indicator_height">20dp</dimen>
+    <dimen name="color_hue_size">144dp</dimen>
+    <dimen name="advanced_color_preview_width">72dp</dimen>
+    <dimen name="advanced_color_preview_height">32dp</dimen>
+    <dimen name="advanced_color_button_margin_top">60dp</dimen>
+    <dimen name="advanced_colors_grid_height">100dp</dimen>
+    <dimen name="advanced_color_button_margin_top_land">24dp</dimen>
+    <dimen name="oval_stroke_width">6dp</dimen>
+    <dimen name="min_preset_text_size">24sp</dimen>
+    <dimen name="annot_style_edit_text_size">48dp</dimen>
+    <dimen name="color_picker_view_pager_height">225dp</dimen>
+    <dimen name="annot_style_picker_width">400dp</dimen>
+    <dimen name="bottom_sheet_width">400dp</dimen>
+    <dimen name="preview_img_size">20dp</dimen>
+    <dimen name="preview_ring_size">21dp</dimen>
+    <dimen name="annot_list_item_text_sie">13sp</dimen>
+
+    <!--<dimen name="font_picker_width">340dp</dimen>-->
+    <dimen name="preset_padding">14dp</dimen>
+    <dimen name="bottom_sheet_height">144dp</dimen>
+    <dimen name="bottom_sheet_max_width">360dp</dimen>
+    <!-- thumbnail slider -->
+    <dimen name="thumbnail_slider_padding">4dp</dimen>
+
+</resources>

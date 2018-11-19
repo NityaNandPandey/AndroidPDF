@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Complete Reader</string>
+
+    <string name="missing_license_key">PDFTron must be initialized</string>
+
+    <string name="missing_license_key_msg"><![CDATA[To get license key, please go to
+        <a href="https://www.pdftron.com/">pdftron website</a>
+        to request trial.
+        <br/><br/>Then add your license key to gradle.properties file:
+        <br/>PDFTRON_LICENSE_KEY=YOUR_LICENSE_KEY.
+        ]]>
+    </string>
+    <string name="simple_reader_title">Simple Reader</string>
+    <string name="simple_reader_msg">Display and annotate documents on Android</string>
+
+    <string name="complete_reader_title">Advanced Reader</string>
+    <string name="complete_reader_msg">Everything in Simple Reader plus file browser and more</string>
+</resources>

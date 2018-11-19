@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/qm_first_row_group">
+        <item android:id="@id/qm_thickness"
+            android:title="@string/tools_qm_thickness"/>
+        <item android:id="@id/qm_color"
+            android:title="@string/tools_qm_color"/>
+        <item android:id="@id/qm_delete"
+            android:title="@string/delete"/>
+        <item android:id="@id/qm_sign_and_save"
+            android:title="@string/tools_qm_sign_and_save"/>
+    </group>
+</menu>

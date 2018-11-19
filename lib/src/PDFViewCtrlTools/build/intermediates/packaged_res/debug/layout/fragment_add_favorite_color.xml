@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:fitsSystemWindows="false"
+    android:background="?android:attr/colorBackground"
+    android:layout_height="match_parent"
+    >
+
+        <LinearLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/controls_edit_toolbar_style_width"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:fitsSystemWindows="true"
+            android:background="?attr/colorPrimary"
+            android:paddingStart="@dimen/action_button_min_padding"
+            android:paddingLeft="@dimen/action_button_min_padding"
+            android:paddingEnd="@dimen/padding_medium"
+            android:paddingRight="@dimen/padding_medium">
+
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/close_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                android:padding="@dimen/icon_min_padding"
+                app:srcCompat="@drawable/ic_close_white_24dp"
+                android:background="?attr/selectableItemBackgroundBorderless"/>
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/icon_min_padding"
+                android:layout_marginLeft="@dimen/icon_min_padding"
+                android:fitsSystemWindows="true"
+                android:text="@string/controls_add_favorite_color"
+                android:textDirection="locale"
+                android:textColor="@android:color/primary_text_dark"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"/>
+
+
+            <Button
+                android:id="@+id/finish_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/done"
+                android:fitsSystemWindows="true"
+                android:tint="@android:color/primary_text_dark"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:textColor="@android:color/primary_text_dark"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:visibility="gone"/>
+
+    </LinearLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:fitsSystemWindows="true"
+            app:tabMaxWidth="0dp"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            app:tabTextColor="@android:color/primary_text_dark"
+            app:tabSelectedTextColor="?android:attr/textColorPrimaryInverse"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TabItem
+                android:id="@+id/standard_tab"
+                android:icon="@drawable/ic_thumbnails_grid_black_24dp"
+                android:fitsSystemWindows="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <android.support.design.widget.TabItem
+                android:id="@+id/advanced_tab"
+                android:icon="@drawable/ic_custom_color_white_24dp"
+                android:layout_width="wrap_content"
+                android:fitsSystemWindows="true"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="?android:attr/colorBackground"
+        android:rotationY="@integer/view_pager_rotation_y"/>
+</LinearLayout>
+

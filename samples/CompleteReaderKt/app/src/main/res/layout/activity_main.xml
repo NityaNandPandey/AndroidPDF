@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.pdftron.completereader.MainActivity">
+
+    <include layout="@layout/simple_reader_preview"
+        android:id="@+id/simpleReaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="28dp"
+        app:layout_constraintVertical_weight=".5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/completeReaderLayout"/>
+
+    <include layout="@layout/complete_reader_preview"
+        android:id="@+id/completeReaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="28dp"
+        app:layout_constraintVertical_weight=".5"
+        app:layout_constraintTop_toBottomOf="@id/simpleReaderLayout"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

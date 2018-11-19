@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@drawable/controls_custom_stamp_image_selector">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/stamp_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/stamp_image_height"
+        android:layout_gravity="center"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp" />
+
+</FrameLayout>
+

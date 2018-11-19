@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/inline_toggle_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:background="@drawable/annotation_free_text_toggle_button_bgd"
+    android:padding="5dp"
+    android:rotation="270"
+    android:scaleType="fitCenter"
+    android:tint="?attr/colorAccent"
+    app:srcCompat="@drawable/ic_call_made_black_24dp" />

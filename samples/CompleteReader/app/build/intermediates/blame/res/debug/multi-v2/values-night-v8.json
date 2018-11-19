@@ -1,0 +1,83 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\pdf\\PDFNetAndroid\\samples\\CompleteReader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "E:\\pdf\\PDFNetAndroid\\samples\\CompleteReader\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "from": {
+                        "startLines": "3,10,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "54,403,490",
+                        "endLines": "8,10,12",
+                        "endColumns": "12,85,79",
+                        "endOffsets": "397,484,565"
+                    },
+                    "to": {
+                        "startLines": "17,23,24",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1102,1450,1535",
+                        "endLines": "22,23,24",
+                        "endColumns": "12,84,78",
+                        "endOffsets": "1445,1530,1609"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\u\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\06171561b6e55adfec4914611e6223f3\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "120,204,288,384,486,588,682"
+                    },
+                    "to": {
+                        "startLines": "31,32,33,34,35,36,37",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "1988,2058,2142,2226,2322,2424,2526",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "2053,2137,2221,2317,2419,2521,2615"
+                    }
+                },
+                {
+                    "source": "E:\\pdf\\PDFNetAndroid\\lib\\src\\PDFViewCtrlTools\\build\\intermediates\\packaged_res\\debug\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,122,188,254,317,392,475,545,620,704,782,840,1090,1165",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,17,18,19",
+                        "endColumns": "66,65,65,62,74,82,69,74,83,77,57,12,74,74",
+                        "endOffsets": "117,183,249,312,387,470,540,615,699,777,835,1085,1160,1235"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,10,11,12,13,14,15,16,38,43,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,122,188,254,579,654,737,807,882,966,1044,2620,2870,2945",
+                        "endLines": "2,3,4,5,10,11,12,13,14,15,16,42,43,44",
+                        "endColumns": "66,65,65,62,74,82,69,74,83,77,57,12,74,74",
+                        "endOffsets": "117,183,249,312,649,732,802,877,961,1039,1097,2865,2940,3015"
+                    }
+                },
+                {
+                    "source": "E:\\pdf\\PDFNetAndroid\\lib\\src\\pdfnet-demo-utils\\build\\intermediates\\packaged_res\\debug\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,132,191,260,317",
+                        "endLines": "2,3,4,5,11",
+                        "endColumns": "76,58,68,56,12",
+                        "endOffsets": "127,186,255,312,686"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,25",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "317,394,453,522,1614",
+                        "endLines": "6,7,8,9,30",
+                        "endColumns": "76,58,68,56,12",
+                        "endOffsets": "389,448,517,574,1983"
+                    }
+                }
+            ]
+        }
+    ]
+}

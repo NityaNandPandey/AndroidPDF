@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/alert_dialog_side_padding"
+              android:paddingBottom="@dimen/alert_dialog_top_padding"
+              android:paddingLeft="@dimen/alert_dialog_side_padding"
+              android:paddingStart="@dimen/alert_dialog_side_padding"
+              android:paddingRight="@dimen/alert_dialog_side_padding"
+              android:paddingEnd="@dimen/alert_dialog_side_padding">
+
+    <TextView
+        android:id="@+id/text_view_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="?android:attr/textColorPrimary"
+        android:text="@string/dialog_move_file_already_exists_message"/>
+
+    <CheckBox
+        android:id="@+id/check_box_repeat_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?android:attr/textColorPrimary"
+        android:text="@string/dialog_move_repeat_action"/>
+
+</LinearLayout>

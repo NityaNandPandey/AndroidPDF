@@ -1,0 +1,11 @@
+include ':app'
+include ':pdftron'
+project(':pdftron').projectDir = new File(rootProject.projectDir, '../../lib/src/pdftron')
+include ':PDFViewCtrlTools'
+project(':PDFViewCtrlTools').projectDir = new File(rootProject.projectDir, '../../lib/src/PDFViewCtrlTools')
+include ':pdfnet-demo-utils'
+project(':pdfnet-demo-utils').projectDir = new File(rootProject.projectDir, '../../lib/src/pdfnet-demo-utils')
+include ':PageCropper'
+project(':PageCropper').projectDir = new File(rootProject.projectDir, '../../lib/src/PageCropper')
+include ':FloatingActionButton'
+project(':FloatingActionButton').projectDir = new File(rootProject.projectDir, '../../lib/src/FloatingActionButton')

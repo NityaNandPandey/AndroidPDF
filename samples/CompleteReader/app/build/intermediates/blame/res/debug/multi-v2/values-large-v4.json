@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\pdf\\PDFNetAndroid\\samples\\CompleteReader\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\u\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\06171561b6e55adfec4914611e6223f3\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "93,152,223,294,364,434,502,844,948",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "147,218,289,359,429,497,565,943,1059"
+                    }
+                },
+                {
+                    "source": "E:\\pdf\\PDFNetAndroid\\lib\\src\\PDFViewCtrlTools\\build\\intermediates\\packaged_res\\debug\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,93,144,213,265,311",
+                        "endColumns": "37,50,68,51,45,55",
+                        "endOffsets": "88,139,208,260,306,362"
+                    },
+                    "to": {
+                        "startLines": "2,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,570,621,690,742,788",
+                        "endColumns": "37,50,68,51,45,55",
+                        "endOffsets": "88,616,685,737,783,839"
+                    }
+                }
+            ]
+        }
+    ]
+}

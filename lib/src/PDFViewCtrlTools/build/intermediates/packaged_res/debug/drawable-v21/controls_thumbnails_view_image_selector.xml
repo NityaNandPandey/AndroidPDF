@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <selector >
+            <item android:state_activated="true" android:drawable="@color/controls_thumbnails_view_image_foreground"/>
+            <item android:drawable="@android:color/transparent"/>
+        </selector>
+    </item>
+    
+    <item android:drawable="?attr/selectableItemBackground"/>
+
+</layer-list>

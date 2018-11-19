@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@dimen/page_jump_button_padding"
+    android:insetRight="@dimen/page_jump_button_padding"
+    android:insetBottom="@dimen/page_jump_button_padding"
+    android:insetTop="@dimen/page_jump_button_padding">
+    <shape
+        android:shape="rectangle" >
+
+        <solid android:color="@color/page_number_indicator_bg" />
+        <corners android:radius="@dimen/page_number_indicator_radius" />
+    </shape>
+</inset>

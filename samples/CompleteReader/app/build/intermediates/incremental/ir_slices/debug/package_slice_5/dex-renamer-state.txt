@@ -1,0 +1,4 @@
+#Mon Nov 19 18:14:58 IST 2018
+base.0=E\:\\Android_PDFnet\\PDFNetAndroid\\samples\\CompleteReader\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex

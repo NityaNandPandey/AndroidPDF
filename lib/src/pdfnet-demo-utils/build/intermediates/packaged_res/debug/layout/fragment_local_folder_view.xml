@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.Fragment">
+
+    <LinearLayout
+        android:id="@+id/fragment_app_bar"
+        style="?attr/fragmentAppBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/fragment_toolbar"
+            style="?attr/fragmentToolbarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include layout="@layout/breadcrumb_bar" />
+
+    </LinearLayout>
+
+    <com.pdftron.pdf.widget.ForegroundCoordinatorLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress_bar_view"
+            style="@style/MaterialProgressBarStyle"/>
+
+        <com.pdftron.pdf.widget.recyclerview.SimpleRecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/list_padding_footer"
+            android:clipToPadding="false"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical"
+            android:scrollbarThumbVertical="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/num_no_supported_files"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding_large"
+            android:paddingEnd="@dimen/padding_large"
+            android:paddingTop="@dimen/padding_small"
+            android:paddingBottom="@dimen/padding_small"
+            android:background="@color/recyclerview_header_bg"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="0dp"
+            />
+        <TextView
+            android:id="@+id/empty_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:text="@string/loading_files_wait"
+            android:textSize="@dimen/empty_view_text_size"
+            android:textColor="@color/gray600"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/go_to_sd_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_small"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/go_to_sd_card_view_text"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_weight="0.2"
+                android:layout_height="0dp"
+                android:padding="@dimen/file_list_grid_spacing"
+                android:textSize="@dimen/empty_view_text_size"
+                android:textColor="@color/gray600"/>
+
+            <ScrollView
+                android:id="@+id/go_to_sd_card_view_image"
+                android:layout_width="match_parent"
+                android:layout_weight="0.6"
+                android:layout_height="0dp"
+                android:clipToPadding="false"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/margin_small">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/goto_sdcard_max_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/goto_sd_card" />
+
+            </ScrollView>
+
+            <Button
+                android:id="@+id/buttonGoToSdCard"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.2"
+                android:layout_height="0dp"
+                android:text="@string/dialog_folder_go_to_sd_card_button"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textColor="?attr/colorAccent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                style="@style/transparent_button" />
+
+        </LinearLayout>
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/fab_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/fab_button_margin"
+            android:paddingLeft="@dimen/fab_button_margin"
+            android:paddingBottom="@dimen/fab_button_margin"
+            app:menu_colorNormal="?attr/colorAccent"
+            app:menu_colorPressed="?attr/colorAccent"
+            app:menu_openDirection="up"
+            app:menu_labels_style="@style/fabMenuLabelStyle"
+            app:menu_backgroundColor="@color/fab_menu_background">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/add_folder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_folder_white_24dp"
+                app:fab_colorNormal="?attr/colorAccent"
+                app:fab_colorPressed="?attr/colorAccent"
+                app:fab_size="mini"
+                app:fab_label="@string/dialog_create_new_folder_title"/>
+
+            <include layout="@layout/fab_btn_blank_pdf"/>
+            <include layout="@layout/fab_btn_image_pdf"/>
+            <include layout="@layout/fab_btn_office_pdf"/>
+
+        </com.github.clans.fab.FloatingActionMenu>
+    </com.pdftron.pdf.widget.ForegroundCoordinatorLayout>
+
+</LinearLayout>

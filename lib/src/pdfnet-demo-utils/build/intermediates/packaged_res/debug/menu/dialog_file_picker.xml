@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item_create_folder"
+        android:title="@string/dialog_create_title"
+        app:showAsAction="never"/>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/item_recent_files"
+            android:title="@string/title_item_recent"
+            app:showAsAction="never" />
+        <item android:id="@+id/item_favorite_files"
+            android:title="@string/title_item_favorites"
+            app:showAsAction="never" />
+        <item android:id="@+id/item_local_storage"
+            android:title="@string/local_storage"
+            app:showAsAction="never" />
+        <item android:id="@+id/item_external_storage"
+            android:title="@string/external_storage"
+            app:showAsAction="never" />
+    </group>
+
+</menu>

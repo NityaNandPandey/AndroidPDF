@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:rotationY="@integer/view_pager_rotation_y">
+
+    <com.pdftron.pdf.widget.recyclerview.SimpleRecyclerView
+        android:id="@+id/controls_bookmark_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/list_padding_footer"
+        android:clipToPadding="false"
+        android:background="?android:attr/colorBackground"/>
+
+    <TextView
+        android:id="@+id/control_bookmark_textview_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/controls_bookmark_dialog_empty"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center_vertical|center_horizontal"
+        android:visibility="gone"/>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/control_bookmark_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_button_margin"
+        fab:srcCompat="@drawable/ic_add_white_24dp"
+        fab:fab_colorNormal="?attr/colorAccent"
+        fab:fab_colorPressed="?attr/colorAccent"
+        fab:fab_size="normal" />
+
+</RelativeLayout>

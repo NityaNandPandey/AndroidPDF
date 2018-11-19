@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The color will be changed to what the color swatch is. White is default. -->
+    <solid
+        android:color="@android:color/white"/>
+    <corners android:bottomRightRadius="@dimen/padding_xsmall"
+        android:topRightRadius="@dimen/padding_xsmall"/>
+</shape>

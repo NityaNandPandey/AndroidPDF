@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false"
+        android:textColor="@color/tools_dialog_floating_sig_signhere_color"
+        android:drawable="@color/tools_dialog_floating_sig_signature_view" />
+    <item android:state_pressed="true"
+        android:drawable="@color/tools_annotation_button_select" />
+    <item android:state_focused="true"
+        android:drawable="@color/tools_annotation_button_select" />
+    <item android:state_selected="true"
+        android:drawable="@color/tools_annotation_button_select" />
+    <item android:drawable="@color/tools_dialog_floating_sig_signature_view" />
+</selector>

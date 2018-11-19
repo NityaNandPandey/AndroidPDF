@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    android:gravity="center" >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/controls_simple_color_picker_dialog_btn_red"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:minWidth="@dimen/controls_dialog_simple_color_picker_btn_min_width"
+	        android:maxWidth="@dimen/controls_dialog_simple_color_picker_btn_max_width"
+	        android:minHeight="@dimen/controls_dialog_simple_color_picker_btn_min_height"
+	        android:maxHeight="@dimen/controls_dialog_simple_color_picker_btn_max_height"
+	        android:contentDescription="@string/tools_dialog_simple_color_picker_btn_description_red"
+	        android:gravity="center"
+	        android:layout_margin="@dimen/controls_dialog_simple_color_picker_btn_margin"
+	        android:background="@drawable/controls_simple_color_picker_btn_bg"
+	        app:srcCompat="@color/red" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/controls_simple_color_picker_dialog_btn_orange"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:minWidth="@dimen/controls_dialog_simple_color_picker_btn_min_width"
+	        android:maxWidth="@dimen/controls_dialog_simple_color_picker_btn_max_width"
+	        android:minHeight="@dimen/controls_dialog_simple_color_picker_btn_min_height"
+	        android:maxHeight="@dimen/controls_dialog_simple_color_picker_btn_max_height"
+	        android:contentDescription="@string/tools_dialog_simple_color_picker_btn_description_orange"
+	        android:gravity="center"
+	        android:layout_margin="@dimen/controls_dialog_simple_color_picker_btn_margin"
+	        android:background="@drawable/controls_simple_color_picker_btn_bg"
+	        app:srcCompat="@color/orange" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/controls_simple_color_picker_dialog_btn_yellow"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:minWidth="@dimen/controls_dialog_simple_color_picker_btn_min_width"
+	        android:maxWidth="@dimen/controls_dialog_simple_color_picker_btn_max_width"
+	        android:minHeight="@dimen/controls_dialog_simple_color_picker_btn_min_height"
+	        android:maxHeight="@dimen/controls_dialog_simple_color_picker_btn_max_height"
+	        android:contentDescription="@string/tools_dialog_simple_color_picker_btn_description_yellow"
+	        android:gravity="center"
+	        android:layout_margin="@dimen/controls_dialog_simple_color_picker_btn_margin"
+	        android:background="@drawable/controls_simple_color_picker_btn_bg"
+	        app:srcCompat="@color/yellow" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/controls_simple_color_picker_dialog_btn_green"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:minWidth="@dimen/controls_dialog_simple_color_picker_btn_min_width"
+	        android:maxWidth="@dimen/controls_dialog_simple_color_picker_btn_max_width"
+	        android:minHeight="@dimen/controls_dialog_simple_color_picker_btn_min_height"
+	        android:maxHeight="@dimen/controls_dialog_simple_color_picker_btn_max_height"
+	        android:contentDescription="@string/tools_dialog_simple_color_picker_btn_description_green"
+	        android:gravity="center"
+	        android:layout_margin="@dimen/controls_dialog_simple_color_picker_btn_margin"
+	        android:background="@drawable/controls_simple_color_picker_btn_bg"
+	        app:srcCompat="@color/green" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/controls_simple_color_picker_dialog_btn_blue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:minWidth="@dimen/controls_dialog_simple_color_picker_btn_min_width"
+	        android:maxWidth="@dimen/controls_dialog_simple_color_picker_btn_max_width"
+	        android:minHeight="@dimen/controls_dialog_simple_color_picker_btn_min_height"
+	        android:maxHeight="@dimen/controls_dialog_simple_color_picker_btn_max_height"
+	        android:contentDescription="@string/tools_dialog_simple_color_picker_btn_description_blue"
+	        android:gravity="center"
+	        android:layout_margin="@dimen/controls_dialog_simple_color_picker_btn_margin"
+	        android:background="@drawable/controls_simple_color_picker_btn_bg"
+	        app:srcCompat="@color/blue" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/controls_simple_color_picker_dialog_btn_violet"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:minWidth="@dimen/controls_dialog_simple_color_picker_btn_min_width"
+	        android:maxWidth="@dimen/controls_dialog_simple_color_picker_btn_max_width"
+	        android:minHeight="@dimen/controls_dialog_simple_color_picker_btn_min_height"
+	        android:maxHeight="@dimen/controls_dialog_simple_color_picker_btn_max_height"
+	        android:contentDescription="@string/tools_dialog_simple_color_picker_btn_description_violet"
+	        android:gravity="center"
+	        android:layout_margin="@dimen/controls_dialog_simple_color_picker_btn_margin"
+	        android:background="@drawable/controls_simple_color_picker_btn_bg"
+	        app:srcCompat="@color/violet" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/controls_simple_color_picker_dialog_btn_black"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:minWidth="@dimen/controls_dialog_simple_color_picker_btn_min_width"
+	        android:maxWidth="@dimen/controls_dialog_simple_color_picker_btn_max_width"
+	        android:minHeight="@dimen/controls_dialog_simple_color_picker_btn_min_height"
+	        android:maxHeight="@dimen/controls_dialog_simple_color_picker_btn_max_height"
+	        android:contentDescription="@string/tools_dialog_simple_color_picker_btn_description_black"
+	        android:gravity="center"
+	        android:layout_margin="@dimen/controls_dialog_simple_color_picker_btn_margin"
+	        android:background="@drawable/controls_simple_color_picker_btn_bg"
+	        app:srcCompat="@android:color/black" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/controls_simple_color_picker_dialog_btn_brown"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:minWidth="@dimen/controls_dialog_simple_color_picker_btn_min_width"
+	        android:maxWidth="@dimen/controls_dialog_simple_color_picker_btn_max_width"
+	        android:minHeight="@dimen/controls_dialog_simple_color_picker_btn_min_height"
+	        android:maxHeight="@dimen/controls_dialog_simple_color_picker_btn_max_height"
+	        android:contentDescription="@string/tools_dialog_simple_color_picker_btn_description_transparent"
+	        android:gravity="center"
+	        android:layout_margin="@dimen/controls_dialog_simple_color_picker_btn_margin"
+	        android:background="@drawable/controls_simple_color_picker_btn_checker_bg"
+	        app:srcCompat="@color/brown"
+	        android:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout>

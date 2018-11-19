@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fragment_file_picker_dialog_current_folder">#333333</color>
+    <color name="navigation_drawer_sel_bg">#444444</color>
+    <color name="navigation_drawer_separator">@color/gray600</color>
+    <color name="recyclerview_header_bg">#151918</color>
+    <style name="Base.FragmentToolbarStyle" parent="ToolbarStyle">
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="navigationIcon">@drawable/ic_menu_white_24dp</item>
+    </style>
+</resources>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_custom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:visibility="gone"
+        android:id="@+id/custom_tab_host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_marginLeft="@dimen/padding_small"
+                android:layout_marginStart="@dimen/padding_small"
+                android:layout_marginRight="@dimen/padding_small"
+                android:layout_marginEnd="@dimen/padding_small"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tools_annotation_property_tab_height">
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/custom_color_tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.pdftron.pdf.utils.ExpandableGridView
+                        android:padding="@dimen/padding_small"
+                        android:id="@+id/custom_color_stroke_grid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:verticalSpacing="0dp"
+                        android:horizontalSpacing="0dp"
+                        android:stretchMode="spacingWidth"
+                        android:columnWidth="@dimen/tools_grid_custom_color_picker_button_height"
+                        android:numColumns="auto_fit"
+                        android:listSelector="@drawable/color_grid_selector" >
+                    </com.pdftron.pdf.utils.ExpandableGridView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/custom_color_tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.pdftron.pdf.utils.ExpandableGridView
+                        android:padding="@dimen/padding_small"
+                        android:id="@+id/custom_color_fill_grid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:verticalSpacing="0dp"
+                        android:horizontalSpacing="0dp"
+                        android:stretchMode="spacingWidth"
+                        android:columnWidth="@dimen/tools_grid_custom_color_picker_button_height"
+                        android:numColumns="auto_fit"
+                        android:listSelector="@drawable/color_grid_selector" >
+                    </com.pdftron.pdf.utils.ExpandableGridView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/advanced_free_text_font_tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </TabHost>
+
+    <com.pdftron.pdf.utils.ExpandableGridView
+        android:visibility="gone"
+        android:padding="@dimen/padding_small"
+        android:id="@+id/custom_color_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:stretchMode="spacingWidth"
+        android:columnWidth="@dimen/tools_grid_custom_color_picker_button_height"
+        android:numColumns="auto_fit"
+        android:listSelector="@android:color/transparent" >
+    </com.pdftron.pdf.utils.ExpandableGridView>
+
+    <LinearLayout
+        android:id="@+id/layout_custom_sliders"
+        android:layout_marginTop="@dimen/padding_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/tools_annotation_property_graybar_belowColorGrid_advanced"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:paddingTop="@dimen/padding_medium"
+            android:paddingBottom="@dimen/padding_medium"
+            android:layout_marginBottom="@dimen/padding_small"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:id="@+id/property_custom_bottom_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:orientation="horizontal">
+
+                <com.pdftron.pdf.utils.AnnotationPropertyPreviewView
+                    android:id="@+id/image_view_preview"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/padding_small"
+                    android:layout_marginStart="@dimen/padding_small"
+                    android:layout_width="@dimen/tools_annotation_property_preview_size"
+                    android:layout_height="@dimen/tools_annotation_property_preview_size"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <Spinner
+                        android:id="@+id/advanced_free_text_font_spinner"
+                        android:layout_width="@dimen/free_text_font_spinner_width"
+                        android:layout_marginLeft="@dimen/padding_large"
+                        android:layout_marginStart="@dimen/padding_large"
+                        android:layout_height="wrap_content"
+                        android:prompt="@string/free_text_fonts_prompt"
+                        android:spinnerMode="dialog"
+                        android:visibility="gone"/>
+
+                    <include layout="@layout/tools_linearlayout_seekbar_with_label"
+                        android:id="@+id/view_thickness"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <include layout="@layout/tools_linearlayout_seekbar_with_label"
+                        android:id="@+id/view_opacity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/property_custom_gray_line_above_icon_grid"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingTop="@dimen/padding_medium"
+                android:paddingBottom="@dimen/padding_medium"
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_marginBottom="@dimen/padding_small"
+                android:background="@android:color/darker_gray"
+                android:visibility="gone"/>
+
+            <com.pdftron.pdf.utils.ExpandableGridView
+                android:id="@+id/custom_icon_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnWidth="@dimen/tools_grid_icon_picker_button_height"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="@dimen/padding_small"
+                android:horizontalSpacing="@dimen/padding_small"
+                android:stretchMode="spacingWidth"
+                android:gravity="center"
+                android:visibility="gone"
+                android:listSelector="@android:color/transparent">
+            </com.pdftron.pdf.utils.ExpandableGridView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

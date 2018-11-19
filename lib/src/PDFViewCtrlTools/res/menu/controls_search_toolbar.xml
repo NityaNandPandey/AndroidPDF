@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_progress"
+        android:title="@string/searching_wait"
+        android:visible="false"
+        app:actionLayout="@layout/actionbar_indeterminate_progress"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_list_all"
+        android:title="@string/action_list_all"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/action_match_case"
+        android:checkable="true"
+        android:title="@string/action_match_case"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_whole_word"
+        android:checkable="true"
+        android:title="@string/action_whole_word"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_search_web"
+        android:title="@string/action_search_web"
+        app:showAsAction="never"/>
+
+</menu>

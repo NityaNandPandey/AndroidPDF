@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/controlBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/controls_edit_toolbar_style_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/action_button_min_padding">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_edit_toolbar_tool_style1"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_gravity="center_vertical"
+            android:foregroundGravity="center"
+            android:maxWidth="@dimen/controls_edit_toolbar_style_width"
+            android:nextFocusLeft="@id/controls_edit_toolbar_tool_style1"
+            android:nextFocusRight="@id/controls_edit_toolbar_tool_style1"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:scaleType="center"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_freehand_black_24dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_edit_toolbar_tool_style2"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_gravity="center_vertical"
+            android:foregroundGravity="center"
+            android:maxWidth="@dimen/controls_edit_toolbar_style_width"
+            android:nextFocusLeft="@id/controls_edit_toolbar_tool_style2"
+            android:nextFocusRight="@id/controls_edit_toolbar_tool_style2"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:scaleType="center"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_freehand_black_24dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_edit_toolbar_tool_style3"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_gravity="center_vertical"
+            android:foregroundGravity="center"
+            android:maxWidth="@dimen/controls_edit_toolbar_style_width"
+            android:nextFocusLeft="@id/controls_edit_toolbar_tool_style3"
+            android:nextFocusRight="@id/controls_edit_toolbar_tool_style3"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:scaleType="center"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_freehand_black_24dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_edit_toolbar_tool_style4"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_gravity="center_vertical"
+            android:foregroundGravity="center"
+            android:maxWidth="@dimen/controls_edit_toolbar_style_width"
+            android:nextFocusLeft="@id/controls_edit_toolbar_tool_style4"
+            android:nextFocusRight="@id/controls_edit_toolbar_tool_style4"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:scaleType="center"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_freehand_black_24dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_edit_toolbar_tool_style5"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_gravity="center_vertical"
+            android:maxWidth="@dimen/controls_edit_toolbar_style_width"
+            android:nextFocusLeft="@id/controls_edit_toolbar_tool_style5"
+            android:nextFocusRight="@id/controls_edit_toolbar_tool_style5"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:scaleType="center"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_freehand_black_24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/controls_edit_toolbar_control_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/action_button_min_padding">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_edit_toolbar_tool_clear"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:foregroundGravity="center"
+            android:nextFocusLeft="@id/controls_edit_toolbar_tool_clear"
+            android:nextFocusRight="@id/controls_edit_toolbar_tool_clear"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:scaleType="center" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_edit_toolbar_tool_eraser"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_eraser"
+            android:foregroundGravity="center"
+            android:nextFocusLeft="@id/controls_edit_toolbar_tool_eraser"
+            android:nextFocusRight="@id/controls_edit_toolbar_tool_eraser"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:scaleType="center"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_edit_toolbar_tool_undo"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:contentDescription="@string/undo"
+            android:foregroundGravity="center"
+            android:nextFocusLeft="@id/controls_edit_toolbar_tool_undo"
+            android:nextFocusRight="@id/controls_edit_toolbar_tool_undo"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:scaleType="center" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_edit_toolbar_tool_redo"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:contentDescription="@string/redo"
+            android:foregroundGravity="center"
+            android:nextFocusLeft="@id/controls_edit_toolbar_tool_redo"
+            android:nextFocusRight="@id/controls_edit_toolbar_tool_redo"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:scaleType="center" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_edit_toolbar_tool_close"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:layout_gravity="center_vertical"
+            android:foregroundGravity="center"
+            android:nextFocusLeft="@id/controls_edit_toolbar_tool_close"
+            android:nextFocusRight="@id/controls_edit_toolbar_tool_close"
+            android:padding="@dimen/icon_min_padding"
+            android:scaleType="center" />
+
+    </LinearLayout>
+
+</LinearLayout>

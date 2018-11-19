@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/alert_dialog_top_padding"
+    android:paddingBottom="@dimen/alert_dialog_top_padding"
+    android:paddingLeft="@dimen/alert_dialog_side_padding"
+    android:paddingStart="@dimen/alert_dialog_side_padding"
+    android:paddingRight="@dimen/alert_dialog_side_padding"
+    android:paddingEnd="@dimen/alert_dialog_side_padding">
+
+    <EditText
+        android:id="@+id/dialog_rename_file_edit"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollHorizontally="true"
+        android:inputType="textNoSuggestions"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:gravity="fill_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="Deprecated"/>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:rotationY="@integer/view_pager_rotation_y">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_control_annotation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="afterDescendants"/>
+
+    <TextView
+        android:id="@+id/control_annotation_textview_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/controls_annotation_dialog_empty"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center_vertical|center_horizontal"/>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/export_annotations_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_button_margin"
+        fab:srcCompat="@drawable/ic_vertical_align_bottom_white_24dp"
+        fab:fab_colorNormal="?attr/colorAccent"
+        fab:fab_colorPressed="?attr/colorAccent"
+        fab:fab_size="normal" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar_view"
+        style="@style/MaterialProgressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

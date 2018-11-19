@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThumbnailSliderStyle">
+        <item name="leftMenuItemColor">@android:color/white</item>
+        <item name="rightMenuItemColor">@android:color/white</item>
+        <item name="seekbarColor">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+    <style name="ToolbarPopupTheme" parent="ThemeOverlay.AppCompat.Dark" />
+
+</resources>

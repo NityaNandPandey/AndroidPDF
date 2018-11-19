@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:background="?attr/selectableItemBackground"
+    android:elevation="@dimen/card_elevation"
+    android:layoutDirection="locale"
+    android:focusable="true"
+    android:clickable="true"
+    tools:ignore="UnusedAttribute">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/activatedBackgroundIndicator">
+
+        <RelativeLayout
+            android:id="@+id/file_icon_layout"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/list_thumbnail_horizontal_margin"
+            android:layout_marginTop="@dimen/list_thumbnail_vertical_margin"
+            android:layout_marginBottom="@dimen/list_thumbnail_vertical_margin"
+            android:layout_marginRight="@dimen/list_thumbnail_horizontal_margin"
+
+            android:layout_width="@dimen/list_thumbnail_height"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true">
+
+                <com.pdftron.demo.widget.ImageViewTopCrop
+                    android:id="@+id/file_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/list_thumbnail_height"
+                    android:scaleType="matrix"
+                    fresco:placeholderImage="@drawable/white_square"
+                    android:contentDescription="@string/imageview_icon_file_type_description" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/file_lock_icon"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignTop="@id/file_icon"
+                    android:layout_alignRight="@id/file_icon"
+                    android:layout_alignEnd="@id/file_icon"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/thumbnail_lock"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/docTextPlaceHolder"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="#8A000000"
+                    android:textSize="16sp"
+                    android:text=".doc"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <FrameLayout
+
+            android:id="@+id/info_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/toolbar_h_padding"
+            android:background="?attr/actionBarItemBackground">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/info_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/toolbar_h_padding"
+                android:scaleType="centerInside"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/ic_info_outline_grey600_24dp" />
+
+            <CheckBox
+                android:id="@+id/check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/file_icon_layout"
+            android:layout_toEndOf="@id/file_icon_layout"
+            android:layout_toLeftOf="@id/info_button"
+            android:layout_toStartOf="@id/info_button"
+            android:paddingTop="20dp">
+
+
+            <TextView
+                android:id="@+id/file_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/primary_text_size"
+                android:textColor="?android:attr/textColorPrimary"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                tools:ignore="Deprecated"/>
+
+            <TextView
+                android:id="@+id/file_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="14sp"
+                android:textColor="?android:attr/textColorTertiary"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                tools:ignore="Deprecated"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:alpha="0.12"
+        app:srcCompat="@drawable/hairline"
+        android:id="@+id/divider"
+        android:fitsSystemWindows="false"
+        android:visibility="gone"
+        android:scaleType="centerCrop" />
+</FrameLayout>

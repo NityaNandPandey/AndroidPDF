@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_above="@+id/linearLayout2">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scroll_layout"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/color_picker_container"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_horizontal">
+                <com.rarepebble.colorpicker.ColorPickerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/color_picker_picker"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <com.pdftron.pdf.utils.SegmentedGroup
+                    android:id="@+id/colormode_comp_selector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_small"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="8dp">
+
+                    <!--suppress AndroidElementNotAllowed -->
+                    <RadioButton
+                        android:id="@+id/colormode_bgcolor_selector"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pref_colormode_custom_bg_color"
+                        style="@style/RadioButton"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"/>
+
+                    <RadioButton
+                        android:id="@+id/colormode_textcolor_selector"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pref_colormode_custom_text_color"
+                        style="@style/RadioButton"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"/>
+
+
+                </com.pdftron.pdf.utils.SegmentedGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center_horizontal"
+                android:background="@color/gray"
+                android:layout_marginTop="12dp"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:id="@+id/colormode_testchars">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Abc"
+                        android:id="@+id/colormode_testchar_1"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textIsSelectable="false"
+                        tools:ignore="HardcodedText"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingRight="14dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:text="@string/cancel"
+            android:id="@+id/colormode_picker_cancelbtn"
+            android:textSize="12sp"
+            android:background="?attr/selectableItemBackground"
+            android:textColor="?attr/colorAccent" />
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="40sp"
+            android:text="@string/ok"
+            android:id="@+id/colormode_picker_okbtn"
+            android:textSize="12sp"
+            android:background="?attr/selectableItemBackground"
+            android:textColor="?attr/colorAccent" />
+    </LinearLayout>
+
+</RelativeLayout>

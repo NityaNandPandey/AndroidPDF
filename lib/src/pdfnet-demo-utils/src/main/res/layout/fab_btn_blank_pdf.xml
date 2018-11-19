@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.clans.fab.FloatingActionButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/blank_PDF"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/ic_file_blank_white_24dp"
+    app:fab_colorNormal="?attr/colorAccent"
+    app:fab_colorPressed="?attr/colorAccent"
+    app:fab_size="mini"
+    app:fab_label="@string/dialog_create_new_blank_pdf_title"/>
+
+

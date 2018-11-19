@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomAppTheme">
+        <attr name="quick_menu_item" format="reference" />
+        <attr name="thumbnail_slider" format="reference" />
+        <attr name="annotation_toolbar" format="reference" />
+        <attr name="edit_toolbar" format="reference" />
+        <attr name="colorBackgroundLight" format="color" />
+        <attr name="preset_colors_style" format="reference" />
+        <attr name="color_picker_style" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="StatusBarView">
+        <!-- Allow setting fitsSystemWindows to true by default. -->
+        <attr name="android:fitsSystemWindows" />
+        <!-- Allow settings background to colorPrimaryDark by default. -->
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <declare-styleable name="DispatchFairInsets">
+        <!-- Flag indicating whether to fully consume the system window insets. -->
+        <attr name="consumeInsets" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DispatchFairInsetsRelativeLayout">
+        <attr name="consumeInsets" />
+    </declare-styleable>
+
+    <declare-styleable name="DispatchFairInsetsFrameLayout">
+        <attr name="consumeInsets" />
+    </declare-styleable>
+
+    <declare-styleable name="DispatchFairInsetsLinearLayout">
+        <attr name="consumeInsets" />
+    </declare-styleable>
+
+    <declare-styleable name="ForegroundCoordinatorLayout">
+        <attr name="android:foreground" />
+        <attr name="android:foregroundGravity" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomRelativeLayout">
+        <attr name="posX" format="float"/>
+        <attr name="posY" format="float"/>
+        <attr name="pageNum" format="integer"/>
+        <attr name="zoomWithParent" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ThumbnailSlider">
+        <attr name="pdfviewctrlId" format="reference" />
+        <attr name="leftMenuItemDrawable" format="reference" />
+        <attr name="rightMenuItemDrawable" format="reference" />
+        <attr name="leftMenuItemColor" format="color" />
+        <attr name="rightMenuItemColor" format="color" />
+        <attr name="seekbarColor" format="color" />
+        <attr name="leftMenuItemContentDescription" format="string" />
+        <attr name="rightMenuItemContentDescription" format="string" />
+    </declare-styleable>
+
+    <attr name="colorBackground" format="color" />
+    <attr name="colorToolBackground" format="color" />
+    <attr name="colorToolIcon" format="color" />
+    <attr name="colorCloseIcon" format="color" />
+
+    <declare-styleable name="AnnotationToolbar">
+        <attr name="colorBackground" />
+        <attr name="colorToolBackground" />
+        <attr name="colorToolIcon" />
+        <attr name="colorCloseIcon" />
+    </declare-styleable>
+
+    <declare-styleable name="EditToolbar">
+        <attr name="colorBackground" />
+        <attr name="colorToolBackground" />
+        <attr name="colorToolIcon" />
+        <attr name="colorCloseIcon" />
+    </declare-styleable>
+
+    <attr name="searchResultsPopupWindowStyle" format="reference" />
+
+    <declare-styleable name="SwatchView">
+        <attr name="radialMargin" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableGridView">
+        <attr name="expanded" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorPicker">
+        <attr name="colorpicker_selectNoneButtonText" format="string" />
+        <attr name="colorpicker_noneSelectedSummaryText" format="string" />
+        <attr name="colorpicker_defaultColor" format="color"/>
+        <attr name="colorpicker_showAlpha" format="boolean"/>
+        <attr name="colorpicker_showHex" format="boolean"/>
+        <attr name="colorpicker_selectedColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ToolStyle">
+        <attr name="annot_color" format="color"/>
+        <attr name="annot_text_color" format="color"/>
+        <attr name="annot_font_size" format="float"/>
+        <attr name="annot_fill_color" format="color"/>
+        <attr name="annot_thickness" format="float"/>
+        <attr name="annot_thickness_min" format="float"/>
+        <attr name="annot_thickness_max" format="float"/>
+        <attr name="annot_text_size_min" format="float"/>
+        <attr name="annot_text_size_max" format="float"/>
+        <attr name="annot_font" format="string" />
+        <attr name="annot_opacity" format="float"/>
+        <attr name="annot_icon" format="string"/>
+        <attr name="ruler_base_value" format="float"/>
+        <attr name="ruler_base_unit" format="string"/>
+        <attr name="ruler_translate_value" format="float"/>
+        <attr name="ruler_translate_unit" format="string"/>
+        <!-- default style attrs -->
+        <attr name="highlight_default_style" format="reference" />
+        <attr name="sticky_note_default_style" format="reference" />
+        <attr name="underline_default_style" format="reference" />
+        <attr name="squiggly_default_style" format="reference" />
+        <attr name="strikeout_default_style" format="reference" />
+        <attr name="free_highlighter_default_style" format="reference" />
+        <attr name="freehand_default_style" format="reference" />
+        <attr name="free_text_default_style" format="reference" />
+        <attr name="line_default_style" format="reference" />
+        <attr name="ruler_default_style" format="reference" />
+        <attr name="polyline_default_style" format="reference" />
+        <attr name="rect_default_style" format="reference" />
+        <attr name="oval_default_style" format="reference" />
+        <attr name="polygon_default_style" format="reference" />
+        <attr name="cloud_default_style" format="reference" />
+        <attr name="signature_default_style" format="reference" />
+        <attr name="link_default_style" format="reference" />
+        <attr name="rect_group_annot_edit_style" format="reference" />
+        <attr name="other_default_style" format="reference" />
+
+        <!-- presets reference to array -->
+        <attr name="highlight_presets" format="reference" />
+        <attr name="sticky_note_presets" format="reference" />
+        <attr name="underline_presets" format="reference" />
+        <attr name="squiggly_presets" format="reference" />
+        <attr name="strikeout_presets" format="reference" />
+        <attr name="freehand_presets" format="reference" />
+        <attr name="free_highlighter_presets" format="reference" />
+        <attr name="free_text_presets" format="reference" />
+        <attr name="callout_presets" format="reference" />
+        <attr name="line_presets" format="reference" />
+        <attr name="ruler_presets" format="reference" />
+        <attr name="polyline_presets" format="reference" />
+        <attr name="rect_presets" format="reference" />
+        <attr name="oval_presets" format="reference" />
+        <attr name="polygon_presets" format="reference" />
+        <attr name="cloud_presets" format="reference" />
+        <attr name="signature_presets" format="reference" />
+        <attr name="link_presets" format="reference" />
+        <attr name="other_presets" format="reference" />
+        <!-- icons reference to array -->
+        <attr name="sticky_note_icons" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ToolManager">
+        <!-- whether editing ink annotation should open the annotation toolbar -->
+        <attr name="edit_ink_annots" format="boolean" />
+        <!-- whether to enable image stamper tool -->
+        <attr name="add_image_stamper_tool" format="boolean" />
+        <!-- whether ink tool will open annotation toolbar -->
+        <attr name="open_toolbar_on_pan_ink_selected" format="boolean" />
+        <!-- whether to use/show the built-in page number indicator -->
+        <attr name="build_in_page_number_indicator" format="boolean" />
+        <!-- whether to check annotation author permission -->
+        <attr name="annot_permission_check" format="boolean" />
+        <!-- whether to show author dialog the first time when user annotates -->
+        <attr name="show_author_dialog" format="boolean" />
+        <!-- whether the TextMarkup annotations are compatible with Adobe
+        (Adobe's quads don't follow the specification, but they don't handle quads that do)
+        -->
+        <attr name="text_markup_adobe_hack" format="boolean" />
+        <!-- whether to copy annotated text to note -->
+        <attr name="copy_annotated_text_to_note" format="boolean" />
+        <!-- whether to use stylus to draw without entering ink tool -->
+        <attr name="stylus_as_Pen" format="boolean" />
+        <!-- whether to smooth ink annotation -->
+        <attr name="ink_smoothing_enabled" format="boolean"/>
+        <!-- whether auto select annotation after annotation is created -->
+        <attr name="auto_select_annotation" format="boolean"/>
+        <!-- whether disable showing quick menu -->
+        <attr name="quick_menu_disable" format="boolean"/>
+        <!-- whether can double tap to zoom -->
+        <attr name="double_tap_to_zoom" format="boolean"/>
+        <!-- whether can auto resize free text when editing -->
+        <attr name="auto_resize_freetext" format="boolean"/>
+        <!-- whether annotation editing is real time -->
+        <attr name="realtime_annot_edit" format="boolean"/>
+        <!-- whether can edit freetext on tap -->
+        <attr name="edit_freetext_on_tap" format="boolean"/>
+        <!-- array of tools to disable -->
+        <attr name="disable_tool_modes" format="reference"/>
+        <!-- array of annot types to disable editing -->
+        <attr name="disable_annot_editing_by_types" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="QuickMenuItem">
+        <attr name="android:tint" />
+        <attr name="icon_alpha" format="float"/>
+        <attr name="text_alpha" format="float" />
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <declare-styleable name="PresetColorGridView">
+        <attr name="color_list" format="reference" />
+        <attr name="android:columnWidth" />
+        <attr name="android:gravity" />
+        <attr name="android:horizontalSpacing" />
+        <attr name="android:numColumns" />
+        <attr name="android:verticalSpacing" />
+        <attr name="android:stretchMode" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorHuePickerWheel">
+        <attr name="wheel_width" format="dimension" />
+        <attr name="value_pointer_radius" format="dimension" />
+        <attr name="ring_color" format="color" />
+        <attr name="ring_shadow_radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorSatValuePickerBoard">
+        <attr name="value_pointer_radius"/>
+        <attr name="ring_color" />
+        <attr name="ring_shadow_radius" />
+    </declare-styleable>
+
+    <declare-styleable name="AnnotationPropertyPreviewView">
+        <!-- whether to show transparent patten as background if there is transparency -->
+        <attr name="transparent_background" format="boolean" />
+        <!-- parent view background color, show border if the stroke color is the same as the background -->
+        <attr name="parent_background" format="color" />
+        <!-- inner and outer stroke color -->
+        <attr name="stroke_color" format="color" />
+        <!-- whether to draw inner and outer stroke if color is the same as the background color -->
+        <attr name="draw_stroke" format="boolean" />
+        <!-- the text to display for preview if the annotation is a free text annotation or text markup annotation -->
+        <attr name="preview_text" format="string" />
+        <!-- minimum text size for preview -->
+        <attr name="min_text_size" format="dimension" />
+        <!-- whether to use stroke ratio for drawing preview -->
+        <attr name="use_stroke_ratio" format="boolean" />
+    </declare-styleable>
+
+    <!-- RectGroupAnnotEdit tool draw style attributes -->
+    <declare-styleable name="RectGroupAnnotEdit">
+        <attr name="fillColor" format="color" />
+        <attr name="fillOpacity" format="float" />
+    </declare-styleable>
+</resources>

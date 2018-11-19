@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="controls_annot_style_markup_text">#747474</color>
+    <color name="controls_annot_style_preview_bg">#212121</color>
+    <color name="controls_color_picker_bg">@color/gray850</color>
+    <color name="controls_edit_toolbar_tool">#FF080808</color>
+    <color name="tools_dialog_annotation_popup_background">#303030</color>
+    <color name="tools_dialog_annotation_popup_textbox_background">#424242</color>
+    <color name="tools_dialog_floating_sig_dialog_bg">#303030</color>
+    <color name="tools_dialog_floating_sig_signature_view">#424242</color>
+    <color name="tools_dialog_sticky_note_style_options_background">#424242</color>
+    <color name="tools_dialog_sticky_note_textbox_background">#424242</color>
+    <color name="tools_text_select_color">#333333</color>
+    <style name="ThumbnailSliderStyle">
+        <item name="leftMenuItemColor">@android:color/white</item>
+        <item name="rightMenuItemColor">@android:color/white</item>
+        <item name="seekbarColor">@android:color/white</item>
+    </style>
+    <style name="ToolbarPopupTheme" parent="ThemeOverlay.AppCompat.Dark"/>
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.ActionBar"/>
+</resources>

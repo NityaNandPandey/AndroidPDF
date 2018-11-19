@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:useLevel="false"
+    android:thickness="@dimen/padding_small"
+    android:innerRadius="@dimen/padding_small"
+    >
+    <size android:width="@dimen/preview_ring_size" android:height="@dimen/preview_ring_size" />
+    <stroke android:color="@color/brown" android:width="@dimen/padding_xxsmall" />
+</shape>

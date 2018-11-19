@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="?android:attr/colorBackground"
+    android:paddingLeft="@dimen/padding_medium"
+    android:paddingStart="@dimen/padding_medium"
+    android:paddingRight="@dimen/padding_medium"
+    android:paddingEnd="@dimen/padding_medium"
+    android:paddingTop="@dimen/padding_small"
+    android:paddingBottom="@dimen/padding_small"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/control_bookmark_listview_item_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:minHeight="45dip"
+            android:singleLine="true"
+            android:ellipsize="end" />
+
+        <EditText
+            android:id="@+id/control_bookmark_listview_item_edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:focusable="true"
+            android:focusableInTouchMode ="true"
+            android:minHeight="45dip"
+            android:inputType="text"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:layout_width="80dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/control_bookmark_listview_item_context_button"
+        app:srcCompat="@drawable/ic_overflow_black_24dp"
+        android:tint="@color/gray600"
+        android:layout_weight="1"
+        android:scaleType="center"
+        android:background="#00ffffff" />
+
+</LinearLayout>

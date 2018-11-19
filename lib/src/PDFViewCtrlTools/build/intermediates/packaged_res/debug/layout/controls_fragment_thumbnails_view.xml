@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/controls_thumbnails_view_toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--suppress AndroidDomInspection svg -->
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/controls_thumbnails_view_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ToolbarTheme"
+            app:popupTheme="@style/ToolbarPopupTheme"
+            app:navigationContentDescription="@string/tools_misc_close"/>
+
+        <!--suppress AndroidDomInspection svg -->
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/controls_thumbnails_view_cab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ToolbarTheme"
+            app:popupTheme="@style/ToolbarPopupTheme"
+            app:navigationContentDescription="@string/cancel"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+    <com.pdftron.pdf.widget.recyclerview.SimpleRecyclerView
+        android:id="@+id/controls_thumbnails_view_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/controls_thumbnails_view_toolbar_layout"
+        android:background="?android:attr/colorBackground"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/controls_toolbar_dropshadow"
+        android:layout_below="@id/controls_thumbnails_view_toolbar_layout"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="@dimen/fab_button_margin"
+        android:paddingEnd="@dimen/fab_button_margin"
+        android:paddingBottom="@dimen/fab_button_margin"
+        app:menu_colorNormal="?attr/colorAccent"
+        app:menu_colorPressed="?attr/colorAccent"
+        app:menu_openDirection="up"
+        app:menu_labels_style="@style/fabMenuLabelStyle"
+        app:menu_backgroundColor="@color/fab_menu_background">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/page_PDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_add_blank_page_white"
+            app:fab_colorNormal="?attr/colorAccent"
+            app:fab_colorPressed="?attr/colorAccent"
+            app:fab_size="mini"
+            app:fab_label="@string/dialog_add_new_page_pdf_title"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/image_PDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_add_image_white"
+            app:fab_colorNormal="?attr/colorAccent"
+            app:fab_colorPressed="?attr/colorAccent"
+            app:fab_size="mini"
+            app:fab_label="@string/dialog_add_new_photo_pdf_title"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/PDF_doc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_add_blank_page_white"
+            app:fab_colorNormal="?attr/colorAccent"
+            app:fab_colorPressed="?attr/colorAccent"
+            app:fab_size="mini"
+            app:fab_label="@string/dialog_add_pdf_doc_title"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

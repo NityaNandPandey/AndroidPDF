@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+    android:layout_height="@dimen/navigation_drawer_list_item_height"
+    android:orientation="horizontal"
+    android:id="@+id/header_view"
+    android:clickable="true"
+    android:paddingLeft="@dimen/first_keyline"
+    android:paddingRight="@dimen/toolbar_h_padding"
+    >
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start"
+        android:layout_weight="1"
+        android:textSize="@dimen/primary_text_size"
+        android:textColor="@android:color/tertiary_text_light"
+        android:ellipsize="middle"
+        android:clickable="false"
+        android:maxEms="15"
+        android:singleLine="true"
+        tools:ignore="Deprecated"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/folding_btn"
+        app:srcCompat="@drawable/ic_keyboard_arrow_up_black_24dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:clickable="false"
+        android:alpha="0.38" />
+</LinearLayout>

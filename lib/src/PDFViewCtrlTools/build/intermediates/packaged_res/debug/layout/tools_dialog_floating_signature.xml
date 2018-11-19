@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tools_dialog_floating_sig_dialog_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tools_dialog_floating_sig_controls_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/tools_dialog_floating_sig_checkbox_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/padding_small"
+            android:layout_marginRight="@dimen/padding_small"
+            android:paddingEnd="@dimen/dialog_button_default_margin_padding"
+            android:paddingRight="@dimen/dialog_button_default_margin_padding"
+            android:text="@string/tools_dialog_floating_sig_checkbox_default" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/tools_dialog_floating_sig_button_cancel"
+                style="@style/transparent_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="@dimen/dialog_button_default_margin_padding"
+                android:layout_marginLeft="@dimen/dialog_button_default_margin_padding"
+                android:layout_marginRight="@dimen/dialog_button_default_margin_padding"
+                android:layout_marginStart="@dimen/dialog_button_default_margin_padding"
+                android:background="@drawable/controls_annotation_toolbar_bg"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/tools_dialog_floating_sig_button_add"
+                style="@style/transparent_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="@dimen/dialog_button_default_margin_padding"
+                android:layout_marginLeft="@dimen/dialog_button_default_margin_padding"
+                android:layout_marginRight="@dimen/dialog_button_default_margin_padding"
+                android:layout_marginStart="@dimen/dialog_button_default_margin_padding"
+                android:background="@drawable/controls_annotation_toolbar_bg"
+                android:text="@string/add" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tools_dialog_floating_sig_controls_view"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/tools_dialog_floating_sig_signature_view_margin"
+        android:layout_marginLeft="@dimen/tools_dialog_floating_sig_signature_view_margin"
+        android:layout_marginRight="@dimen/tools_dialog_floating_sig_signature_view_margin"
+        android:layout_marginStart="@dimen/tools_dialog_floating_sig_signature_view_margin"
+        android:layout_marginTop="@dimen/tools_dialog_floating_sig_signature_view_margin">
+
+        <RelativeLayout
+            android:id="@+id/tools_dialog_floating_sig_signature_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:background="@color/tools_dialog_floating_sig_signature_view" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/tools_dialog_floating_sig_button_style"
+            android:layout_width="@dimen/action_button_min_width"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/dialog_button_default_margin_padding"
+            android:background="@drawable/tools_signature_picker_dialog_button"
+            app:srcCompat="@drawable/ic_annotation_freehand_black_24dp" />
+
+        <Button
+            android:id="@+id/tools_dialog_floating_sig_button_clear"
+            style="@style/transparent_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="@dimen/dialog_button_default_margin_padding"
+            android:background="@drawable/tools_signature_picker_dialog_button"
+            android:stateListAnimator="@null"
+            android:text="@string/clear" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/tools_dialog_floating_sig_signhere_margin_bottom">
+
+            <View
+                android:id="@+id/tools_dialog_floating_sig_signhere_line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_xxsmall"
+                android:layout_marginBottom="@dimen/tools_dialog_floating_sig_signhere_margin"
+                android:layout_marginEnd="@dimen/tools_dialog_floating_sig_signhere_margin"
+                android:layout_marginLeft="@dimen/tools_dialog_floating_sig_signhere_margin"
+                android:layout_marginRight="@dimen/tools_dialog_floating_sig_signhere_margin"
+                android:layout_marginStart="@dimen/tools_dialog_floating_sig_signhere_margin"
+                android:background="@color/tools_dialog_floating_sig_signhere_color" />
+
+            <TextView
+                android:id="@+id/tools_dialog_floating_sig_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tools_dialog_floating_sig_signhere_line"
+                android:gravity="center"
+                android:text="@string/tools_dialog_floating_sig_sign_here"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/tools_dialog_floating_sig_signhere_color"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

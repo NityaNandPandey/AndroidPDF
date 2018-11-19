@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <!-- Search View Widget -->
+    <item android:id="@+id/menu_action_search"
+        android:title="@string/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <!--Toggle Grid-->
+    <item android:id="@+id/menu_grid_toggle"
+        android:icon="@drawable/ic_view_list_white_24dp"
+        android:title="@string/action_list_view"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/menu_grid_count_0"
+                    android:title="@string/action_list_view"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/menu_grid_count_1"
+                    android:title="@string/num_1"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/menu_grid_count_2"
+                    android:title="@string/num_2"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/menu_grid_count_3"
+                    android:title="@string/num_3"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/menu_grid_count_4"
+                    android:title="@string/num_4"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/menu_grid_count_5"
+                    android:title="@string/num_5"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/menu_grid_count_6"
+                    android:title="@string/num_6"
+                    app:showAsAction="never"/>
+            </group>
+        </menu>
+    </item>
+
+    <!-- Reload Files -->
+    <item android:id="@+id/menu_action_reload"
+        android:icon="@drawable/ic_cached_white"
+        android:title="@string/action_reload"
+        app:showAsAction="ifRoom"/>
+
+    <!--Sort Files-->
+    <item android:id="@+id/menu_file_sort"
+        android:icon="@drawable/ic_sort_white_24dp"
+        android:title="@string/action_sort_files"
+        app:showAsAction="never" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/menu_file_sort_by_name"
+                    android:title="@string/action_sort_files_by_name"
+                    app:showAsAction="never" />
+                <item android:id="@+id/menu_file_sort_by_date"
+                    android:title="@string/action_sort_files_by_date"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+    <!-- Grid Size -->
+    <!--<item android:id="@+id/menu_grid_size"-->
+        <!--android:title="@string/action_grid_size"-->
+        <!--app:showAsAction="never">-->
+        <!--<menu>-->
+            <!--<group android:checkableBehavior="single">-->
+                <!--<item android:id="@+id/menu_grid_size_small"-->
+                    <!--android:title="@string/small"-->
+                    <!--app:showAsAction="never" />-->
+                <!--<item android:id="@+id/menu_grid_size_medium"-->
+                    <!--android:title="@string/medium"-->
+                    <!--app:showAsAction="never" />-->
+                <!--<item android:id="@+id/menu_grid_size_large"-->
+                    <!--android:title="@string/large"-->
+                    <!--app:showAsAction="never" />-->
+            <!--</group>-->
+        <!--</menu>-->
+    <!--</item>-->
+
+    <!-- Create Item -->
+    <!--<item android:id="@+id/menu_new_item"-->
+        <!--android:icon="@drawable/ic_add_white"-->
+        <!--android:title="@string/action_create_new"-->
+        <!--app:showAsAction="ifRoom|withText" />-->
+
+</menu>

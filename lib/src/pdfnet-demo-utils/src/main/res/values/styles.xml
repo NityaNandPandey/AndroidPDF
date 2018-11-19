@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">@dimen/first_keyline</item>
+    </style>
+
+    <!-- Theme overlay for fragments embedding their own toolbar and app bar. -->
+    <style name="ThemeOverlay.Fragment" parent="">
+        <item name="fragmentAppBarStyle">@style/FragmentAppBarStyle</item>
+        <item name="fragmentToolbarStyle">@style/FragmentToolbarStyle</item>
+    </style>
+
+    <!-- Theme overlay for fragments embedding their own toolbar but not app bar. -->
+    <style name="ThemeOverlay.Fragment.NoAppBar">
+        <item name="fragmentToolbarStyle">@style/FragmentToolbarStyle.NoAppBar</item>
+    </style>
+
+    <!-- Base style for embedded toolbars in fragments. -->
+    <style name="Base.FragmentToolbarStyle" parent="ToolbarStyle">
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="navigationIcon">@drawable/ic_menu_white_24dp</item>
+    </style>
+
+    <!-- Base style for embedded toolbars in fragments with an app bar. -->
+    <style name="Base.FragmentToolbarStyle.NoAppBar">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Base style for app bars in fragments. -->
+    <style name="Base.FragmentAppBarStyle" parent="">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Version-specific styles. -->
+    <!-- Override in values-vXX/styles.xml -->
+    <style name="FragmentToolbarStyle" parent="Base.FragmentToolbarStyle" />
+
+    <style name="FragmentToolbarStyle.NoAppBar" parent="Base.FragmentToolbarStyle.NoAppBar" />
+
+    <style name="FragmentAppBarStyle" parent="Base.FragmentAppBarStyle" />
+
+    <style name="NavigationViewStyle">
+        <item name="listPreferredItemPaddingLeft">@dimen/navigation_drawer_horizontal_margin</item>
+        <item name="listPreferredItemPaddingRight">@dimen/navigation_drawer_horizontal_margin</item>
+        <item name="listPreferredItemHeightSmall">@dimen/navigation_drawer_list_item_height</item>
+
+        <!-- Use a light separator and highlight colour on the dark background -->
+        <item name="android:listDivider">@color/navigation_drawer_separator</item>
+        <item name="colorControlHighlight">#66ffffff</item>
+    </style>
+
+</resources>

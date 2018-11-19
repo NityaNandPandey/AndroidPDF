@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/fragment_file_picker_dialog_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:layout_alignParentTop="true"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/fragment_file_picker_dialog_current_folder"
+        fab:titleTextColor="?android:attr/textColorPrimary"
+        fab:titleTextAppearance="?android:attr/textAppearanceSmall"
+        fab:subtitleTextAppearance="?android:attr/textAppearanceSmall"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_file_picker_dialog_toolbar">
+
+        <com.pdftron.pdf.widget.recyclerview.SimpleRecyclerView
+            android:id="@+id/fragment_file_picker_dialog_folder_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"/>
+
+        <TextView
+            android:id="@android:id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/file_list_grid_spacing"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="?android:attr/textColorSecondary"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <com.pdftron.pdf.widget.ContentLoadingRelativeLayout
+            android:id="@+id/fragment_file_picker_dialog_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/colorBackground"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                style="@style/Widget.AppCompat.ProgressBar" />
+
+        </com.pdftron.pdf.widget.ContentLoadingRelativeLayout>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fragment_file_picker_dialog_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:srcCompat="@drawable/ic_add_white_24dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_button_margin"
+            fab:fab_colorNormal="?attr/colorAccent"
+            fab:fab_colorPressed="?attr/colorAccent"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

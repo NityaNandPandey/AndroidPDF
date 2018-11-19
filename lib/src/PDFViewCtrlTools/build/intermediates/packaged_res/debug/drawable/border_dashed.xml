@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid
+        android:color="@color/tools_colors_white"/>
+    <stroke
+        android:width="@dimen/padding_xsmall"
+        android:color="@color/tools_gray"
+        android:dashGap="@dimen/tools_grid_color_picker_dash_gap"
+        android:dashWidth="@dimen/tools_grid_color_picker_dash_width"/>
+    <corners
+        android:radius="@dimen/tools_grid_color_picker_round_corners"/>
+
+</shape>

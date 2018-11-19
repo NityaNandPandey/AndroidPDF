@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_page_view_mode_entries">
+        <item>@string/fit_page</item>
+        <item>@string/fit_page_width</item>
+    </string-array>
+    <string-array name="pref_page_view_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <attr format="reference" name="fragmentAppBarStyle"/>
+    <attr format="reference" name="fragmentToolbarStyle"/>
+    <color name="activated_item_color">#1f000000</color>
+    <color name="annotation_flashing_box">#FF7088FF</color>
+    <color name="breadcrumb_color_inactive">#80ffffff</color>
+    <color name="breadcrumb_selected_bg">#66ffffff</color>
+    <color name="fastscroller">#FF7088FF</color>
+    <color name="favorite_color">#EF4539</color>
+    <color name="fragment_file_picker_dialog_current_folder">#CCCCCC</color>
+    <color name="navigation_drawer_sel_bg">@color/gray200</color>
+    <color name="navigation_drawer_separator">@color/gray200</color>
+    <color name="page_number_indicator_bg">#C84B4B4B</color>
+    <color name="permission_screen_background">#e6e9ee</color>
+    <color name="permission_screen_blue">#00ade0</color>
+    <color name="permission_screen_text_blue">#2d3e50</color>
+    <color name="recyclerview_header_bg">#E5E9E8</color>
+    <color name="scrim_insets_frame_layout_foreground">#A0000000</color>
+    <color name="scrim_insets_frame_layout_foreground_center">#40000000</color>
+    <color name="thumbnail_image_overlay">#b3356694</color>
+    <color name="thumbnail_text_selected_bg">#ff0d2237</color>
+    <declare-styleable name="ForegroundRelativeLayout">
+        <attr name="android:foreground"/>
+        <attr name="android:foregroundGravity"/>
+    </declare-styleable>
+    <dimen name="actionbar_elevation">4dp</dimen>
+    <dimen name="actionbar_size">56dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="alert_dialog_body_size">16sp</dimen>
+    <dimen name="alert_dialog_title_size">20sp</dimen>
+    <dimen name="app_defaultsize_h">598.0dip</dimen>
+    <dimen name="app_defaultsize_w">632.0dip</dimen>
+    <dimen name="app_minimumsize_h">598.0dip</dimen>
+    <dimen name="app_minimumsize_w">632.0dip</dimen>
+    <dimen name="base_thumbnail_height_huge">387dp</dimen>
+    <dimen name="base_thumbnail_height_large">258dp</dimen>
+    <dimen name="base_thumbnail_height_medium">180dp</dimen>
+    <dimen name="base_thumbnail_height_small">129dp</dimen>
+    <dimen name="bottom_sheet_peek_height_min">64dp</dimen>
+    <dimen name="breadcrumb_bar_height">42dp</dimen>
+    <dimen name="breadcrumb_bar_start_padding">60dp</dimen>
+    <dimen name="breadcrumb_start_padding">12dp</dimen>
+    <dimen name="c_text_appearance_small">16sp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="drawer_elevation">16dp</dimen>
+    <dimen name="fastscroller_handle_corner">3dp</dimen>
+    <dimen name="fastscroller_reack_corner">3dp</dimen>
+    <dimen name="fastscroller_track_height">30dp</dimen>
+    <dimen name="fastscroller_track_padding">2dp</dimen>
+    <dimen name="fastscroller_track_width">6dp</dimen>
+    <dimen name="favorite_file_indicator_size">16dp</dimen>
+    <dimen name="file_info_drawer_title_shadow_dx">1dp</dimen>
+    <dimen name="file_info_drawer_title_shadow_dy">1dp</dimen>
+    <dimen name="file_info_drawer_title_shadow_radius">1dp</dimen>
+    <dimen name="file_info_gap">6dp</dimen>
+    <dimen name="file_list_grid_padding">1dp</dimen>
+    <dimen name="file_list_grid_spacing">4dp</dimen>
+    <dimen name="file_more_button_size">48dp</dimen>
+    <dimen name="file_more_icon_padding">12dp</dimen>
+    <dimen name="first_keyline">16dp</dimen>
+    <dimen name="goto_sdcard_max_width">300dp</dimen>
+    <dimen name="grid_bottomsheet_icon_size">40.0dip</dimen>
+    <dimen name="grid_bottomsheet_item_margin">8.0dip</dimen>
+    <dimen name="grid_bottomsheet_label_height">16dp</dimen>
+    <dimen name="grid_bottomsheet_margins">24dp</dimen>
+    <dimen name="list_thumbnail_height">56dip</dimen>
+    <dimen name="list_thumbnail_horizontal_margin">8dp</dimen>
+    <dimen name="list_thumbnail_vertical_margin">8dp</dimen>
+    <dimen name="list_thumbnail_width">56dip</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_xsmall">5dp</dimen>
+    <dimen name="modal_bottom_sheet_elevation">16dp</dimen>
+    <dimen name="navigation_drawer_avatar_size">48dp</dimen>
+    <dimen name="navigation_drawer_header_height">107dp</dimen>
+    <dimen name="navigation_drawer_header_top_margin">36dp</dimen>
+    <dimen name="navigation_drawer_horizontal_margin">16dp</dimen>
+    <dimen name="navigation_drawer_list_item_height">48dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_xsmall">2dp</dimen>
+    <dimen name="primary_text_size">16sp</dimen>
+    <dimen name="second_keyline">72dp</dimen>
+    <dimen name="secondary_text_size">12sp</dimen>
+    <dimen name="share_action_bar_height">56.0dip</dimen>
+    <dimen name="share_ui_action_bar_icon_padding">16.0dip</dimen>
+    <dimen name="share_ui_action_bar_send_padding_vertical">16.0dip</dimen>
+    <dimen name="share_ui_send_button_text_size">16.0sp</dimen>
+    <dimen name="share_ui_title_text_size">20.0sp</dimen>
+    <dimen name="thumbnail_height">@dimen/thumbnail_height_small</dimen>
+    <dimen name="thumbnail_height_large">@dimen/base_thumbnail_height_large</dimen>
+    <dimen name="thumbnail_height_small">@dimen/base_thumbnail_height_small</dimen>
+    <dimen name="thumbnail_lock_size">@dimen/thumbnail_lock_size_small</dimen>
+    <dimen name="thumbnail_lock_size_list">16dp</dimen>
+    <dimen name="thumbnail_lock_size_medium">36dp</dimen>
+    <dimen name="thumbnail_lock_size_small">30dp</dimen>
+    <dimen name="toolbar_h_padding">8dp</dimen>
+    <item name="fragment_app_bar" type="id"/>
+    <item name="fragment_content" type="id"/>
+    <item name="fragment_toolbar" type="id"/>
+    <item name="item_exit" type="id"/>
+    <item name="item_external_storage" type="id"/>
+    <item name="item_favorites" type="id"/>
+    <item name="item_file_list" type="id"/>
+    <item name="item_folder_list" type="id"/>
+    <item name="item_recent" type="id"/>
+    <item name="item_settings" type="id"/>
+    <item name="item_viewer" type="id"/>
+    <item name="menu_overflow_button" type="id"/>
+    <integer name="max_online_collaboration_email_length">255</integer>
+    <integer name="max_online_collaboration_message_length">512</integer>
+    <integer name="max_online_collaboration_name_length">255</integer>
+    <plurals name="dialog_merge_invalid_file_message">
+        <item quantity="one">Merge operation is not supported for the selected file. It may be corrupted, it may contain proprietary \"XFA extensions\" that are not part of the PDF standard, or it may contain additional files. For password protected files, you can merge them via the thumbnails view inside the viewer.</item>
+        <item quantity="other">Merge operation is not supported for some of the selected files. They may be corrupted, they may contain proprietary \"XFA extensions\" that are not part of the PDF standard, or they may contain additional files. For password protected files, you can merge them via the thumbnails view inside the viewer.</item>
+    </plurals>
+    <string name="about">About</string>
+    <string name="action_add_to_favorites">Add to Favorites</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_favorite">Favorite</string>
+    <string comment="Filter files by various properties" name="action_file_filter">Filter</string>
+    <string name="action_file_move">Move</string>
+    <string name="action_grid_size">Grid Size</string>
+    <string name="action_list_view">List</string>
+    <string name="action_reload">Reload</string>
+    <string name="action_remove_from_favorites">Remove from Favorites</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sort_files">Sort</string>
+    <string name="action_sort_files_by_date">By date modified</string>
+    <string name="action_sort_files_by_name">By name</string>
+    <string name="action_unfavorite">Unfavorite</string>
+    <string name="columns_count">%1$d Columns</string>
+    <string name="convert_to_pdf">Convert to PDF</string>
+    <string name="create_file_invalid_error_message">There was a problem trying to create the file.</string>
+    <string name="deleting_file_wait">Deleting file…</string>
+    <string name="dialog_about_body"><![CDATA[CompleteReader is a sample app that demonstrates how to build a complete PDF viewer and editor using pdftron PDFNet SDK.]]></string>
+    <string name="dialog_clear_favorite_list_message">This will clear all of the files from the favorite documents list.</string>
+    <string name="dialog_clear_favorite_list_title" translatable="false">@string/dialog_clear_recent_list_title</string>
+    <string name="dialog_clear_recent_list_message">This will clear all of the files from the recent documents list.</string>
+    <string name="dialog_clear_recent_list_title">Clear List</string>
+    <string name="dialog_create_folder_invalid_folder_name_already_exists_message">This folder already exists. Please use another name.</string>
+    <string name="dialog_create_folder_invalid_folder_name_error_message">There was a problem trying to create the folder. Please try again.</string>
+    <string name="dialog_create_folder_invalid_folder_name_message">Invalid folder name. Only upper and lowercase letters, numbers, and underscores are accepted.</string>
+    <string name="dialog_create_folder_title_hint" translatable="false">@string/dialog_rename_folder_hint</string>
+    <string name="dialog_create_new_blank_pdf_title">New PDF</string>
+    <string name="dialog_create_new_docs_pdf_title">PDF from Documents</string>
+    <string name="dialog_create_new_document_filename_success">Document can be found in: </string>
+    <string name="dialog_create_new_folder_title">Folder</string>
+    <string name="dialog_create_new_photo_pdf_title">PDF from Image</string>
+    <string name="dialog_create_new_webpage_pdf_title">PDF from Webpage</string>
+    <string name="dialog_create_title">Create Folder</string>
+    <string name="dialog_delete_error_message">It was not possible to delete \"%1$s\".</string>
+    <string name="dialog_delete_error_message_general">An error occurred trying to delete the files.</string>
+    <string name="dialog_delete_file_message">Are you sure you want to delete \"%1$s\"?</string>
+    <string name="dialog_delete_folder_message"><![CDATA[Do you want to <font color=#FF0000> delete</font> %1$d files and %2$d folders in \"%3$s\"? All files and subfolders will be deleted.]]></string>
+    <string name="dialog_delete_msg_files">Are you sure you want to delete these files?</string>
+    <string name="dialog_delete_title">Delete File</string>
+    <string name="dialog_external_file_readonly_action"><![CDATA[In the %1$s tab, your SD Card files are read only and you cannot %2$s files. <br><br> Please navigate to the SD Card tab, where %3$s has write access to your SD Card files.]]></string>
+    <string name="dialog_external_file_readonly_action_kitkat"><![CDATA[On KitKat devices apps no longer have permission to write to an external SD card. %1$s]]></string>
+    <string name="dialog_external_file_readonly_action_kitkat_more_info">Insert more info here.</string>
+    <string name="dialog_external_file_readonly_action_positive_btn">Enable Write Access</string>
+    <string name="dialog_external_intent_not_supported">It seems like your device does not support this functionality. %1$s</string>
+    <string name="dialog_external_intent_not_supported_more_info">Insert more info here.</string>
+    <string name="dialog_file_info_body"><![CDATA[<b>File Name</b><br>%1$s<br><br><b>Path</b><br>%2$s<br><br><b>Size</b><br>%3$s (%4$s Bytes)<br><br><b>Date Modified</b><br>%5$s<br>]]></string>
+    <string name="dialog_file_info_title">File Details</string>
+    <string name="dialog_file_picker_error_select_file">Please select a file</string>
+    <string name="dialog_file_picker_error_select_folder">Please select a folder</string>
+    <string name="dialog_file_picker_title">Select File(s)</string>
+    <string name="dialog_files_go_to_sd_card_description">This file will be opened as read-only. To modify, open it using the \"SD Card\" tab located in the side navigation drawer where %1$s has write access. %2$s.</string>
+    <string name="dialog_folder_go_to_sd_card_button">Go To SD Card Now</string>
+    <string name="dialog_folder_go_to_sd_card_description">Open files stored on the SD card using the \"SD Card\" tab located in the side navigation drawer. Android restricts access to files on the SD card %1$s.</string>
+    <string name="dialog_folder_info_body"><![CDATA[<b>Folder Name</b><br>%1$s<br><br><b>Path</b><br>%2$s<br><br><b>Contains</b><br>%3$s<br><br><b>Date Modified</b><br>%4$s<br>]]></string>
+    <string name="dialog_folder_info_size">%1$d files, %2$d folders</string>
+    <string name="dialog_folder_info_title">Folder Details</string>
+    <string name="dialog_folder_picker_title">Select a Folder</string>
+    <string name="dialog_folder_picker_title_export">Extract To…</string>
+    <string name="dialog_go_to_sd_card_description_more_info">Insert more info here.</string>
+    <string name="dialog_merge_add_document">Add Document</string>
+    <string name="dialog_merge_error_message_general">An error occurred trying to merge the files.</string>
+    <string name="dialog_merge_error_no_files">No files to merge</string>
+    <string name="dialog_merge_save_location">Select a Save Location</string>
+    <string name="dialog_merge_set_file_name_hint">Enter a file name</string>
+    <string name="dialog_merge_set_file_name_title">File Name</string>
+    <string name="dialog_merge_title">Merge Files</string>
+    <string name="dialog_move_continue">Continue</string>
+    <string name="dialog_move_file_already_exists_message">\"%1$s\" already exists at this location. Do you want to replace it with the file you\'re moving?</string>
+    <string name="dialog_move_file_error_message">An error occurred while moving %1$s.</string>
+    <string name="dialog_move_repeat_action">Repeat for all files</string>
+    <string name="dialog_remove_root_msg">Are you sure you want to remove access to \"%1$s\"? The folder will not be deleted.</string>
+    <string name="dialog_remove_roots_error_message">An error occurred trying to remove \"%1$s\".</string>
+    <string name="dialog_remove_roots_error_message_general">An error occurred trying to remove the folders.</string>
+    <string name="dialog_remove_roots_msg">Are you sure you want to remove access to these folders? The folders will not be deleted.</string>
+    <string name="dialog_remove_roots_title">Remove Folder</string>
+    <string name="dialog_rename_file_hint">File name</string>
+    <string name="dialog_rename_folder_dialog_title">Rename Folder</string>
+    <string name="dialog_rename_folder_hint">Folder name</string>
+    <string name="dialog_rename_invalid_file_name_already_exists_message">This file already exists. Please use another name.</string>
+    <string name="dialog_rename_invalid_file_name_error">There was a problem trying to rename. Please try again.</string>
+    <string name="dialog_rename_invalid_file_name_message">Invalid file name. Please enter a valid name.</string>
+    <string name="dialog_rename_invalid_folder_name_message">Invalid folder name. Please enter a valid name.</string>
+    <string name="dialog_rename_title">Rename File</string>
+    <string name="dialog_webpage_pdf_alternation">Type the URL below:</string>
+    <string name="dialog_webpage_pdf_convert">Convert</string>
+    <string name="dialog_webpage_pdf_explain">In your web browser, open the ⋮ menu, select Share…, and choose Convert to PDF.</string>
+    <string name="dialog_webpage_pdf_title">Create PDF from webpage</string>
+    <string name="document_read_only_sd_card_warning_message">Open this document using the \"SD Card\" tab located in the side navigation drawer to modify this document.</string>
+    <string name="document_read_only_warning_message">Save a copy on your device to modify this document.</string>
+    <string name="document_read_only_warning_negative">View Read-Only</string>
+    <string name="download_size_warning"><![CDATA[Are you sure you wish to download this file (<b>%1$s</b>) using your mobile data connection?]]></string>
+    <string name="duplicate_file_error_message">There was a problem trying to duplicate the file. Please try again.</string>
+    <string name="duplicate_file_error_message_no_space">There is insufficient storage space on the device. Please clear space and try again.</string>
+    <string name="duplicate_file_max_error_message">Maximum number of duplicated files reached. Please delete unnecessary files and try again.</string>
+    <string name="duplicating_wait">Duplicating…</string>
+    <string name="error_corrupt_file_message">This file has been damaged. %1$s tried to repair it but could not, so it cannot be opened. Sorry!</string>
+    <string name="error_failed_to_open_document_tree">Failed to open folder. Please try again.</string>
+    <string name="error_opening_file">Could not open the file</string>
+    <string name="external_storage">SD Card</string>
+    <string name="fastscroller_handle">fast scroll handler</string>
+    <string name="fastscroller_track">fast scroll track</string>
+    <string name="file">file</string>
+    <string name="file_added_to_favorites">\"%1$s\" added to Favorites</string>
+    <string name="file_info_document_attr_not_available"><![CDATA[<i>Not available</i>]]></string>
+    <string name="file_info_document_author"><![CDATA[<b>Author</b><br>%1$s<br>]]></string>
+    <string name="file_info_document_creator"><![CDATA[<b>Creator</b><br>%1$s<br>]]></string>
+    <string name="file_info_document_date_modified"><![CDATA[<b>Date Modified</b><br>%1$s<br>]]></string>
+    <string name="file_info_document_folder_contains"><![CDATA[<b>Contains</b><br>%1$s<br>]]></string>
+    <string name="file_info_document_pages"><![CDATA[<b>Number of Pages</b><br>%1$s<br>]]></string>
+    <string name="file_info_document_path"><![CDATA[<b>Path</b><br>%1$s<br>]]></string>
+    <string name="file_info_document_producer"><![CDATA[<b>Producer</b><br>%1$s<br>]]></string>
+    <string name="file_info_document_protected"><![CDATA[This document is password protected.]]></string>
+    <string name="file_info_document_size"><![CDATA[<b>Size</b><br>%1$s<br>]]></string>
+    <string name="file_info_document_title"><![CDATA[<b>Title</b><br>%1$s<br>]]></string>
+    <string name="file_removed_from_favorites">\"%1$s\" removed from Favorites</string>
+    <string comment="Used to filter by file type" name="file_type_docx">Office Documents</string>
+    <string name="file_type_external_file">External</string>
+    <string comment="Used to filter by file type" name="file_type_image">Images</string>
+    <string comment="Used to filter by file type" name="file_type_pdf">PDFs</string>
+    <string comment="Used to turn of file type filters and show all" name="file_type_show_all">Show All File Types</string>
+    <string name="files">files</string>
+    <string name="fit_page">Fit Page</string>
+    <string name="fit_page_height">Fit Page Height</string>
+    <string name="fit_page_width">Fit Page Width</string>
+    <string name="folder_color" translatable="false">folder_color</string>
+    <string name="grid_loading_res_name" translatable="false">grid_loading_bitmap</string>
+    <string name="image_attachment_error_msg">There is a problem with this image. Please try loading it again.</string>
+    <string name="imageview_icon_file_type_description">Icon File Type</string>
+    <string name="import_webpage_error_message_content">Unfortunately %1$s could not be converted to a PDF.</string>
+    <string name="import_webpage_error_message_title">Cannot convert to PDF</string>
+    <string name="import_webpage_wait">Importing webpage…</string>
+    <string name="list_loading_res_name" translatable="false">list_loading_bitmap</string>
+    <string name="loading_files_wait">Loading files…</string>
+    <string name="local_folders">Folders</string>
+    <string name="local_storage">Local Storage</string>
+    <string name="menu_add_options">Adding Options</string>
+    <string name="merging_wait">Merging…</string>
+    <string name="moving_wait">Moving…</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_my_files_title">My Files</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="num_files_not_supported">%1$d %2$s not supported</string>
+    <string name="open_url_example" translatable="false">http://www.pdftron.com/downloads/pdfref.pdf</string>
+    <string name="pdf_portfolio">Portfolio</string>
+    <string name="pdf_portfolio_message">This document contains additional files. Do you wish to view a list of these files?</string>
+    <string name="permission_generic_available">Permissions have been granted.</string>
+    <string name="permission_screen_body"><![CDATA[Change permissions in your device\'s settings. <br>Give %1$s access to Storage.]]></string>
+    <string name="permission_screen_exit">exit</string>
+    <string name="permission_screen_grant_permission">grant permissions</string>
+    <string name="permission_screen_grant_permission_short">Grant</string>
+    <string name="permission_screen_settings">settings</string>
+    <string name="permission_screen_title"><![CDATA[<b>Grant Access</b>]]></string>
+    <string name="permission_storage_available">Storage permission has been granted.</string>
+    <string name="permissions_not_granted">Permissions were not granted. Enable in settings.</string>
+    <string name="pref_allow_page_change_on_tap">Turn Page on Tap</string>
+    <string name="pref_allow_page_change_on_tap_summary">When enabled, page will turn when tapping on the left or right edge of the viewer.</string>
+    <string name="pref_annot_list_show_author_summary">When enabled, the annotation list displays the annotation\'s author.</string>
+    <string name="pref_annot_list_show_author_title">Annotation List Shows Author</string>
+    <string name="pref_author_name_summary">Default author name for your annotations.</string>
+    <string name="pref_author_name_title">Annotation Author</string>
+    <string name="pref_category_annotating">Annotating</string>
+    <string name="pref_category_viewing">Viewing</string>
+    <string name="pref_cont_annot_edit_summary">When enabled, the annotation toolbar does not return to the hand tool after an annotation is created.</string>
+    <string name="pref_cont_annot_edit_title">Continuous Annotation Edit</string>
+    <string name="pref_copy_annotated_text_to_note_summary">When enabled, the text of a highlight/underline/strikeout annotation is automatically copied into the annotation\'s note.</string>
+    <string name="pref_copy_annotated_text_to_note_title">Copy Annotated Text to Note</string>
+    <string name="pref_free_text_font_init_dialog_message">This can take up to a couple minutes.</string>
+    <string name="pref_free_text_font_init_dialog_title">Loading fonts from your device…</string>
+    <string name="pref_free_text_font_summary">List of available fonts for free text annotations.</string>
+    <string name="pref_free_text_font_title">Text Annotation Fonts</string>
+    <string name="pref_full_screen_mode_summary">When enabled, the system bars will be hidden when viewing a document.</string>
+    <string name="pref_full_screen_mode_title">Full Screen Mode</string>
+    <string name="pref_image_smoothing_summary">When enabled, some images will look better, but loading them might be a little slower.</string>
+    <string name="pref_image_smoothing_title">Image Smoothing</string>
+    <string name="pref_ink_smoothing_summary">When enabled, ink drawn with a finger is smoothed. (Stylus ink is never smoothed)</string>
+    <string name="pref_ink_smoothing_title">Ink Smoothing</string>
+    <string name="pref_multiple_tabs_summary">When enabled, multiple documents will be opened in a single viewer.</string>
+    <string name="pref_multiple_tabs_title">Tabs</string>
+    <string name="pref_page_change_animation">Turn Page with Animation</string>
+    <string name="pref_page_change_animation_summary">When enabled, page will turn with animation when tapping on the left or right edge of the viewer.</string>
+    <string name="pref_page_view_mode_summary">Whether the page fit screen by page width or page height</string>
+    <string name="pref_page_view_mode_title">Page View Mode</string>
+    <string name="pref_remember_last_page_summary">When enabled, documents opened from the Recent List are reopened on the last page they were on.</string>
+    <string name="pref_remember_last_page_title">Remember Last Page</string>
+    <string name="pref_rtl_mode_option_summary">When enabled, the viewer\'s Page Display dialog includes an option to enable right-to-left document support.</string>
+    <string name="pref_rtl_mode_option_title">Right-to-Left Support</string>
+    <string name="pref_screen_stay_lock_summary">When enabled, the screen will stay on as long as you are viewing a document.</string>
+    <string name="pref_screen_stay_lock_title">Screen Sleep Lock</string>
+    <string name="pref_show_quick_menu_summary">When enabled, the annotation will be selected after it is created with the toolbar.</string>
+    <string name="pref_show_quick_menu_title">Auto-select Annotations</string>
+    <string name="pref_stylus_as_pen_summary">When enabled, the stylus will create (and edit) annotations, and a finger will scroll and zoom the viewer.</string>
+    <string name="pref_stylus_as_pen_title">Stylus as Pen</string>
+    <string name="registered_trademark" translatable="false">®</string>
+    <string name="removing_access_wait">Removing access…</string>
+    <string name="replace">Replace</string>
+    <string name="root_folder">Root</string>
+    <string name="snack_bar_local_folder_read_only">Files are read-only</string>
+    <string name="snack_bar_local_folder_read_only_redirect">Enable Saving</string>
+    <string comment="When filtering files, if there are no files of the selected types, we display this message" name="textview_empty_because_no_files_of_selected_type">No documents of the selected file types. (┐◎_◎┌)</string>
+    <string comment="When filtering files, if no files match the string, we display this message" name="textview_empty_because_no_string_match">No documents match the text filter.</string>
+    <string name="textview_empty_cancelled">Powered by PDFTron (๑•̀ㅂ•́)و✧</string>
+    <string name="textview_empty_external_storage_root">No external storage folders selected.\nStep 1: Click + to select a root path.\nStep 2: Choose the external SD card from the drawer. \nStep 3: Confirm selection.</string>
+    <string name="textview_empty_failed">Something went wrong when reloading (ಠ_ಥ) </string>
+    <string name="textview_empty_favorite_folder_list">No favorite folders to display ┐( ˘_˘)┌</string>
+    <string name="textview_empty_favorite_list">No favorite documents to display ┐( ˘_˘)┌</string>
+    <string name="textview_empty_favorite_list_second_part1">To favourite a document, use %1$s\'s file browser to find the document, and then tap the document\'s info</string>
+    <string name="textview_empty_favorite_list_second_part2">Then tap the favourite star</string>
+    <string name="textview_empty_file_list">No documents to display ┐( ˘_˘)┌</string>
+    <string name="textview_empty_loading">Loading files… ٩(•౪•٩)三</string>
+    <string name="textview_empty_no_external_roots">Access has not been granted to any SD-card folders</string>
+    <string name="textview_empty_recent_list">No recent documents to display ┐( ˘_˘)┌</string>
+    <string name="thumb_error_res_name" translatable="false">thumb_error_bitmap</string>
+    <string name="title_item_favorites">Favorites</string>
+    <string name="title_item_local_file_list">All Documents</string>
+    <string name="title_item_local_folder_list" translatable="false">@string/local_folders</string>
+    <string name="title_item_recent">Recent</string>
+    <string name="title_item_viewer">Viewer</string>
+    <string name="updating_file_list_wait">Updating file list…</string>
+    <string name="version">Version</string>
+    <style name="Base.FragmentAppBarStyle" parent="">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+    <style name="Base.FragmentToolbarStyle" parent="ToolbarStyle">
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="navigationIcon">@drawable/ic_menu_white_24dp</item>
+    </style>
+    <style name="Base.FragmentToolbarStyle.NoAppBar">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+    <style name="FragmentAppBarStyle" parent="Base.FragmentAppBarStyle"/>
+    <style name="FragmentToolbarStyle" parent="Base.FragmentToolbarStyle"/>
+    <style name="FragmentToolbarStyle.NoAppBar" parent="Base.FragmentToolbarStyle.NoAppBar"/>
+    <style name="NavigationViewStyle">
+        <item name="listPreferredItemPaddingLeft">@dimen/navigation_drawer_horizontal_margin</item>
+        <item name="listPreferredItemPaddingRight">@dimen/navigation_drawer_horizontal_margin</item>
+        <item name="listPreferredItemHeightSmall">@dimen/navigation_drawer_list_item_height</item>
+
+        <!-- Use a light separator and highlight colour on the dark background -->
+        <item name="android:listDivider">@color/navigation_drawer_separator</item>
+        <item name="colorControlHighlight">#66ffffff</item>
+    </style>
+    <style name="ThemeOverlay.Fragment" parent="">
+        <item name="fragmentAppBarStyle">@style/FragmentAppBarStyle</item>
+        <item name="fragmentToolbarStyle">@style/FragmentToolbarStyle</item>
+    </style>
+    <style name="ThemeOverlay.Fragment.NoAppBar">
+        <item name="fragmentToolbarStyle">@style/FragmentToolbarStyle.NoAppBar</item>
+    </style>
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">@dimen/first_keyline</item>
+    </style>
+</resources>

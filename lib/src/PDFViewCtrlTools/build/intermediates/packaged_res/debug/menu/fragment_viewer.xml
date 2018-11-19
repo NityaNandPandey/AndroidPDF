@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/action_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/undo"
+        android:title="@string/undo"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/redo"
+        android:title="@string/redo"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share_white"
+        android:title="@string/action_file_share"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_viewmode"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/action_view_mode"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_annotation_toolbar"
+        android:icon="@drawable/ic_mode_edit_white"
+        android:title="@string/action_annotation_toolbar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_editpages"
+        android:title="@string/action_editpages_more"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_addpage"
+                android:title="@string/action_add"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_deletepage"
+                android:title="@string/action_delete"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_rotatepage"
+                android:title="@string/action_rotate"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_export_pages"
+                android:title="@string/action_export_pages"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_print"
+        android:title="@string/action_file_print"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_close_tab"
+        android:title="@string/action_close_tab"
+        android:visible="false"
+        app:showAsAction="never" />
+
+</menu>

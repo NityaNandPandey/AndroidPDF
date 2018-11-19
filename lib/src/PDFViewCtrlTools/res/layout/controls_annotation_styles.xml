@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/annot_style_view_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/padding_xxsmall"
+        android:layout_marginStart="@dimen/padding_xxsmall"
+        android:background="?android:attr/colorBackground"
+        android:orientation="vertical">
+
+        <!-- More tools -->
+        <LinearLayout
+            android:id="@+id/more_tools_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/preference_thumbnail_size"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/item_padding_right"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/item_padding_right"
+            android:paddingStart="@dimen/padding_large"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/more_tools_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:alpha="0.54"
+                android:text="@string/tools_qm_textmarkup_type"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textSize="@dimen/label_text_size" />
+
+        </LinearLayout>
+
+        <!-- Text color -->
+        <LinearLayout
+            android:id="@+id/text_color_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/preference_thumbnail_size"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/item_padding_right"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/item_padding_right"
+            android:paddingStart="@dimen/padding_large"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/text_color_textivew"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:alpha="0.54"
+                android:text="@string/pref_colormode_custom_text_color"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textSize="@dimen/label_text_size" />
+
+            <com.pdftron.pdf.utils.AnnotationPropertyPreviewView
+                android:id="@+id/text_color_preview"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="end|center_vertical"
+                app:stroke_color="@color/tools_eraser_gray" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/action_button_min_padding"
+                android:layout_marginRight="@dimen/action_button_min_padding"
+                android:alpha="0.54"
+                android:tint="?android:attr/colorForeground"
+                app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+        </LinearLayout>
+
+        <!-- Stroke color -->
+        <LinearLayout
+            android:id="@+id/stroke_color_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/preference_thumbnail_size"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/item_padding_right"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/item_padding_right"
+            android:paddingStart="@dimen/padding_large">
+
+            <TextView
+                android:id="@+id/stroke_color_textivew"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:alpha="0.54"
+                android:text="@string/tools_qm_stroke_color"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textSize="@dimen/label_text_size" />
+
+            <com.pdftron.pdf.utils.AnnotationPropertyPreviewView
+                android:id="@+id/stroke_preview"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="end|center_vertical"
+                app:stroke_color="@color/tools_eraser_gray" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/action_button_min_padding"
+                android:layout_marginRight="@dimen/action_button_min_padding"
+                android:alpha="0.54"
+                android:tint="?android:attr/colorForeground"
+                app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+        </LinearLayout>
+
+        <!-- Fill color -->
+        <LinearLayout
+            android:id="@+id/fill_color_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/preference_thumbnail_size"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/item_padding_right"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/item_padding_right"
+            android:paddingStart="@dimen/padding_large">
+
+            <TextView
+                android:id="@+id/fill_color_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:alpha="0.54"
+                android:text="@string/tools_qm_fill_color"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textSize="@dimen/label_text_size" />
+
+            <com.pdftron.pdf.utils.AnnotationPropertyPreviewView
+                android:id="@+id/fill_preview"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="end|center_vertical"
+                app:stroke_color="@color/tools_eraser_gray" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/action_button_min_padding"
+                android:layout_marginRight="@dimen/action_button_min_padding"
+                android:alpha="0.54"
+                android:tint="?android:attr/colorForeground"
+                app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+        </LinearLayout>
+
+        <!-- Thickness -->
+        <LinearLayout
+            android:id="@+id/thickness_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/preference_thumbnail_size"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/item_padding_right"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/item_padding_right"
+            android:paddingStart="@dimen/padding_large">
+
+            <TextView
+                android:id="@+id/thickness_textview"
+                android:layout_width="@dimen/label_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:alpha="0.54"
+                android:text="@string/tools_qm_thickness"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textSize="@dimen/label_text_size" />
+
+            <com.pdftron.pdf.controls.MirrorSeekBar
+                android:id="@+id/thickness_seekbar"
+                style="@style/Widget.AppCompat.SeekBar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginStart="@dimen/padding_large"
+                android:layout_weight="1"
+                android:max="100" />
+
+            <LinearLayout
+                android:id="@+id/thickness_value_group"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/padding_large"
+                android:layout_marginRight="@dimen/padding_large"
+                android:gravity="end|center_vertical"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/thickness_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="end"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+                    android:maxLength="4"
+                    android:maxWidth="@dimen/annot_style_edit_text_size"
+                    android:selectAllOnFocus="true"
+                    android:textAppearance="?android:attr/textAppearance"
+                    android:textSize="@dimen/label_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:text="@string/unit_pt"
+                    android:textAppearance="?android:attr/textAppearance"
+                    android:textSize="@dimen/label_text_size" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Text Size -->
+        <LinearLayout
+            android:id="@+id/text_size_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/preference_thumbnail_size"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/item_padding_right"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/item_padding_right"
+            android:paddingStart="@dimen/padding_large"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/text_size_textview"
+                android:layout_width="@dimen/label_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:alpha="0.54"
+                android:text="@string/pref_viewmode_reflow_text_size"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textSize="@dimen/label_text_size" />
+
+            <com.pdftron.pdf.controls.MirrorSeekBar
+                android:id="@+id/text_size_seekbar"
+                style="@style/Widget.AppCompat.SeekBar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginStart="@dimen/padding_large"
+                android:layout_weight="1"
+                android:max="100" />
+
+            <LinearLayout
+                android:id="@+id/text_size_value_group"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/padding_large"
+                android:layout_marginRight="@dimen/padding_large"
+                android:gravity="end|center_vertical"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/text_size_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="end"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+                    android:maxLength="4"
+                    android:maxWidth="@dimen/annot_style_edit_text_size"
+                    android:selectAllOnFocus="true"
+                    android:textAppearance="?android:attr/textAppearance"
+                    android:textSize="@dimen/label_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:text="@string/unit_pt"
+                    android:textAppearance="?android:attr/textAppearance"
+                    android:textSize="@dimen/label_text_size" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Opacity -->
+        <LinearLayout
+            android:id="@+id/opacity_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/preference_thumbnail_size"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/item_padding_right"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/item_padding_right"
+            android:paddingStart="@dimen/padding_large">
+
+            <TextView
+                android:id="@+id/opacity_textivew"
+                android:layout_width="@dimen/label_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:alpha="0.54"
+                android:text="@string/tools_qm_opacity"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textSize="@dimen/label_text_size" />
+
+            <com.pdftron.pdf.controls.MirrorSeekBar
+                android:id="@+id/opacity_seekbar"
+                style="@style/Widget.AppCompat.SeekBar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginStart="@dimen/padding_large"
+                android:layout_weight="1"
+                android:max="100" />
+
+            <LinearLayout
+                android:id="@+id/opacity_value_group"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/padding_large"
+                android:layout_marginRight="@dimen/padding_large"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="end|center_vertical"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/opacity_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="end"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+                    android:maxLength="4"
+                    android:maxWidth="@dimen/annot_style_edit_text_size"
+                    android:selectAllOnFocus="true"
+                    android:textAppearance="?android:attr/textAppearance"
+                    android:textSize="@dimen/label_text_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:text="@string/unit_percent"
+                    android:textAppearance="?android:attr/textAppearance"
+                    android:textSize="@dimen/label_text_size" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Ruler conversion -->
+        <LinearLayout
+            android:id="@+id/ruler_unit_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/preference_thumbnail_size"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/item_padding_right"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/item_padding_right"
+            android:paddingStart="@dimen/padding_large"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/ruler_unit_textivew"
+                android:layout_width="@dimen/label_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:alpha="0.54"
+                android:text="@string/tools_ruler_scale"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textSize="@dimen/label_text_size" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ruler_base_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginStart="@dimen/padding_large"
+                android:layout_gravity="center_vertical"
+                android:gravity="start"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:maxLength="4"
+                android:maxWidth="@dimen/annot_style_edit_text_size"
+                android:selectAllOnFocus="true"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textSize="@dimen/label_text_size" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/ruler_base_unit_spinner"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_medium"
+                android:layout_marginRight="@dimen/padding_medium"
+                android:layout_gravity="center"
+                android:text="="/>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/ruler_translate_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="start"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:maxLength="4"
+                android:maxWidth="@dimen/annot_style_edit_text_size"
+                android:selectAllOnFocus="true"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textSize="@dimen/label_text_size" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/ruler_translate_unit_spinner"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <!-- font -->
+        <LinearLayout
+            android:id="@+id/font_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/preference_thumbnail_size"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/item_padding_right"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/item_padding_right"
+            android:paddingStart="@dimen/padding_large">
+
+            <TextView
+                android:id="@+id/font_textview"
+                android:layout_width="@dimen/label_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:alpha="0.54"
+                android:text="@string/free_text_font"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textSize="@dimen/label_text_size" />
+
+            <Spinner
+                android:id="@+id/font_dropdown"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_large"
+                android:layout_marginRight="@dimen/padding_large"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/padding_large"
+                android:paddingStart="@dimen/padding_large" />
+
+        </LinearLayout>
+
+        <!-- Icons -->
+        <LinearLayout
+            android:id="@+id/icon_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/preference_thumbnail_size"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/item_padding_right"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/item_padding_right"
+            android:paddingStart="@dimen/padding_large">
+
+            <TextView
+                android:id="@+id/icon_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:alpha="0.54"
+                android:text="@string/tools_grid_icon_btn_description"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textSize="@dimen/label_text_size" />
+
+            <com.pdftron.pdf.utils.AnnotationPropertyPreviewView
+                android:id="@+id/icon_preview"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="end|center_vertical"
+                app:stroke_color="@color/tools_eraser_gray" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/icon_expandable_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/action_button_min_padding"
+                android:layout_marginRight="@dimen/action_button_min_padding"
+                android:alpha="0.54"
+                android:tint="?android:attr/colorForeground"
+                app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+
+        </LinearLayout>
+
+        <com.pdftron.pdf.utils.ExpandableGridView
+            android:id="@+id/icon_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_small"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:layout_marginStart="@dimen/padding_large"
+            android:columnWidth="@dimen/tools_grid_icon_picker_button_height"
+            android:gravity="center"
+            android:horizontalSpacing="@dimen/padding_small"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="auto_fit"
+            android:stretchMode="spacingWidth"
+            android:verticalSpacing="@dimen/padding_small"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.15"
+        android:background="@android:color/black" />
+    <!-- Presets -->
+
+    <LinearLayout
+        android:id="@+id/presets_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/controls_thumbnail_slider_preview_bot_margin"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/item_padding_right"
+        android:paddingLeft="@dimen/padding_large"
+        android:paddingRight="@dimen/item_padding_right"
+        android:paddingStart="@dimen/padding_large">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:alpha="0.54"
+            android:text="@string/tools_annotation_style_presets"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textSize="@dimen/label_text_size" />
+
+        <!-- preset1 -->
+        <com.pdftron.pdf.utils.AnnotationPropertyPreviewView
+            android:id="@+id/preset1"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:background="@drawable/annot_property_preview_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/icon_min_padding"
+            app:min_text_size="@dimen/min_preset_text_size"
+            app:transparent_background="true"
+            app:use_stroke_ratio="true" />
+
+        <com.pdftron.pdf.utils.AnnotationPropertyPreviewView
+            android:id="@+id/preset2"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:background="@drawable/annot_property_preview_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/icon_min_padding"
+            app:min_text_size="@dimen/min_preset_text_size"
+            app:transparent_background="true"
+            app:use_stroke_ratio="true" />
+
+        <com.pdftron.pdf.utils.AnnotationPropertyPreviewView
+            android:id="@+id/preset3"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:background="@drawable/annot_property_preview_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/icon_min_padding"
+            app:min_text_size="@dimen/min_preset_text_size"
+            app:transparent_background="true"
+            app:use_stroke_ratio="true" />
+
+        <com.pdftron.pdf.utils.AnnotationPropertyPreviewView
+            android:id="@+id/preset4"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:background="@drawable/annot_property_preview_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/icon_min_padding"
+            app:min_text_size="@dimen/min_preset_text_size"
+            app:transparent_background="true"
+            app:use_stroke_ratio="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

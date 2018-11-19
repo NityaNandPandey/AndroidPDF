@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_favorite_list_remove"
+        android:title="@string/undo_redo_annot_remove"
+        android:titleCondensed="@string/undo_redo_annot_remove"
+        android:icon="@drawable/ic_star_white_24dp"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/cab_file_rename"
+        android:icon="@drawable/ic_mode_edit_white"
+        android:title="@string/controls_misc_rename"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/cab_file_merge"
+        android:title="@string/merge"
+        android:icon="@drawable/ic_merge_type_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/cab_file_share"
+        android:icon="@drawable/ic_share_white"
+        android:title="@string/action_file_share"
+        app:showAsAction="ifRoom" />
+
+</menu>

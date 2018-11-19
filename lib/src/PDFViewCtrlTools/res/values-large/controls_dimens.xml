@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="controls_thumbnails_view_image_width">150dp</dimen>
+    <!-- thumbnail slider -->
+    <dimen name="thumbnail_slider_padding">12dp</dimen>
+    <dimen name="bottom_sheet_width">480dp</dimen>
+
+    <dimen name="empty_view_text_size">22sp</dimen>
+
+</resources>

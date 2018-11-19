@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_color_primary_day">#3F51B5</color>
+    <color name="app_color_primary_night">#212121</color>
+    <color name="app_color_primary_dark_day">#303F9F</color>
+    <color name="app_color_primary_dark_night">#000000</color>
+    <color name="app_color_accent">#FF4081</color>
+
+    <color name="annotation_flashing_box">#ff7088ff</color>
+    <color name="undo_redo_flashing_box">#FFf89c36</color>
+
+    <color name="controls_outline_fragment_navigation_background">#ffdddddd</color>
+
+    <color name="controls_annotation_toolbar_background">#202020</color>
+
+    <color name="controls_annotation_toolbar_btn_save_disabled">#787878</color>
+
+    <color name="controls_thumbnail_slider_scrubber_state_pressed">#808080</color>
+    <color name="controls_thumbnail_slider_scrubber_state_normal">#C9C9C9</color>
+
+    <color name="controls_thumbnails_view_toolbar_bg">#ff222222</color>
+    <color name="controls_thumbnails_view_page_label_background">#80000000</color>
+    <color name="controls_thumbnails_view_current_indicator">#007aff</color>
+    <color name="controls_thumbnails_view_bg">#ffcccccc</color>
+    <color name="controls_thumbnails_view_bg_dark">#ff303030</color>
+    <color name="controls_thumbnails_view_image_foreground">#b3356694</color> <!-- 70% opacity -->
+
+    <color name="controls_custom_stamp_image_selected_color">#E5E9E8</color>
+
+    <color name="controls_search_results_popup_page_number">#ffc0c0c0</color>
+    <color name="controls_search_results_popup_highlight">@color/orange</color>
+    <color name="controls_search_results_popup_shadow">#80a3a3a3</color>
+
+    <color name="fab_menu_label_background">#e6262626</color>
+    <color name="fab_menu_background">#b3ffffff</color>
+
+    <color name="qm_item_color">#87000000</color>
+
+    <color name="controls_edit_toolbar_checkmark">#4caf50</color>
+    <color name="controls_edit_toolbar_tool">#e6e6e6</color>
+
+    <color name="disabled_gray">#44888888</color>
+
+    <color name="controls_annot_style_preview_bg">@color/gray200</color>
+    <color name="controls_annot_style_markup_text">@android:color/primary_text_light</color>
+
+    <color name="controls_color_picker_bg">@android:color/background_light</color>
+</resources>

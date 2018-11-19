@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:outlineProvider="bounds"
+    tools:targetApi="lollipop">
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/annot_style_view_background"
+        android:clipToPadding="false"
+        android:elevation="16dp"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/root_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <com.pdftron.pdf.utils.AnnotationPropertyPreviewView
+                android:id="@+id/preview"
+                android:layout_width="@dimen/preview_width"
+                android:layout_height="@dimen/preview_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/preview_padding"
+                android:layout_marginTop="@dimen/preview_padding"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                app:preview_text="@string/tools_annot_style_preview_text" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="0.15"
+                android:background="@android:color/black" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/color_picker_view_background"
+                android:orientation="vertical">
+
+                <com.pdftron.pdf.controls.AnnotStyleView
+                    android:id="@+id/annot_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.pdftron.pdf.controls.ColorPickerView
+                    android:id="@+id/color_picker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

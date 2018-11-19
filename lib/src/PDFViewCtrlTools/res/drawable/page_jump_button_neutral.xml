@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetTop="@dimen/page_jump_button_padding"
+    android:insetBottom="@dimen/page_jump_button_padding"
+    android:insetLeft="@dimen/page_jump_button_padding"
+    android:insetRight="@dimen/page_jump_button_padding">
+    <layer-list>
+        <item
+            android:top="0dp"
+            android:left="0dp"
+            android:right="0dp"
+            android:bottom="0dp">
+            <shape android:shape="oval">
+                <solid android:color="@color/page_number_indicator_bg"/>
+            </shape>
+        </item>
+    </layer-list>
+</inset>

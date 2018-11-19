@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cell_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_xxsmall">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/color_image_view"
+        android:focusable="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:focusableInTouchMode="false"
+        android:padding="@dimen/icon_min_padding"
+        android:contentDescription="@string/tools_grid_color_btn_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/color_selected"
+        app:srcCompat="@drawable/ic_check_black_24dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/color_remove"
+        app:srcCompat="@drawable/ic_remove_white_24dp"
+        android:tint="@color/qm_item_color"
+        android:visibility="gone"
+        android:layout_width="@dimen/tools_grid_color_picker_selection_star_size"
+        android:layout_height="@dimen/tools_grid_color_picker_selection_star_size"
+        android:layout_centerInParent="true"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/color_buttons"
+        app:srcCompat="@drawable/ic_add_white_24dp"
+        android:tint="@color/qm_item_color"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/icon_min_padding"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"/>
+
+</RelativeLayout>

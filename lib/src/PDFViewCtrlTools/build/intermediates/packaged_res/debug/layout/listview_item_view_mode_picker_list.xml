@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pdftron.pdf.widget.CheckableRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/quick_menu_button_size"
+        android:paddingStart="@dimen/margin"
+        android:paddingEnd="@dimen/margin"
+        android:paddingLeft="@dimen/margin"
+        android:paddingRight="@dimen/margin"
+        android:gravity="center_vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/item_view_mode_picker_list_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:focusable="false" />
+
+        <TextView
+            android:id="@+id/item_view_mode_picker_list_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_view_mode_picker_list_icon"
+            android:layout_toEndOf="@id/item_view_mode_picker_list_icon"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/primary_text_size"
+            android:textColor="?android:attr/textColorPrimary"
+            android:focusable="false" />
+
+        <com.pdftron.pdf.widget.InertRadioButton
+            android:id="@+id/item_view_mode_picker_list_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <com.pdftron.pdf.widget.InertSwitch
+            android:id="@+id/item_view_mode_picker_list_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            app:showText="false"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/item_view_mode_picker_list_size_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        >
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/item_view_mode_picker_list_dec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="11dp"
+            app:srcCompat="@drawable/ic_arrow_down_white_24dp"
+            android:background="?attr/selectableItemBackground"/>
+
+        <TextView
+            android:id="@+id/item_view_mode_picker_list_size_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/primary_text_size"
+            android:textColor="?android:attr/textColorPrimary"
+            />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/item_view_mode_picker_list_inc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="11dp"
+            app:srcCompat="@drawable/ic_arrow_up_white_24dp"
+            android:background="?attr/selectableItemBackground"/>
+
+    </LinearLayout>
+
+</com.pdftron.pdf.widget.CheckableRelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CompleteReader.iml" filepath="$PROJECT_DIR$/CompleteReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../lib/src/FloatingActionButton/FloatingActionButton.iml" filepath="$PROJECT_DIR$/../../lib/src/FloatingActionButton/FloatingActionButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../lib/src/PDFViewCtrlTools/PDFViewCtrlTools.iml" filepath="$PROJECT_DIR$/../../lib/src/PDFViewCtrlTools/PDFViewCtrlTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../lib/src/PageCropper/PageCropper.iml" filepath="$PROJECT_DIR$/../../lib/src/PageCropper/PageCropper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../lib/src/pdfnet-demo-utils/pdfnet-demo-utils.iml" filepath="$PROJECT_DIR$/../../lib/src/pdfnet-demo-utils/pdfnet-demo-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../lib/src/pdftron/pdftron.iml" filepath="$PROJECT_DIR$/../../lib/src/pdftron/pdftron.iml" />
+    </modules>
+  </component>
+</project>

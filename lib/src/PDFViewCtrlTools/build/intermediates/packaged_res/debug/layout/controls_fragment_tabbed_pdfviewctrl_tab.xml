@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The paddingStart and paddingEnd are set on this layout instead of from the TabLayout
+     because we want the selectableItemBackground to fill the entire tab background. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/tab_horizontal_padding"
+    android:paddingStart="@dimen/tab_horizontal_padding">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/tab_pdfviewctrl_close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/action_close_tab"
+        android:padding="@dimen/icon_min_padding"
+        app:srcCompat="@drawable/ic_close_black_18dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tab_pdfviewctrl_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:textColor="@color/selector_tab_color_fg"
+        tools:ignore="Deprecated,RtlSymmetry" />
+
+</LinearLayout>

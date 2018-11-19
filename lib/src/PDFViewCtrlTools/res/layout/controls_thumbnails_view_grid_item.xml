@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/item_image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:foreground="@drawable/controls_thumbnails_view_image_selector">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/item_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/controls_thumbnails_view_description"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:background="@color/controls_thumbnails_view_bg"/>
+        </FrameLayout>
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/controls_thumbnails_view_rounded_edges"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:text="page"
+        tools:ignore="Deprecated">
+    </TextView>
+
+</RelativeLayout>

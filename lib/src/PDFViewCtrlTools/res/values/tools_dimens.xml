@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tools_dialog_floating_sig_signhere_margin_bottom">70dp</dimen>
+    <dimen name="tools_dialog_floating_sig_signhere_margin">10dp</dimen>
+    <dimen name="tools_dialog_floating_sig_signature_view_margin">4dp</dimen>
+
+    <dimen name="tools_dialog_author_name_margin">10dp</dimen>
+
+    <dimen name="tools_grid_custom_color_picker_button_height">29dp</dimen>
+    <dimen name="tools_grid_color_picker_selection_star_size">24dp</dimen>
+    <dimen name="tools_grid_color_picker_button_height">46dp</dimen>
+    <dimen name="tools_grid_color_picker_round_corners">2dp</dimen>
+    <dimen name="tools_thickness_opacity_group_button_width">44dp</dimen>
+    <dimen name="tools_thickness_opacity_group_text_min_width">40dp</dimen>
+    <dimen name="tools_grid_color_picker_add_button_height">29dp</dimen>
+    <dimen name="tools_grid_color_picker_icon_height">18dp</dimen>
+    <dimen name="tools_grid_color_picker_dash_gap">4dp</dimen>
+    <dimen name="tools_grid_color_picker_dash_width">9dp</dimen>
+
+    <dimen name="tools_annotation_property_width">300dp</dimen>
+    <dimen name="tools_annotation_property_large_width">300dp</dimen>
+    <dimen name="tools_annotation_property_stroke_fill_color_width">50dp</dimen>
+
+    <dimen name="tools_annotation_property_preview_size">50dp</dimen>
+    <dimen name="tools_annotation_property_slider_textview_size">45dp</dimen>
+    <dimen name="tools_annotation_property_tab_height">34dp</dimen>
+
+    <dimen name="tools_grid_icon_picker_button_height">42dp</dimen>
+
+    <dimen name="tools_annotation_dialog_popup_edit_text_padding">12dp</dimen>
+
+    <dimen name="action_button_min_width">48dp</dimen>
+    <dimen name="action_button_min_icon_spacing">24dp</dimen>
+    <dimen name="action_button_min_padding">4dp</dimen>
+    <dimen name="icon_min_padding">12dp</dimen>
+    <dimen name="icon_tab_widget_padding">17dp</dimen>
+
+    <dimen name="padding_xxsmall">1dp</dimen>
+    <dimen name="padding_xsmall">2dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_xlarge">30dp</dimen>
+    <dimen name="padding_xxlarge">40dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+
+    <dimen name="dialog_button_default_margin_padding">8dp</dimen>
+    <dimen name="dialog_button_min_width">64dp</dimen>
+    <dimen name="dialog_button_height">48dp</dimen>
+
+    <!-- Free Text -->
+    <dimen name="free_text_font_spinner_text_size">16sp</dimen>
+    <dimen name="free_text_font_spinner_width">165dp</dimen>
+    <dimen name="free_text_inline_min_textbox_width">60dp</dimen>
+    <dimen name="free_text_inline_toggle_button_width">35dp</dimen>
+
+    <!-- Quick Menu -->
+    <dimen name="quick_menu_font_size">15sp</dimen>
+
+    <!-- Print -->
+    <dimen name="print_annotations_summary_dist_document_annotations">40dp</dimen>
+    <dimen name="print_annotations_summary_dist_annotations_summary">50dp</dimen>
+
+    <!-- User Crop Dialog -->
+    <dimen name="user_crop_page_view_margin">2dp</dimen>
+
+    <dimen name="page_number_indicator_padding_hor">14dp</dimen>
+    <dimen name="page_number_indicator_padding_ver">11dp</dimen>
+    <dimen name="page_number_indicator_radius">10dp</dimen>
+
+    <!-- back and forward page buttons -->
+    <dimen name="page_jump_button_size">48dp</dimen>
+    <dimen name="page_jump_button_padding">6dp</dimen>
+    <dimen name="page_jump_button_margin">5dp</dimen>
+
+    <dimen name="alert_dialog_side_padding">24dp</dimen>
+    <dimen name="alert_dialog_top_padding">8dp</dimen>
+
+    <!-- default searchview width -->
+    <dimen name="viewer_search_bar_width">300dp</dimen>
+
+    <dimen name="actionbar_elevation">4dp</dimen>
+
+    <dimen name="first_keyline">16dp</dimen>
+    <dimen name="second_keyline">72dp</dimen>
+
+    <dimen name="tab_layout_height">48dp</dimen>
+    <dimen name="tab_horizontal_padding">12dp</dimen>
+
+    <dimen name="stamp_image_height">40dp</dimen>
+    <dimen name="stamp_image_height_two_lines">50dp</dimen>
+
+</resources>

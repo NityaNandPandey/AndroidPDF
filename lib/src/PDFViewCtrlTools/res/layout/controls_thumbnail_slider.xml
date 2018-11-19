@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/controls_thumbnail_slider_scrubberview_bg" />
+
+    <LinearLayout
+        android:id="@+id/controls_thumbnail_slider_scrubberview"
+        android:paddingLeft="@dimen/thumbnail_slider_padding"
+        android:paddingRight="@dimen/thumbnail_slider_padding"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/quick_menu_button_size"
+        android:orientation="horizontal"
+        android:background="?android:attr/colorBackground">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/controls_thumbnail_slider_left_menu_button"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:theme="@style/Widget.AppCompat.Button.Borderless"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/icon_min_padding"
+            android:visibility="gone" />
+
+        <com.pdftron.pdf.controls.MirrorSeekBar
+            android:id="@+id/controls_thumbnail_slider_scrubberview_seekbar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:progressDrawable="@drawable/seek_track_material"
+            android:thumb="@drawable/seek_thumb"
+            android:theme="@style/ThumbnailSliderStyle.Seekbar"/>
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/controls_thumbnail_slider_right_menu_button"
+            android:layout_width="@dimen/quick_menu_button_size"
+            android:layout_height="@dimen/quick_menu_button_size"
+            android:theme="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/icon_min_padding"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

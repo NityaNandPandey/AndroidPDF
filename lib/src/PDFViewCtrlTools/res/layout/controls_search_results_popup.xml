@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <!-- Builtin SearchView (not always used/visible) -->
+        <android.support.v7.widget.SearchView
+            android:id="@+id/search_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_match_case"
+            android:text="@string/action_match_case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/search_view"
+            android:layout_toEndOf="@id/search_view"
+            android:layout_centerVertical="true"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_whole_word"
+            android:text="@string/action_whole_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/checkbox_match_case"
+            android:layout_toEndOf="@id/checkbox_match_case"
+            android:layout_centerVertical="true"/>
+
+        <!-- Separator (below search-related items) -->
+        <View
+            android:id="@+id/search_separator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/search_results_separator_thickness"
+            android:layout_below="@id/search_view"
+            android:background="@color/controls_search_results_popup_shadow" />
+
+    </RelativeLayout>
+
+    <!-- Horizontal box at bottom of window -->
+    <RelativeLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <!-- Separator (above container items) -->
+        <View
+            android:id="@+id/progress_separator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/search_results_separator_thickness"
+            android:background="@color/controls_search_results_popup_shadow" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progress_separator"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp" >
+
+            <!-- Animated Progress bar (default state: hidden) -->
+            <ProgressBar
+                android:id="@+id/dialog_search_results_progress_bar"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                style="@style/Widget.AppCompat.ProgressBar" />
+
+            <!-- Progress text ("Searched x out of y pages") -->
+            <TextView
+                android:id="@+id/progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_toRightOf="@id/dialog_search_results_progress_bar"
+                android:layout_toEndOf="@id/dialog_search_results_progress_bar"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!-- List of search results -->
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_layout"
+        android:layout_above="@id/progress_layout" />
+
+    <!-- "No matches found" text -->
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_layout"
+        android:layout_above="@id/progress_layout"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_vertical|center_horizontal"
+        android:visibility="gone"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/search_results_none"/>
+
+</RelativeLayout>

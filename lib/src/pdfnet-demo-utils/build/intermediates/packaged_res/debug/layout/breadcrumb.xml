@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="48dp"
+    android:orientation="horizontal"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:paddingLeft="@dimen/breadcrumb_start_padding"
+    android:paddingStart="@dimen/breadcrumb_start_padding"
+    android:paddingRight="4dp"
+    android:paddingEnd="4dp"
+    android:background="@drawable/breadcrumb_bg">
+
+    <TextView
+        android:id="@+id/crumbText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:paddingRight="8dp"
+        android:paddingEnd="8dp"
+        android:textColor="@android:color/white"
+        android:ellipsize="middle"
+        android:maxEms="15"
+        android:singleLine="true"
+        tools:ignore="Deprecated"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/crumbChevron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_chevron_right_black_24dp"
+        android:tintMode="src_in"
+        android:tint="@android:color/white"/>
+</LinearLayout>

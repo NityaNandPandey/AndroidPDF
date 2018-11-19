@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="16dp"
+    android:layout_width="32dp"
+    android:layout_height="128dp"
+    android:fitsSystemWindows="true">
+
+    <FrameLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0"
+        android:layout_width="32dp"
+        android:layout_height="32dp" >
+
+        <ImageButton
+            android:id="@+id/button_controls_annot_style_toolbar_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/tools_qm_appearance"
+            android:duplicateParentState="true"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:focusable="false" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5"
+        android:layout_width="32dp"
+        android:layout_height="32dp" >
+
+        <ImageButton
+            android:id="@+id/button_controls_annot_style_toolbar_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/tools_qm_appearance"
+            android:duplicateParentState="true"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:focusable="false" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="1"
+        android:layout_width="32dp"
+        android:layout_height="32dp" >
+
+        <ImageButton
+            android:id="@+id/button_controls_annot_style_toolbar_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/tools_qm_appearance"
+            android:duplicateParentState="true"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:focusable="false" />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

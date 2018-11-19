@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ebd6bf"></solid>
+            <stroke android:color="#1e9ad0"
+                android:width="5dp"/>
+        </shape>
+    </item>
+    <item android:top="5dp"
+        android:bottom="5dp"
+        android:left="5dp"
+        android:right="5dp">
+        <bitmap android:src="@drawable/graphpage_135dp"
+            android:gravity="center"/>
+    </item>
+</layer-list>

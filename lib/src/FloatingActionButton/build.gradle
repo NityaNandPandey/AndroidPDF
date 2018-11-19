@@ -1,0 +1,34 @@
+apply plugin: 'com.android.library'
+
+
+android {
+    compileSdkVersion myCompileSdkVersion
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        minSdkVersion myMinSdkVersion
+        targetSdkVersion myTargetSdkVersion
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+        }
+
+        debug {
+            minifyEnabled false
+            debuggable true
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:support-vector-drawable:$mySupportVersion"
+}

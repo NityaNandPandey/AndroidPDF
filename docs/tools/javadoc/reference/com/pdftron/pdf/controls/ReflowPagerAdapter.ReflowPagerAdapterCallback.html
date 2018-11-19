@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="description" content="Javadoc API documentation for PDFTron Systems Inc.." />
+
+<link rel="shortcut icon" type="image/x-icon" href="../../../../favicon.ico" />
+<title>
+
+  ReflowPagerAdapter.ReflowPagerAdapterCallback - Tools API
+
+
+| PDFTron Systems Inc.
+
+</title>
+<link href="../../../../../assets/doclava-developer-docs.css" rel="stylesheet" type="text/css" />
+<link href="../../../../../assets/customizations.css" rel="stylesheet" type="text/css" />
+<script src="../../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../../assets/doclava-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../../", "../../../../../assets/");
+</script>
+<script src="../../../../../assets/doclava-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../../assets/navtree_data.js" type="text/javascript"></script>
+<script src="../../../../../assets/customizations.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="">
+
+<div id="header">
+    <div id="headerLeft">
+    
+      <span id="masthead-title">PDFTron Systems Inc.</span>
+    
+    </div>
+    <div id="headerRight">
+      
+  <div id="search" >
+      <div id="searchForm">
+          <form accept-charset="utf-8" class="gsc-search-box" 
+                onsubmit="return submit_search()">
+            <table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody>
+                <tr>
+                  <td class="gsc-input">
+                    <input id="search_autocomplete" class="gsc-input" type="text" size="33" autocomplete="off"
+                      title="search developer docs" name="q"
+                      value="search developer docs"
+                      onFocus="search_focus_changed(this, true)"
+                      onBlur="search_focus_changed(this, false)"
+                      onkeydown="return search_changed(event, true, '../../../../')"
+                      onkeyup="return search_changed(event, false, '../../../../')" />
+                  <div id="search_filtered_div" class="no-display">
+                      <table id="search_filtered" cellspacing=0>
+                      </table>
+                  </div>
+                  </td>
+                  <td class="gsc-search-button">
+                    <input type="submit" value="Search" title="search" id="search-button" class="gsc-search-button" />
+                  </td>
+                  <td class="gsc-clear-button">
+                    <div title="clear results" class="gsc-clear-button">&nbsp;</div>
+                  </td>
+                </tr></tbody>
+              </table>
+          </form>
+      </div><!-- searchForm -->
+  </div><!-- search -->
+      
+    </div>
+</div><!-- header -->
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links">
+                <a href="../../../../packages.html"  >Package Index</a> | 
+                <a href="../../../../classes.html" >Class Index</a>
+              </div>
+              <ul>
+                
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/adapter/package-summary.html">com.pdftron.pdf.adapter</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/asynctask/package-summary.html">com.pdftron.pdf.asynctask</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/config/package-summary.html">com.pdftron.pdf.config</a></li>
+    <li class="selected api apilevel-">
+  <a href="../../../../com/pdftron/pdf/controls/package-summary.html">com.pdftron.pdf.controls</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/dialog/package-summary.html">com.pdftron.pdf.dialog</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/interfaces/package-summary.html">com.pdftron.pdf.interfaces</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/model/package-summary.html">com.pdftron.pdf.model</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/tools/package-summary.html">com.pdftron.pdf.tools</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/utils/package-summary.html">com.pdftron.pdf.utils</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/widget/package-summary.html">com.pdftron.pdf.widget</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/widget/recyclerview/package-summary.html">com.pdftron.pdf.widget.recyclerview</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/pdftron/pdf/widget/recyclerview/decoration/package-summary.html">com.pdftron.pdf.widget.recyclerview.decoration</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+            <ul>
+              
+    <li><h2>Interfaces</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AddPageDialogFragment.OnAddNewPagesListener.html">AddPageDialogFragment.OnAddNewPagesListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AddPageDialogFragment.OnCreateNewDocumentListener.html">AddPageDialogFragment.OnCreateNewDocumentListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotationDialogFragment.AnnotationDialogListener.html">AnnotationDialogFragment.AnnotationDialogListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotationToolbar.AnnotationToolbarListener.html">AnnotationToolbar.AnnotationToolbarListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotStyleView.OnColorLayoutClickedListener.html">AnnotStyleView.OnColorLayoutClickedListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotStyleView.OnMoreAnnotTypeClickedListener.html">AnnotStyleView.OnMoreAnnotTypeClickedListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotStyleView.OnPresetSelectedListener.html">AnnotStyleView.OnPresetSelectedListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/BookmarksTabLayout.BookmarksTabsListener.html">BookmarksTabLayout.BookmarksTabsListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ColorPickerView.OnBackButtonPressedListener.html">ColorPickerView.OnBackButtonPressedListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ColorPickerView.OnColorChangeListener.html">ColorPickerView.OnColorChangeListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/CustomColorPickerView.OnEditFavoriteColorListener.html">CustomColorPickerView.OnEditFavoriteColorListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/EditToolbarImpl.OnEditToolbarListener.html">EditToolbarImpl.OnEditToolbarListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/FavoriteColorDialogFragment.OnEditFinishedListener.html">FavoriteColorDialogFragment.OnEditFinishedListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/FindTextOverlay.FindTextOverlayListener.html">FindTextOverlay.FindTextOverlayListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/NavigationListDialogFragment.AnalyticsEventListener.html">NavigationListDialogFragment.AnalyticsEventListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/OnToolbarStateUpdateListener.html">OnToolbarStateUpdateListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/OnToolSelectedListener.html">OnToolSelectedListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/OutlineDialogFragment.OutlineDialogListener.html">OutlineDialogFragment.OutlineDialogListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/PageIndicatorLayout.OnPDFViewVisibilityChanged.html">PageIndicatorLayout.OnPDFViewVisibilityChanged</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/PasswordDialogFragment.PasswordDialogFragmentListener.html">PasswordDialogFragment.PasswordDialogFragmentListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/PdfViewCtrlTabFragment.TabListener.html">PdfViewCtrlTabFragment.TabListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/PdfViewCtrlTabHostFragment.TabHostListener.html">PdfViewCtrlTabHostFragment.TabHostListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ReflowControl.OnPostProcessColorListener.html">ReflowControl.OnPostProcessColorListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ReflowControl.OnReflowTapListener.html">ReflowControl.OnReflowTapListener</a></li>
+          <li class="selected api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ReflowPagerAdapter.ReflowPagerAdapterCallback.html">ReflowPagerAdapter.ReflowPagerAdapterCallback</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/SearchResultsView.SearchResultsListener.html">SearchResultsView.SearchResultsListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/SearchToolbar.SearchToolbarListener.html">SearchToolbar.SearchToolbarListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ThumbnailSlider.OnMenuItemClickedListener.html">ThumbnailSlider.OnMenuItemClickedListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ThumbnailSlider.OnThumbnailSliderTrackingListener.html">ThumbnailSlider.OnThumbnailSliderTrackingListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ThumbnailsViewAdapter.EditPagesListener.html">ThumbnailsViewAdapter.EditPagesListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ThumbnailsViewFragment.OnExportThumbnailsListener.html">ThumbnailsViewFragment.OnExportThumbnailsListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ThumbnailsViewFragment.OnThumbnailsEditAttemptWhileReadOnlyListener.html">ThumbnailsViewFragment.OnThumbnailsEditAttemptWhileReadOnlyListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ThumbnailsViewFragment.OnThumbnailsViewDialogDismissListener.html">ThumbnailsViewFragment.OnThumbnailsViewDialogDismissListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/UndoRedoPopupWindow.OnUndoRedoListener.html">UndoRedoPopupWindow.OnUndoRedoListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/UserBookmarkDialogFragment.UserBookmarkDialogListener.html">UserBookmarkDialogFragment.UserBookmarkDialogListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/UserCropDialogFragment.OnUserCropDialogDismissListener.html">UserCropDialogFragment.OnUserCropDialogDismissListener</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/UserCropSelectionDialogFragment.UserCropSelectionDialogFragmentListener.html">UserCropSelectionDialogFragment.UserCropSelectionDialogFragmentListener</a></li>
+      </ul>
+    </li>
+              
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AddPageDialogFragment.html">AddPageDialogFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AdvancedColorView.html">AdvancedColorView</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotationDialogFragment.html">AnnotationDialogFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotationDialogFragment.AnnotationInfo.html">AnnotationDialogFragment.AnnotationInfo</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotationToolbar.html">AnnotationToolbar</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotIndicatorManger.html">AnnotIndicatorManger</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotStyleDialogFragment.html">AnnotStyleDialogFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotStyleDialogFragment.Builder.html">AnnotStyleDialogFragment.Builder</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotStyleView.html">AnnotStyleView</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotToolbarOverflowPopupWindow.html">AnnotToolbarOverflowPopupWindow</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/BookmarksTabLayout.html">BookmarksTabLayout</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ColorPickerView.html">ColorPickerView</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ColorPickerView.ColorPagerAdapter.html">ColorPickerView.ColorPagerAdapter</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/CustomColorPickerView.html">CustomColorPickerView</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/CustomFragmentTabLayout.html">CustomFragmentTabLayout</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/CustomSizeDialogFragment.html">CustomSizeDialogFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/DocumentActivity.html">DocumentActivity</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/EditToolbar.html">EditToolbar</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/EditToolbarImpl.html">EditToolbarImpl</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/FavoriteColorDialogFragment.html">FavoriteColorDialogFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/FavoriteColorDialogFragment.FavoriteViewPagerAdapter.html">FavoriteColorDialogFragment.FavoriteViewPagerAdapter</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/FindTextOverlay.html">FindTextOverlay</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/InsectHandlerToolbar.html">InsectHandlerToolbar</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/MirrorSeekBar.html">MirrorSeekBar</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/NavigationListDialogFragment.html">NavigationListDialogFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/OutlineDialogFragment.html">OutlineDialogFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/PageIndicatorLayout.html">PageIndicatorLayout</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/PasswordDialogFragment.html">PasswordDialogFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/PdfViewCtrlTabFragment.html">PdfViewCtrlTabFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/PdfViewCtrlTabHostFragment.html">PdfViewCtrlTabHostFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/PresetColorGridView.html">PresetColorGridView</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/PrintAnnotationsSummaryDialogFragment.html">PrintAnnotationsSummaryDialogFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ReflowControl.html">ReflowControl</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ReflowPagerAdapter.html">ReflowPagerAdapter</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/RubberStampDialogFragment.html">RubberStampDialogFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/SearchResultsAdapter.html">SearchResultsAdapter</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/SearchResultsView.html">SearchResultsView</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/SearchResultsView.Section.html">SearchResultsView.Section</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/SearchToolbar.html">SearchToolbar</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ThumbnailSlider.html">ThumbnailSlider</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ThumbnailsViewAdapter.html">ThumbnailsViewAdapter</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ThumbnailsViewFragment.html">ThumbnailsViewFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/UndoRedoPopupWindow.html">UndoRedoPopupWindow</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/UserBookmarkDialogFragment.html">UserBookmarkDialogFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/UserCropDialogFragment.html">UserCropDialogFragment</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/UserCropSelectionDialogFragment.html">UserCropSelectionDialogFragment</a></li>
+      </ul>
+    </li>
+              
+    <li><h2>Annotations</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AnnotStyleDialogFragment.SelectColorMode.html">AnnotStyleDialogFragment.SelectColorMode</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/FavoriteColorDialogFragment.FavoriteDialogMode.html">FavoriteColorDialogFragment.FavoriteDialogMode</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ThumbnailSlider.MenuItemPosition.html">ThumbnailSlider.MenuItemPosition</a></li>
+      </ul>
+    </li>
+              
+    <li><h2>Enums</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AddPageDialogFragment.PageColor.html">AddPageDialogFragment.PageColor</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AddPageDialogFragment.PageOrientation.html">AddPageDialogFragment.PageOrientation</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AddPageDialogFragment.PageSize.html">AddPageDialogFragment.PageSize</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/AddPageDialogFragment.PageType.html">AddPageDialogFragment.PageType</a></li>
+          <li class="api apilevel-"><a href="../../../../com/pdftron/pdf/controls/ThumbnailsViewAdapter.DocumentFormat.html">ThumbnailsViewAdapter.DocumentFormat</a></li>
+      </ul>
+    </li>
+              
+              
+            </ul><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links">
+            <a href="../../../../packages.html"  >Package Index</a> | 
+            <a href="../../../../classes.html" >Class Index</a>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+
+<div class="sum-details-links">
+
+
+Summary:
+
+
+
+
+
+
+
+
+
+
+
+  <a href="#pubmethods">Methods</a>
+  
+
+
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+
+
+  
+  
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+    static 
+     
+    
+    interface
+<h1>ReflowPagerAdapter.ReflowPagerAdapterCallback</h1>
+
+
+
+  
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">com.pdftron.pdf.controls.ReflowPagerAdapter.ReflowPagerAdapterCallback</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+<table class="jd-sumtable jd-sumtable-subclasses"><tr><td colspan="12" style="border:none;margin:0;padding:0;">
+
+  <a href="#" onclick="return toggleInherited(this, null)" id="subclasses-indirect" class="jd-expando-trigger closed"
+          ><img id="subclasses-indirect-trigger"
+          src="../../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>Known Indirect Subclasses
+
+  <div id="subclasses-indirect">
+      <div id="subclasses-indirect-list"
+              class="jd-inheritedlinks"
+              
+              >
+          
+            
+              <a href="../../../../com/pdftron/pdf/controls/ReflowControl.html">ReflowControl</a>
+            
+          
+      </div>
+      <div id="subclasses-indirect-summary"
+              style="display: none;"
+              >
+  <table class="jd-sumtable-expando">
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../../com/pdftron/pdf/controls/ReflowControl.html">ReflowControl</a></td>
+              <td class="jd-descrcol" width="100%">This class provides convenient methods for interacting with <code><a href="../../../../com/pdftron/pdf/controls/ReflowPagerAdapter.html">ReflowPagerAdapter</a></code> class
+ and takes care of throwing an exception if <code><a href="../../../../com/pdftron/pdf/controls/ReflowPagerAdapter.html">ReflowPagerAdapter</a></code> is not set up.&nbsp;</td>
+          </tr>
+  </table>
+      </div>
+  </div>
+</td></tr></table>
+
+
+<div class="jd-descr">
+
+
+<h2>Class Overview</h2>
+<p>Callback interfaces for tap
+</p>
+
+
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="pubmethods" class="jd-sumtable"><tr><th colspan="12">Public Methods</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            abstract
+            
+            
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../../com/pdftron/pdf/controls/ReflowPagerAdapter.ReflowPagerAdapterCallback.html#onReflowPagerSingleTapUp(android.view.MotionEvent)">onReflowPagerSingleTapUp</a></span>(MotionEvent event)
+        
+        <div class="jd-descrdiv">Called with single tab up event</div>
+  
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2>Public Methods</h2>
+
+
+
+<a id="onReflowPagerSingleTapUp(android.view.MotionEvent)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        abstract 
+         
+        void
+      </span>
+      <span class="sympad">onReflowPagerSingleTapUp</span>
+      <span class="normal">(MotionEvent event)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Called with single tab up event</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>event</th>
+          <td>The motion event
+</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<a id="navbar_top"></a>
+
+<div id="footer">
+Generated by <a href="http://code.google.com/p/doclava/">Doclava</a>.
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize doclava-developer-docs.js */
+</script>
+
+</body>
+</html>

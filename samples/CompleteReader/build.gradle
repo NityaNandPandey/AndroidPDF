@@ -1,0 +1,62 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://oss.sonatype.org/content/repositories/snapshots"
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:9.0.0-SNAPSHOT'
+    }
+}
+
+ext.mySupportVersion = "27.0.2"
+ext.myBuildToolsVersion="27.0.3"
+ext.myMinSdkVersion=16
+ext.myTargetSdkVersion=27
+ext.myCompileSdkVersion=27
+
+ext.pdfnetGroup = {dependencyHandler->
+    delegate = dependencyHandler
+
+    implementation project(':pdftron')
+
+    implementation project(':FloatingActionButton')
+    implementation project(':PageCropper')
+}
+
+ext.supportLibGroup = {dependencyHandler->
+    delegate = dependencyHandler
+
+    implementation "com.android.support:support-v4:$mySupportVersion"
+    implementation "com.android.support:appcompat-v7:$mySupportVersion"
+    implementation "com.android.support:recyclerview-v7:$mySupportVersion"
+    implementation "com.android.support:design:$mySupportVersion"
+    implementation "com.android.support.constraint:constraint-layout:1.1.2"
+    implementation "android.arch.lifecycle:extensions:1.0.0"
+
+    implementation "commons-io:commons-io:2.4"
+    implementation "org.apache.commons:commons-lang3:3.5"
+
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation "com.google.code.gson:gson:2.8.0"
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

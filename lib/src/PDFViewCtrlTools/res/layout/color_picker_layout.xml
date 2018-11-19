@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/color_picker_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/color_picker_view_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        style="?attr/toolbarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="?android:attr/colorBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/action_button_min_padding"
+        android:paddingStart="@dimen/action_button_min_padding">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.54"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="@dimen/icon_min_padding"
+            android:tint="?android:attr/colorForeground"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/icon_min_padding"
+            android:layout_marginStart="@dimen/icon_min_padding"
+            android:layout_weight="1"
+            android:alpha="0.54"
+            android:text="@string/tools_qm_stroke_color"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/edit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="@dimen/icon_min_padding"
+            android:tint="?android:attr/colorForegroundInverse"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_edit_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/remove_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="@dimen/icon_min_padding"
+            android:tint="?android:attr/colorForegroundInverse"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_delete_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/fav_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="@dimen/icon_min_padding"
+            android:tint="?android:attr/colorForegroundInverse"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_star_white_24dp" />
+
+    </LinearLayout>
+
+    <com.pdftron.pdf.widget.CustomViewPager
+        android:id="@+id/color_pager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/color_picker_view_pager_height"
+        android:paddingBottom="0dp"
+        android:paddingEnd="@dimen/padding_large"
+        android:paddingStart="@dimen/padding_large"
+        android:paddingTop="@dimen/padding_medium" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/pager_indicator_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_large"
+        app:tabBackground="@drawable/view_pager_indicator_dot"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp" />
+
+</LinearLayout>

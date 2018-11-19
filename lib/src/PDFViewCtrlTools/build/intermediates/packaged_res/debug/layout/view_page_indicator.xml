@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/page_number_indicator_bg"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/padding_small"
+    android:paddingTop="@dimen/page_number_indicator_padding_ver"
+    android:paddingBottom="@dimen/page_number_indicator_padding_ver"
+    android:paddingLeft="@dimen/page_number_indicator_padding_hor"
+    android:paddingRight="@dimen/page_number_indicator_padding_hor"
+    >
+    <TextView
+        android:id="@+id/page_number_indicator_all_pages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_xsmall"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <ProgressBar
+        android:id="@+id/page_number_indicator_spinner"
+        android:layout_width="16sp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/padding_xsmall"
+        android:layout_marginStart="@dimen/padding_xsmall"
+        android:indeterminate="true"
+        android:indeterminateOnly="true"
+        android:visibility="gone" />
+</LinearLayout>

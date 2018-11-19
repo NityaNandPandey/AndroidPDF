@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/tools_annotation_toolbar_state_signature_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/controls_annotation_toolbar_bg"
+        android:contentDescription="@string/controls_annotation_toolbar_tool_description_signature"
+        android:padding="4dp"
+        app:srcCompat="@drawable/ic_annotation_signature_black_24dp" />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/tools_annotation_toolbar_state_image_stamp_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/controls_annotation_toolbar_bg"
+        android:contentDescription="@string/controls_annotation_toolbar_tool_description_image"
+        android:padding="4dp"
+        app:srcCompat="@drawable/ic_annotation_image_black_24dp" />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/tools_annotation_toolbar_state_rubber_stamp_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/controls_annotation_toolbar_bg"
+        android:contentDescription="@string/controls_annotation_toolbar_tool_description_stamp"
+        android:padding="4dp"
+        app:srcCompat="@drawable/ic_annotation_stamp_black_24dp" />
+
+</LinearLayout>

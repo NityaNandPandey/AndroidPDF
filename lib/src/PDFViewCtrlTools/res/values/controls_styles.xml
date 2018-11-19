@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="Controls_AnnotationToolbarAnimation">
+        <item name="android:windowEnterAnimation">@anim/controls_annotation_toolbar_show</item>
+        <item name="android:windowExitAnimation">@anim/controls_annotation_toolbar_hide</item>
+    </style>
+
+    <style name="Controls_AnnotationPopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/controls_annotation_property_popup_show</item>
+        <item name="android:windowExitAnimation">@anim/controls_annotation_property_popup_hide</item>
+    </style>
+
+    <style name="Controls_SignatureDialogPopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/controls_signature_dialog_property_popup_show</item>
+        <item name="android:windowExitAnimation">@anim/controls_signature_dialog_property_popup_hide</item>
+    </style>
+
+    <style name="Controls_AnnotationPopupAnimationFromQuickMenu">
+        <item name="android:windowEnterAnimation">@anim/controls_annotation_property_popup_quickmenu_show</item>
+        <item name="android:windowExitAnimation">@anim/controls_annotation_property_popup_quickmenu_hide</item>
+    </style>
+
+    <style name="Controls_QuickMenuPopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/controls_quickmenu_show</item>
+        <item name="android:windowExitAnimation">@anim/controls_quickmenu_hide</item>
+    </style>
+
+    <style name="RadioButton">
+        <item name="android:textColor">@drawable/button_text_color_selector</item>
+        <item name="android:minHeight">33dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+    
+</resources>

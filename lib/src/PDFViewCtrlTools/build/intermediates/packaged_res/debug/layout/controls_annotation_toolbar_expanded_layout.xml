@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/controls_annotation_toolbar_state_expanded"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/controlBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/action_button_min_padding">
+
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_stickynote"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_stickynote"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_stickynote"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_stickynote"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_sticky_note_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_text_highlight"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_text_highlight"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_text_highlight"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_text_highlight"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_highlight_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_text_underline"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_text_underline"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_text_underline"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_text_underline"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_underline_black_24dp" />
+
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_stamp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_signature"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_stamp"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_stamp"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_signature_black_24dp" />
+
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_freehand"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_freehand"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_freehand"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_freehand"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_freehand_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_freetext"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_freetext"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_freetext"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_freetext"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_freetext_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_callout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_callout"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_callout"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_callout"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_callout_black_24dp" />
+
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_pan"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_pan"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_pan"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_pan"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_pan_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_btn_close"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_btn_description_close"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_btn_close"
+            android:nextFocusRight="@id/controls_annotation_toolbar_btn_close"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            app:srcCompat="@drawable/ic_close_black_24dp" />
+
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_btn_more"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/more"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_btn_more"
+            android:nextFocusRight="@id/controls_annotation_toolbar_btn_more"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_overflow_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/action_button_min_padding">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_free_highlighter"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_free_highlighter"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_free_highlighter"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_free_highlighter"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_free_highlight_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_text_strikeout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_text_strikeout"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_text_strikeout"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_text_strikeout"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_strikeout_black_24dp" />
+
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_text_squiggly"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_text_squiggly"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_text_squiggly"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_text_squiggly"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_squiggly_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_image_stamper"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_image"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_image_stamper"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_image_stamper"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_image_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_rubber_stamper"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_stamp"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_rubber_stamper"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_rubber_stamper"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_cloud_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_eraser"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_eraser"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_eraser"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_eraser"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_eraser_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_ruler"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_ruler"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_ruler"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_ruler"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_ruler_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_arrow"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_arrow"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_arrow"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_arrow"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_arrow_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_line"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_line"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_line"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_line"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_line_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/controls_annotation_toolbar_tool_polyline"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_polyline"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_polyline"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_polyline"
+            android:padding="4dp"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_rectangle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_rectangle"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_rectangle"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_rectangle"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_square_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@id/controls_annotation_toolbar_tool_oval"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/action_button_min_width"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_oval"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_oval"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_oval"
+            android:paddingBottom="@dimen/icon_min_padding"
+            android:paddingTop="@dimen/icon_min_padding"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_annotation_circle_black_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/controls_annotation_toolbar_tool_polygon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_polygon"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_polygon"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_polygon"
+            android:padding="4dp"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/controls_annotation_toolbar_tool_cloud"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_cloud"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_cloud"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_cloud"
+            android:padding="4dp"
+            android:visibility="gone" />
+
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/controls_annotation_toolbar_tool_multi_select"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/controls_annotation_toolbar_tool_description_multi_select"
+            android:nextFocusLeft="@id/controls_annotation_toolbar_tool_multi_select"
+            android:nextFocusRight="@id/controls_annotation_toolbar_tool_multi_select"
+            android:padding="4dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</LinearLayout>

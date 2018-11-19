@@ -1,0 +1,2 @@
+# Referenced at E:\pdf\PDFNetAndroid\samples\CompleteReader\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17
+-keep class android.support.multidex.MultiDexApplication { <init>(...); }

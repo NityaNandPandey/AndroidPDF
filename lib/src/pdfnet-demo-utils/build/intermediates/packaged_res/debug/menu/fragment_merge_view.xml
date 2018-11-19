@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--Toggle List-->
+    <item android:id="@+id/menu_grid_toggle"
+        android:icon="@drawable/ic_view_list_white_24dp"
+        android:title="@string/action_list_view"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/menu_grid_count_0"
+                    android:title="@string/action_list_view"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/menu_grid_count_1"
+                    android:title="@string/num_1"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/menu_grid_count_2"
+                    android:title="@string/num_2"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/menu_grid_count_3"
+                    android:title="@string/num_3"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/menu_grid_count_4"
+                    android:title="@string/num_4"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/menu_grid_count_5"
+                    android:title="@string/num_5"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/menu_grid_count_6"
+                    android:title="@string/num_6"
+                    app:showAsAction="never"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_add"
+          android:title="@string/menu_add_options"
+          android:icon="@drawable/ic_add_white_24dp"
+          app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/menu_add_document"
+                  android:title="@string/dialog_merge_add_document"
+                  app:showAsAction="never" />
+            <item android:id="@+id/menu_add_image"
+                  android:title="@string/tools_qm_stamper"
+                  app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

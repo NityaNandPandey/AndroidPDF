@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/padding_medium">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <com.pdftron.pdf.widget.VerticalTextView
+            android:id="@+id/favorite_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/favorites"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+            android:gravity="bottom|start"/>
+
+        <com.pdftron.pdf.utils.ExpandableGridView
+            android:id="@+id/favorite_color_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/PresetColorGridViewStyle"
+            android:numColumns="6"
+            android:layout_marginStart="@dimen/padding_large"
+            android:layout_marginLeft="@dimen/padding_large" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <com.pdftron.pdf.widget.VerticalTextView
+            android:id="@+id/recent_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+            android:text="@string/recent"
+            android:gravity="bottom|end"/>
+
+        <com.pdftron.pdf.utils.ExpandableGridView
+            android:id="@+id/recent_color_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding_large"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:numColumns="6"
+            style="@style/PresetColorGridViewStyle"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/recent_color_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:alpha="0.54"
+            android:text="@string/tools_recent_color_grid_hint"
+            android:layout_marginStart="@dimen/padding_large"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+
+</LinearLayout>

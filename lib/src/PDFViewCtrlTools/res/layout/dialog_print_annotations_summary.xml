@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_print_annotations_summary_root_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    android:paddingTop="@dimen/padding_large"
+    android:paddingLeft="@dimen/padding_large"
+    android:paddingStart="@dimen/padding_large"
+    android:paddingRight="@dimen/padding_large"
+    android:paddingEnd="@dimen/padding_large">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:text="@string/dialog_print_annotations_summary_title"
+        android:visibility="invisible"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <LinearLayout
+        android:id="@+id/document_content_view"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_small">
+
+        <CheckBox
+            android:id="@+id/checkBoxDocument"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/document"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:checked="true"/>
+
+     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/annotations_content_view"
+        android:orientation="horizontal"
+        android:animateLayoutChanges="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/checkBoxTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginStart="-5dp"
+            android:visibility="invisible"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxAnnots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_print_annotations_summary_text_annotations"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:checked="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/summary_content_view"
+        android:orientation="horizontal"
+        android:animateLayoutChanges="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/checkBoxSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_print_annotations_summary_text_summary"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:checked="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fragment_sample_detail_padding_right">0dp</dimen>
+</resources>

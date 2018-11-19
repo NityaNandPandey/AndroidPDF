@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FragmentAppBarStyle" parent="Base.FragmentAppBarStyle">
+        <item name="android:elevation">@dimen/actionbar_elevation</item>
+    </style>
+    <style name="FragmentToolbarStyle" parent="Base.FragmentToolbarStyle"/>
+    <style name="FragmentToolbarStyle.NoAppBar" parent="Base.FragmentToolbarStyle.NoAppBar">
+        <item name="android:elevation">@dimen/actionbar_elevation</item>
+    </style>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:orientation="vertical"
+    android:background="?android:attr/colorBackground">
+
+    <!--<include-->
+        <!--layout="@layout/dialog_file_type_filter_item"-->
+        <!--android:id="@+id/select_all_checkable_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <ListView
+        android:id="@+id/fragment_file_type_filter_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="multipleChoice"
+        android:minHeight="?attr/listPreferredItemHeight"
+        android:headerDividersEnabled="true"
+        android:footerDividersEnabled="true"/>
+
+</LinearLayout>

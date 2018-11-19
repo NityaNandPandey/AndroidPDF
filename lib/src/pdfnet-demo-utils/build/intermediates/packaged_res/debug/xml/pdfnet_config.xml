@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>extraResourcePaths</key>
+        <value>null</value>
+    </entry>
+    <entry>
+        <key>extraResourcePaths</key>
+        <value>null</value>
+    </entry>
+    <entry>
+        <key>javaScriptEnabled</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>diskCachingEnabled</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>persistentCachePath</key>
+        <value>null</value>
+    </entry>
+    <entry>
+        <key>tempPath</key>
+        <value>null</value>
+    </entry>
+    <entry>
+        <key>viewerCacheMaxSize</key>
+        <value>104857600</value>
+    </entry>
+    <entry>
+        <key>viewerCacheOnDisk</key>
+        <value>false</value>
+    </entry>
+</defaultsMap>

@@ -1,0 +1,128 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+    https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <!-- Navigation Drawer -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="navigation_drawer_horizontal_margin">16dp</dimen>
+    <dimen name="navigation_drawer_header_height">107dp</dimen>
+    <!--<dimen name="navigation_drawer_header_name_field_height">56dp</dimen>-->
+    <!-- navigation_drawer_header_top_margin = statusbar_height + navigation_drawer_horizontal_margin -->
+    <dimen name="navigation_drawer_header_top_margin">36dp</dimen>
+    <dimen name="navigation_drawer_list_item_height">48dp</dimen>
+    <dimen name="navigation_drawer_avatar_size">48dp</dimen>
+
+    <dimen name="first_keyline">16dp</dimen>
+    <dimen name="second_keyline">72dp</dimen>
+    <dimen name="toolbar_h_padding">8dp</dimen>
+
+    <!-- Same value as android:actionBarSize or actionBarSize,
+     but as a dimen for access by pre-Lollipop drawables. -->
+    <dimen name="actionbar_size">56dp</dimen>
+
+    <dimen name="actionbar_elevation">4dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="modal_bottom_sheet_elevation">16dp</dimen>
+    <dimen name="drawer_elevation">16dp</dimen>
+
+    <dimen name="breadcrumb_bar_height">42dp</dimen>
+    <dimen name="breadcrumb_start_padding">12dp</dimen>
+    <!-- breadcrumb_bar_start_padding = second_keyline - breadcrumb_start_padding -->
+    <dimen name="breadcrumb_bar_start_padding">60dp</dimen>
+
+    <dimen name="padding_xsmall">2dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+
+    <dimen name="margin_xsmall">5dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+
+    <dimen name="file_info_drawer_title_shadow_dx">1dp</dimen>
+    <dimen name="file_info_drawer_title_shadow_dy">1dp</dimen>
+    <dimen name="file_info_drawer_title_shadow_radius">1dp</dimen>
+
+    <dimen name="list_thumbnail_width">56dip</dimen>
+    <dimen name="list_thumbnail_height">56dip</dimen>
+    <dimen name="list_thumbnail_horizontal_margin">8dp</dimen>
+    <dimen name="list_thumbnail_vertical_margin">8dp</dimen>
+
+    <!-- base thumbnail widths and heights - small, medium, large, huge sizes -->
+    <dimen name="base_thumbnail_height_small">129dp</dimen>
+    <dimen name="base_thumbnail_height_medium">180dp</dimen>
+    <dimen name="base_thumbnail_height_large">258dp</dimen>
+    <dimen name="base_thumbnail_height_huge">387dp</dimen>
+
+    <!-- thumbnail sizes for phones -->
+    <dimen name="thumbnail_height_small">@dimen/base_thumbnail_height_small</dimen>
+    <dimen name="thumbnail_height_large">@dimen/base_thumbnail_height_large</dimen>
+
+    <dimen name="thumbnail_lock_size_list">16dp</dimen>
+    <dimen name="thumbnail_lock_size_small">30dp</dimen>
+    <dimen name="thumbnail_lock_size_medium">36dp</dimen>
+
+    <!-- default thumbnail size (phones) -->
+    <dimen name="thumbnail_height">@dimen/thumbnail_height_small</dimen>
+
+    <dimen name="thumbnail_lock_size">@dimen/thumbnail_lock_size_small</dimen>
+
+    <dimen name="favorite_file_indicator_size">16dp</dimen>
+
+    <dimen name="file_list_grid_spacing">4dp</dimen>
+    <dimen name="file_list_grid_padding">1dp</dimen>
+
+    <dimen name="file_more_icon_padding">12dp</dimen>
+    <dimen name="file_more_button_size">48dp</dimen>
+
+    <dimen name="primary_text_size">16sp</dimen>
+    <dimen name="secondary_text_size">12sp</dimen>
+
+    <dimen name="c_text_appearance_small">16sp</dimen>
+
+    <dimen name="file_info_gap">6dp</dimen>
+
+    <!-- Multi Window -->
+    <dimen name="app_defaultsize_w">632.0dip</dimen>
+    <dimen name="app_defaultsize_h">598.0dip</dimen>
+    <dimen name="app_minimumsize_w">632.0dip</dimen>
+    <dimen name="app_minimumsize_h">598.0dip</dimen>
+
+    <!--External Browser-->
+    <dimen name="goto_sdcard_max_width">300dp</dimen>
+
+    <!-- BottomSheetBehavior (from Design Support library) -->
+    <dimen name="bottom_sheet_peek_height_min">64dp</dimen>
+
+    <integer name="max_online_collaboration_name_length">255</integer>
+    <integer name="max_online_collaboration_email_length">255</integer>
+    <integer name="max_online_collaboration_message_length">512</integer>
+
+    <!--  Fast scroller  -->
+    <dimen name="fastscroller_handle_corner">3dp</dimen>
+    <dimen name="fastscroller_reack_corner">3dp</dimen>
+    <dimen name="fastscroller_track_height">30dp</dimen>
+    <dimen name="fastscroller_track_width">6dp</dimen>
+    <dimen name="fastscroller_track_padding">2dp</dimen>
+
+    <!--Dialog-->
+    <dimen name="alert_dialog_title_size">20sp</dimen>
+    <dimen name="alert_dialog_body_size">16sp</dimen>
+
+    <!-- Grid-style bottom sheet with icons -->
+    <dimen name="grid_bottomsheet_margins">24dp</dimen>
+    <dimen name="grid_bottomsheet_icon_size">40.0dip</dimen>
+    <dimen name="grid_bottomsheet_item_margin">8.0dip</dimen>
+    <dimen name="grid_bottomsheet_label_height">16dp</dimen>
+
+    <dimen name="share_action_bar_height">56.0dip</dimen>
+    <dimen name="share_ui_action_bar_icon_padding">16.0dip</dimen>
+    <dimen name="share_ui_title_text_size">20.0sp</dimen>
+    <dimen name="share_ui_action_bar_send_padding_vertical">16.0dip</dimen>
+    <dimen name="share_ui_send_button_text_size">16.0sp</dimen>
+
+</resources>

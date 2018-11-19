@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="58dp"
+    android:visibility="visible"
+    android:clipToPadding="false"
+    android:elevation="3dp"
+    android:paddingBottom="10dp">
+    <include
+        layout="@layout/header_item" />
+</FrameLayout>

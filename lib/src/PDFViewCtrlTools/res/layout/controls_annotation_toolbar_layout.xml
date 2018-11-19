@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <RelativeLayout
+        android:id="@+id/controls_annotation_toolbar_state_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/controls_annotation_toolbar_collapsed_layout" />
+    </RelativeLayout>
+
+    <com.pdftron.pdf.controls.EditToolbar
+        android:id="@+id/controls_annotation_toolbar_state_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:nextFocusLeft="@id/controls_annotation_toolbar_state_edit"
+        android:nextFocusRight="@id/controls_annotation_toolbar_state_edit"
+        android:orientation="horizontal"
+        android:visibility="gone" />
+
+</merge>

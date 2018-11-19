@@ -1,0 +1,68 @@
+description = 'This is the Tools library'
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+}
+
+apply plugin: "com.android.library"
+
+
+configurations {
+    jaxDoclet
+    classpaths
+    api
+}
+
+dependencies {
+    repositories {
+        jcenter()
+        google()
+        mavenCentral()
+    }
+    api fileTree(include: '*.jar', dir: 'libs')
+    pdfnetGroup dependencies
+    supportLibGroup dependencies
+
+    implementation "com.madgag.spongycastle:core:1.51.0.0"
+    implementation "com.madgag.spongycastle:prov:1.51.0.0"
+    implementation "com.madgag.spongycastle:pkix:1.51.0.0"
+    implementation "com.madgag.spongycastle:pg:1.51.0.0"
+    // JavaDoc
+    jaxDoclet("com.google.doclava:doclava:1.0.6")
+    classpaths files('build/intermediates/classes/release')
+    classpaths 'com.google.code.findbugs:jsr305:3.0.1'
+}
+
+android {
+    compileSdkVersion myCompileSdkVersion
+    buildToolsVersion '28.0.3'
+
+    sourceSets {
+        // Keep compatibility with Eclipse folder structure.
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+    }
+    defaultConfig {
+        minSdkVersion myMinSdkVersion
+        targetSdkVersion myTargetSdkVersion
+        vectorDrawables.useSupportLibrary = true
+        consumerProguardFiles 'proguard-rules.txt'
+    }
+    lintOptions {
+        // If true, stop the gradle build if errors are found.
+        abortOnError false
+    }
+}
+

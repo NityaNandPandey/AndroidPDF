@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isTablet">true</bool>
+    <dimen name="bottom_sheet_width">480dp</dimen>
+    <dimen name="controls_thumbnails_view_image_width">150dp</dimen>
+    <dimen name="empty_view_text_size">22sp</dimen>
+    <dimen name="second_keyline">80dp</dimen>
+    <dimen name="thumbnail_slider_padding">12dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/qm_first_row_group">
+        <item android:id="@id/qm_use_saved_sig"
+            android:title="@string/tools_qm_use_saved_sig"/>
+        <item android:id="@id/qm_new_signature"
+            android:title="@string/tools_qm_new_signature"/>
+    </group>
+</menu>

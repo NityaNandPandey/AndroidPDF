@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SampleDetailFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="@dimen/fragment_sample_detail_padding_right" >
+    
+    <TextView
+        android:id="@+id/sample_detail_textview"
+        style="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+    
+    <LinearLayout
+        android:id="@+id/sample_buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/sample_detail_textview"
+        android:layout_alignRight="@id/sample_detail_textview"
+        android:layout_alignLeft="@id/sample_detail_textview"
+        android:layout_marginBottom="8dp" >
+        
+        <Button
+            android:id="@+id/sample_run_button"
+            android:text="@string/button_run"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp" />
+        
+        <Button
+            android:id="@+id/sample_open_files_button"
+            android:text="@string/button_open_files"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    
+    <ScrollView
+        android:id="@+id/sample_output_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_below="@id/sample_buttons_layout"
+        android:layout_alignRight="@id/sample_detail_textview" >
+        
+        <TextView
+            android:id="@+id/sample_output_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C9C9C9"
+            style="?android:attr/textAppearanceSmall"
+            android:typeface="monospace" />
+        
+    </ScrollView>
+    
+</RelativeLayout>
